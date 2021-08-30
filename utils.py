@@ -43,7 +43,7 @@ def decompose(X, idx, tsne=False, show=0, hue=None, annotations=None):
     p.set_title('TSNE decomposition' if tsne else 'PCA decomposition')
 
 
-def convert_city_name(name):
+def convert_city_name(city_name):
     bridge = {'הרצליה': 'הרצלייה',
               'יהוד-מונוסון': 'יהוד',
               'נהריה': 'נהרייה',
@@ -71,7 +71,7 @@ def convert_city_name(name):
         for name in group[1:]:
             bridge[name] = group[0]
 
-    name = name.strip()
-    if name in bridge:
-        return bridge[name]
-    return name
+    city_name = city_name.strip()
+    if city_name in bridge.keys():
+        return bridge[city_name]
+    return city_name

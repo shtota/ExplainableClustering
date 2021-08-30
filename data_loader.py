@@ -19,7 +19,9 @@ class Singleton(type):
         return cls._instances[cls]
 
 
-class Product():
+class Product:
+    DEFAULT_PRICE = 10
+
     def __init__(self, row, index):
         self.usages = 0
 
@@ -28,7 +30,12 @@ class Product():
         self._representation = 4
         self.barcode = str(row[0])
         self.hierarchy_names = [str(i // 2) + '_' + row[1][i] for i in [1, 3, 5, 7, 0]]
-        self.price = row[1][-4]
+        self.price = row[1][-6]
+        if self.price is None or self.price == 0:
+            self.price = row[1][-5]
+        if self.price is None or self.price == 0:
+            self.price = self.DEFAULT_PRICE
+
         self.sugar = row[1][-3]
         self.sodium = row[1][-1]
         self.fats = row[1][-2]
@@ -51,6 +58,8 @@ class Transaction():
         self.user_id = u_id
         self.barcodes = []
         self.location = location
+        if self.location[0] is None:
+            self.location = None
         self.total = total
         self._test_index = -1
         self.test_item = None
@@ -98,28 +107,41 @@ class Dataset(metaclass=Singleton):
         self.products = []
         self.hierarchy_sizes = []
         self.index_of = {}
-        self._load_data()
-
         self.barcode_to_product = {}
-        for p in self.products:
-            self.barcode_to_product[p.barcode] = p
+        self._load_data()
+        self._create_indexing()
 
     def _load_data(self):
         if os.path.exists(DATA_PATH):
-            with open(DATA_PATH, 'rb') as f:
+            print('Loading pickled data')
+            data_path = DATA_PATH if not TEST_MODE else TEST_DATA_PATH
+            with open(data_path, 'rb') as f:
                 self.transactions, self.products = pickle.load(f)
+            for p in self.products:
+                self.barcode_to_product[p.barcode] = p
+            print(len(self.transactions), 'transactions loaded')
         else:
-            if not os.path.exists(TRANSACTIONS_DF_PATH):
+            if not os.path.exists(TRANSACTIONS_CSV_PATH):
                 print('fetching data from sql')
-                transactions_df = self._load_sql_transactions()
-            else:
-                transactions_df = pd.read_pickle(TRANSACTIONS_DF_PATH)
-            self._create_transactions(transactions_df)
+                self._load_sql_transactions()
 
-            self._create_products(sorted(transactions_df.BARCODE.unique()))
+            all_barcodes = self._create_transactions()
+            print('created transactions')
+
+            self._create_products(all_barcodes)
+            print('created products')
+
+            for p in self.products:
+                self.barcode_to_product[p.barcode] = p
+
+            for t in self.transactions:
+                for b in t.barcodes:
+                    self.barcode_to_product[b].usages += 1
 
             with open(DATA_PATH, 'wb') as f:
                 pickle.dump([self.transactions, self.products], f)
+            with open(TEST_DATA_PATH, 'wb') as f:
+                pickle.dump([self.transactions[:100000], self.products], f)
 
     def _create_products(self, all_used_barcodes):
         dsn_tns = cx_Oracle.makedsn(SERVER_NAME, PORT, service_name=SERVICE_NAME)
@@ -130,7 +152,6 @@ class Dataset(metaclass=Singleton):
         self.products = []
         for i, row in enumerate(products_df.loc[all_used_barcodes].iterrows()):
             self.products.append(Product(row, i))
-        print('created products')
         conn.close()
         do_again = True
         while do_again:
@@ -141,27 +162,29 @@ class Dataset(metaclass=Singleton):
                     p._representation -= 1
                     do_again = True
 
-    def _create_transactions(self, transactions_df):
-        print('loaded transactions df with {} transactions'.format(transactions_df.reset_index().OBJECT_ID.nunique()))
-        transactions_dict = {}
-        for barcode, t_id, quantity, item_price, u_id, total, long, lat, date in transactions_df.reset_index()[
-            ['BARCODE', 'OBJECT_ID', 'QUANTITY', 'ITEM_PRICE', 'USER_ID', 'INVOICE_SUM', 'MERIDIAN', 'LATITUDE',
-             'CREATION_DATE']].values:
-            if t_id not in transactions_dict.keys():
-                transactions_dict[t_id] = Transaction(t_id, u_id, total, (long, lat), date)
-                if len(transactions_dict) % 1000000 == 0:
-                    print(len(transactions_dict))
-            transactions_dict[t_id].barcodes.append(barcode)
-
-        self.transactions = list(transactions_dict.values())
+    def _create_transactions(self):
+        self.transactions = []
+        id_to_index = {}
+        all_barcodes = set()
+        with open(TRANSACTIONS_CSV_PATH, 'r') as f:
+            line = f.readline()
+            line = f.readline()
+            while line:
+                t_id, total, u_id, barcode, quantity, item_price, long, lat, date = line[:-1].split(',')
+                if t_id not in id_to_index.keys():
+                    self.transactions.append(Transaction(t_id, u_id, float(total), (long, lat), date))
+                    id_to_index[t_id] = len(self.transactions) - 1
+                    if len(id_to_index) % 1000000 == 0:
+                        print(len(id_to_index))
+                self.transactions[id_to_index[t_id]].barcodes.append(barcode)
+                line = f.readline()
+                all_barcodes.add(barcode)
+        print('finished reading csv')
         for t in self.transactions:
             t.barcodes = sorted(set(t.barcodes))
+
         self.transactions = [t for t in self.transactions if len(t.barcodes) > 4]
-        for t in self.transactions:
-            for b in t.barcodes:
-                self.barcode_to_product[b].usages += 1
-                if math.isnan(t.location[0]):
-                    t.location = None
+        return all_barcodes
 
     @staticmethod
     def _load_sql_transactions():
@@ -169,9 +192,8 @@ class Dataset(metaclass=Singleton):
         conn = cx_Oracle.connect(user=USER, password=PASSWORD, dsn=dsn_tns)
         c = conn.cursor()
         r = c.execute(TRANSACTIONS_QUERY)
-        csv_path = os.path.join(STORAGE_PATH, 'transactions_tmp.csv')
 
-        with open(csv_path, 'w') as f:
+        with open(TRANSACTIONS_CSV_PATH, 'w') as f:
             f.write(','.join(
                 ['OBJECT_ID', 'INVOICE_SUM', 'USER_ID', 'BARCODE', 'QUANTITY', 'ITEM_PRICE', 'MERIDIAN', 'LATITUDE',
                  'CREATION_DATE']) + '\n')
@@ -181,21 +203,6 @@ class Dataset(metaclass=Singleton):
                     print(i)
         conn.close()
 
-        dtype = {
-            'OBJECT_ID': 'category',
-            'USER_ID': 'category',
-            'BARCODE': 'category',
-            'INVOICE_SUM': 'float32',
-            'QUANTITY': 'float16',
-            'ITEM_PRICE': 'float32',
-            'MERIDIAN': 'float32',
-            'LATITUDE': 'float32'
-        }
-        transactions_df = pd.read_csv(csv_path, dtype=dtype, parse_dates=['CREATION_DATE'], na_values='None')
-        transactions_df.to_pickle(TRANSACTIONS_DF_PATH)
-        rmtree(csv_path)
-        return transactions_df
-
     def _get_representation_counts(self):
         d = defaultdict(int)
         for p in self.products:
@@ -204,7 +211,7 @@ class Dataset(metaclass=Singleton):
     
     def _create_indexing(self):
         # For each level of hierarchy count unique names, sort and give indices
-        LEVEL_SIZE = [0 for i in range(DEPTH)]
+        self.hierarchy_sizes = [0 for i in range(DEPTH)]
         hierarchy_names = [set() for i in range(DEPTH)]
         for product in self.products:
             for i in range(DEPTH):
@@ -218,7 +225,7 @@ class Dataset(metaclass=Singleton):
                 #GROUP_self.index_of[name] = index
                 self.index_of[name] = index + offset
             offset += len(hierarchy_names[i])
-            LEVEL_SIZE[i] = len(hierarchy_names[i])
+            self.hierarchy_sizes[i] = len(hierarchy_names[i])
 
             # Update products with relevant indices
         for product in self.products:
@@ -239,7 +246,10 @@ class Users(metaclass=Singleton):
             users_transactions[user] += 1
             users_spent_money[user] += transaction.total
         self.all_users = sorted(users_spent_money.keys())
-        self.active_users = sorted([k for k in users_spent_money.keys()
+        if TEST_MODE:
+            self.active_users = self.all_users
+        else:
+            self.active_users = sorted([k for k in users_spent_money.keys()
                                     if (users_spent_money[k] >= self.MIN_TOTAL)
                                     and (users_transactions[k] >= self.MIN_PURCHASES)])
         print('Filtering users: {} out of {} remain. Percentage of transactions covered: {:.2f}'.format(
@@ -263,9 +273,10 @@ class CityStats(metaclass=Singleton):
     POPULATION_MIN = 12000
     
     def __init__(self):
-        self.stats_df = pd.DataFrame(columns=['CITY', 'n_users'], data=Counter(Users().active_users_cities.values()).items())
+        self.stats_df = pd.DataFrame(columns=['CITY', 'n_users'],
+                                     data=Counter(Users().active_users_cities.values()).items()).set_index('CITY')
         
-        population_df = pd.read_csv('C://analytics/stats/population_age.csv', encoding='windows-1255',
+        population_df = pd.read_csv(os.path.join(CITY_PATH, 'population_age.csv'), encoding='windows-1255',
                                     dtype='str').fillna(0)
         lfunc = lambda e: int(e.replace(',', '')) if e.find(',') != -1 else e
         population_df['total'] = population_df['סך הכל']
@@ -273,8 +284,9 @@ class CityStats(metaclass=Singleton):
         population_df = population_df[population_df.total > self.POPULATION_MIN]
         population_df = population_df.drop(self.CITIES_TO_DROP, axis=0)
 
-        self.used_cities = sorted([x for x in population_df.index.values])
+        self.used_cities = sorted(population_df.index.values)
         population_df = population_df.loc[self.used_cities]
+        #print(self.used_cities,'\n', self.stats_df.index.values)
         self.stats_df = self.stats_df.loc[self.used_cities]
 
         ages = [0, 18, 28, 38, 48, 58, 68, -1]
@@ -288,7 +300,7 @@ class CityStats(metaclass=Singleton):
                 finish = 100
             self.stats_df[str(start) + '-' + str(finish - 1)] = total / totals * 100
 
-        rel_df = pd.read_csv('C://analytics/stats/haredi.txt', encoding='windows-1255', dtype='str', delimiter=' ',
+        rel_df = pd.read_csv(os.path.join(CITY_PATH, 'haredi.txt'), encoding='windows-1255', dtype='str', delimiter=' ',
                              header=None)
         rel_df.columns = ['socio', 'a', 'rel_proportion', 'total', 'rel', 'name']
 
@@ -304,7 +316,7 @@ class CityStats(metaclass=Singleton):
         self.stats_df['haredim'] = 0.0
         self.stats_df.loc[rel_df.name, 'haredim'] = np.array(rel_df.rel_proportion.map(lambda x: float(x[:-1])))
 
-        diabetes_df = pd.read_csv('C://analytics/stats/diabetes.csv', delimiter=';', header=None)
+        diabetes_df = pd.read_csv(os.path.join(CITY_PATH, 'diabetes.csv'), delimiter=';', header=None)
         diabetes_df.columns = ['a', 'name', 'cases', 'proportion', 'fixed_proportion', 'error']
         diabetes_df = diabetes_df.set_index('name')
         diabetes_df = diabetes_df.rename(index=lambda x: x.replace('נצרת עילית', "נוף הגליל"))
@@ -313,7 +325,7 @@ class CityStats(metaclass=Singleton):
         self.stats_df['diabetes_ratio'] = self.stats_df.index.map(
             lambda x: diabetes_df.loc[x].fixed_proportion if x != 'חריש' else diabetes_df.fixed_proportion.mean())
 
-        big_df = pd.read_csv('C://analytics/stats/big_table.csv', encoding='windows-1255')
+        big_df = pd.read_csv(os.path.join(CITY_PATH, 'big_table.csv'), encoding='windows-1255')
         big_df = big_df[['Name', 'Total Population', 'Average Salary', 'Socioeconomic Value', 'Periphery Value',
                          'Jews Rate']].set_index('Name')
         big_df.columns = ['population', 'salary', 'socio', 'periphery', 'jews_ratio']
@@ -325,7 +337,6 @@ class CityStats(metaclass=Singleton):
         self.stats_df['periphery'] = big_df['periphery']
         self.stats_df['non_jews_ratio'] = 100 - big_df['jews_ratio'].fillna(0)
         self.stats_df['user_percentage'] = self.stats_df.n_users / self.stats_df.population * 100
-        self.stats_df.head()
 
         self.stats_df.to_excel('stats.xls')
 
