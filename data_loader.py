@@ -1,12 +1,10 @@
 import cx_Oracle
 import numpy as np
 import pandas as pd
-from shutil import rmtree
 from config import *
 import pickle
 from gensim.models.doc2vec import TaggedDocument
 from collections import defaultdict, Counter
-import math
 from utils import convert_city_name
 
 
@@ -64,22 +62,7 @@ class Transaction():
         if self.location[0] is None:
             self.location = None
         self.total = total
-        self._test_index = -1
-        self.test_item = None
         self.date = date
-
-    def create_test_item(self):
-        if len(self.barcodes) > 10:
-            index = np.random.randint(0, len(self.barcodes))
-            self.test_item = (self.barcodes.pop(index))
-            self._test_index = index
-
-    def return_test_item(self):
-        if self._test_index != -1:
-            index = self._test_index
-            self.barcodes.insert(self.test_item[0], index)
-            self._test_index = -1
-            self.test_item = None
 
     @staticmethod
     def to_sentence(transaction):
@@ -92,23 +75,13 @@ class Transaction():
         return sentence
 
     @staticmethod
-    def to_doc(transaction):
+    def to_document(transaction):
         tags = [transaction.id]
         if transaction.user_id in Users().active_users:
             tags.append(transaction.user_id)
         if transaction.user_id in Users().active_users_cities.keys():
             tags.append(Users().active_users_cities[transaction.user_id])
         return TaggedDocument([Dataset().barcode_to_product[x].representation for x in transaction.barcodes], tags)
-
-
-class T2D:
-    def __iter__(self):
-        return map(Transaction.to_doc, Dataset().transactions)
-
-
-class T2S:
-    def __iter__(self):
-        return map(Transaction.to_sentence, Dataset().transactions)
 
 
 class Dataset(metaclass=Singleton):
@@ -353,6 +326,16 @@ class CityStats(metaclass=Singleton):
         self.stats_df['user_percentage'] = self.stats_df.n_users / self.stats_df.population * 100
 
         self.stats_df.to_excel('stats.xls')
+
+
+class TransactionsToDocuments:
+    def __iter__(self):
+        return map(Transaction.to_document, Dataset().transactions)
+
+
+class TransactionsToSentences:
+    def __iter__(self):
+        return map(Transaction.to_sentence, Dataset().transactions)
 
 
 if __name__ == '__main__':
