@@ -1,0 +1,2 @@
+USER='AlexanderCh'
+PASSWORD='Aa123456'

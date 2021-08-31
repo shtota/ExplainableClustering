@@ -18,12 +18,13 @@ class Singleton(type):
 
 
 class Product:
+    # Python object representing line from SQL products table.
     DEFAULT_PRICE = 10
 
     def __init__(self, row, index):
         self.usages = 0
 
-        self.hierarchy_indices = []
+        self.hierarchy_indices = [] # indices in long vector of product/category frequencies
         self.index = index
         self._representation = 4
         self.barcode = str(row[0])
@@ -53,7 +54,7 @@ class Product:
         return self.hierarchy_names[-1]
 
 
-class Transaction():
+class Transaction:
     def __init__(self, t_id, u_id, total=0, location=None, date=None):
         self.id = t_id
         self.user_id = u_id
@@ -163,6 +164,7 @@ class Dataset(metaclass=Singleton):
                     if len(id_to_index) % 1000000 == 0:
                         print(len(id_to_index))
                 self.transactions[id_to_index[t_id]].barcodes.append(barcode)
+                #self.transactions[id_to_index[t_id]].quantities.append(quantity)
                 line = f.readline()
                 all_barcodes.add(barcode)
         print('finished reading csv')
@@ -203,20 +205,16 @@ class Dataset(metaclass=Singleton):
             for i in range(DEPTH):
                 hierarchy_names[i].add(product.hierarchy_names[i])
 
-        #GROUP_self.index_of = {}  # Dict [name of hierarchy group/barcode: relative index in relevant hierarchy level]
         self.index_of = {}  # Dict {name of hierarchy group/barcode: absolute index in concatenated vector}
         offset = 0
         for i in range(DEPTH):
             for index, name in enumerate(sorted(hierarchy_names[i])):
-                #GROUP_self.index_of[name] = index
                 self.index_of[name] = index + offset
             offset += len(hierarchy_names[i])
             self.hierarchy_sizes[i] = len(hierarchy_names[i])
-
-            # Update products with relevant indices
+        # Update products with relevant indices
         for product in self.products:
             product.hierarchy_indices = [self.index_of[x] for x in product.hierarchy_names]
-        #return self.index_of, GROUP_self.index_of, LEVEL_SIZE
 
 
 class Users(metaclass=Singleton):
