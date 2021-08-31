@@ -29,7 +29,8 @@ class Product:
         self.index = index
         self._representation = 4
         self.barcode = str(row[0])
-        self.hierarchy_names = [str(i // 2) + '_' + row[1][i] for i in [1, 3, 5, 7, 0]]
+        self.hierarchy_names = [str(i // 2) + '_' + row[1][i] for i in [1, 3, 5, 7]]
+        self.hierarchy_names.append(row[1][0])
         self.price = row[1][-6]
         if self.price is None or self.price == 0:
             self.price = row[1][-5]
@@ -45,7 +46,9 @@ class Product:
 
     @property
     def representation(self):
-        return self.hierarchy_names[self._representation] + ('_child' if self._representation < 4 else '')
+        if self._representation == 4:
+            return self.barcode
+        return self.hierarchy_names[self._representation] + '_child'
 
     @property
     def name(self):
@@ -80,13 +83,22 @@ class Transaction():
 
     @staticmethod
     def to_sentence(transaction):
-        return [Dataset().barcode_to_product[x].representation for x in transaction.barcodes] + \
-               [transaction.user_id] * (transaction.user_id in Users().active_users)
+        uid = transaction.user_id
+        sentence = [Dataset().barcode_to_product[x].representation for x in transaction.barcodes]
+        if uid in Users().active_users_set:
+            sentence.append(uid)
+        if uid in Users().active_users_cities.keys():
+            sentence.append(Users().active_users_cities[uid])
+        return sentence
 
     @staticmethod
     def to_doc(transaction):
-        return TaggedDocument([Dataset().barcode_to_product[x].representation for x in transaction.barcodes],
-                              [transaction.id, transaction.user_id])
+        tags = [transaction.id]
+        if transaction.user_id in Users().active_users:
+            tags.append(transaction.user_id)
+        if transaction.user_id in Users().active_users_cities.keys():
+            tags.append(Users().active_users_cities[transaction.user_id])
+        return TaggedDocument([Dataset().barcode_to_product[x].representation for x in transaction.barcodes], tags)
 
 
 class T2D:
@@ -138,6 +150,15 @@ class Dataset(metaclass=Singleton):
                 for b in t.barcodes:
                     self.barcode_to_product[b].usages += 1
 
+            do_again = True
+            while do_again:
+                do_again = False
+                counts = self._get_representation_counts()
+                for p in self.products:
+                    if counts[p.representation] < self.PRODUCT_USAGE_THRESHOLD and p._representation > 2:
+                        p._representation -= 1
+                        do_again = True
+
             with open(DATA_PATH, 'wb') as f:
                 pickle.dump([self.transactions, self.products], f)
             with open(TEST_DATA_PATH, 'wb') as f:
@@ -153,14 +174,6 @@ class Dataset(metaclass=Singleton):
         for i, row in enumerate(products_df.loc[all_used_barcodes].iterrows()):
             self.products.append(Product(row, i))
         conn.close()
-        do_again = True
-        while do_again:
-            do_again = False
-            counts = self._get_representation_counts()
-            for p in self.products:
-                if counts[p.representation] < self.PRODUCT_USAGE_THRESHOLD and p._representation > 2:
-                    p._representation -= 1
-                    do_again = True
 
     def _create_transactions(self):
         self.transactions = []
@@ -252,6 +265,7 @@ class Users(metaclass=Singleton):
             self.active_users = sorted([k for k in users_spent_money.keys()
                                     if (users_spent_money[k] >= self.MIN_TOTAL)
                                     and (users_transactions[k] >= self.MIN_PURCHASES)])
+        self.active_users_set = set(self.active_users)
         print('Filtering users: {} out of {} remain. Percentage of transactions covered: {:.2f}'.format(
             len(self.active_users), 
             len(self.all_users), 
@@ -262,7 +276,7 @@ class Users(metaclass=Singleton):
         conn = cx_Oracle.connect(user=USER, password=PASSWORD, dsn=dsn_tns)
         c = conn.cursor()
         r = c.execute(USERS_QUERY)
-        users_df = pd.DataFrame(r, columns=['USER_ID', 'CITY']).set_index('USER_ID').loc[self.active_users]
+        users_df = pd.DataFrame(r, columns=['USER_ID', 'CITY'],dtype=str).set_index('USER_ID').loc[self.active_users]
         users_df = users_df[~users_df.CITY.isna()].reset_index()[['USER_ID', 'CITY']].sort_values('USER_ID')
         users_df.CITY = users_df.CITY.map(convert_city_name)
         self.active_users_cities = dict(users_df.values)

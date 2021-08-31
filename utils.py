@@ -23,23 +23,22 @@ def smart_inverse(x):
     return ''.join(new)
 
 
-def decompose(X, idx, tsne=False, show=0, hue=None, annotations=None):
+def decompose(X, tsne=False, show=0, hue=None, annotations=None):
     #X = normalize(np.vstack([gensim_skipgram.wv[products[x].barcode + '_child'] for x in sorted_indices]), axis=1)
     pca = PCA(n_components=2)
     if tsne:
         pca = TSNE(n_components=2)
-    new = pca.fit_transform(X)
+    transformed = pca.fit_transform(X)
     plt.figure(figsize=(20,10))
     if show:
-        idx = idx[:show]
-        new = new[:show, :]
-    if hue:
-        p = sns.scatterplot(new[:,0], new[:,1], hue=hue, s=250)
+        transformed = transformed[:show, :]
+    if hue is not None:
+        p = sns.scatterplot(x=transformed[:,0], y=transformed[:,1], hue=hue, s=250)
     else:
-        p = sns.scatterplot(new[:,0], new[:,1], s=250)
-    if annotations:
+        p = sns.scatterplot(x=transformed[:,0], y=transformed[:,1], s=250)
+    if annotations is not None:
         for i,name in enumerate(annotations):
-            p.annotate(name, (new[i,0], new[i,1]), fontsize=13)
+            p.annotate(name, (transformed[i,0], transformed[i,1]), fontsize=13)
     p.set_title('TSNE decomposition' if tsne else 'PCA decomposition')
 
 

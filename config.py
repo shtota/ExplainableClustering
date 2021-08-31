@@ -17,7 +17,7 @@ STORAGE_PATH = 'Q://'
 TRANSACTIONS_CSV_PATH = os.path.join(STORAGE_PATH, 'transactions.csv')
 DATA_PATH = os.path.join(STORAGE_PATH, 'data.pkl')
 TEST_DATA_PATH = os.path.join(STORAGE_PATH, 'test_data.pkl')
-EMBEDDING_PATH = os.path.join(STORAGE_PATH, '/gensim.w2v')
+EMBEDDING_PATH = os.path.join(STORAGE_PATH, 'gensim.w2v')
 CLUSTERING_PATH = os.path.join(STORAGE_PATH, 'clustering.pkl')
 CITY_PATH = './stats/'
 
