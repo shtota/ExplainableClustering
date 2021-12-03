@@ -24,11 +24,11 @@ class Product:
     def __init__(self, row, index):
         self.usages = 0
 
-        self.hierarchy_indices = [] # indices in long vector of product/category frequencies
-        self.index = index
-        self._representation = 4
+        self.hierarchy_indices = [] # 5 indices in vector of product/category. for the full product hierarchy (FMCG, CLASS, CAT, SUBCAT, BARCODE)
+        self.index = index # Number representing the product
+        self._representation = 4 # Representation level(from 0 to 4, 4 meaning BARCODE). Used when the product has low frequency and we use it's hierarchy predcessors instead
         self.barcode = str(row[0])
-        self.hierarchy_names = [str(i // 2) + '_' + row[1][i] for i in [1, 3, 5, 7]]
+        self.hierarchy_names = [str(i // 2) + '_' + row[1][i] for i in [1, 3, 5, 7]] # 5 names of products hierarchy: from FMCG to BARCODE. 
         self.hierarchy_names.append(row[1][0])
         self.price = row[1][-6]
         if self.price is None or self.price == 0:
@@ -124,14 +124,11 @@ class Dataset(metaclass=Singleton):
                 for b in t.barcodes:
                     self.barcode_to_product[b].usages += 1
 
-            do_again = True
-            while do_again:
-                do_again = False
+            for i in range(2):
                 counts = self._get_representation_counts()
                 for p in self.products:
-                    if counts[p.representation] < self.PRODUCT_USAGE_THRESHOLD and p._representation > 2:
+                    if counts[p.representation] < self.PRODUCT_USAGE_THRESHOLD:
                         p._representation -= 1
-                        do_again = True
 
             with open(DATA_PATH, 'wb') as f:
                 pickle.dump([self.transactions, self.products], f)
@@ -230,10 +227,7 @@ class Users(metaclass=Singleton):
             users_transactions[user] += 1
             users_spent_money[user] += transaction.total
         self.all_users = sorted(users_spent_money.keys())
-        if TEST_MODE:
-            self.active_users = self.all_users
-        else:
-            self.active_users = sorted([k for k in users_spent_money.keys()
+        self.active_users = sorted([k for k in users_spent_money.keys()
                                     if (users_spent_money[k] >= self.MIN_TOTAL)
                                     and (users_transactions[k] >= self.MIN_PURCHASES)])
         self.active_users_set = set(self.active_users)
@@ -270,20 +264,22 @@ class CityStats(metaclass=Singleton):
         population_df = population_df.drop(self.CITIES_TO_DROP, axis=0)
 
         self.used_cities = sorted(population_df.index.values)
-        population_df = population_df.loc[self.used_cities]
+        self.population_df = population_df.loc[self.used_cities]
         #print(self.used_cities,'\n', self.stats_df.index.values)
         self.stats_df = self.stats_df.loc[self.used_cities]
 
-        ages = [0, 18, 28, 38, 48, 58, 68, -1]
-        v = population_df.values[:, 2:].astype(float)
+        ages = [0, 4,9,14, 19, 22, 31, 51, 66, -1]
+        v = population_df.values[:, 2:78].astype(float)
         totals = population_df.total.values
         self.stats_df['population'] = totals
         for i in range(1, len(ages)):
             start, finish = ages[i - 1], ages[i]
-            total = v[:, start:finish].sum(axis=1)
             if finish == -1:
-                finish = 100
-            self.stats_df[str(start) + '-' + str(finish - 1)] = total / totals * 100
+                total = v[:, start:].sum(axis=1)
+                self.stats_df['66+'] = total / totals * 100
+            else:
+                total = v[:, start:finish].sum(axis=1)
+                self.stats_df['{:02d}-{:02d}'.format(start,finish-1)] = total / totals * 100
 
         rel_df = pd.read_csv(os.path.join(CITY_PATH, 'haredi.txt'), encoding='windows-1255', dtype='str', delimiter=' ',
                              header=None)

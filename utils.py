@@ -23,23 +23,24 @@ def smart_inverse(x):
     return ''.join(new)
 
 
-def decompose(X, tsne=False, show=0, hue=None, annotations=None):
+def decompose(X, tsne=False, show=0, hue=None, annotations=None,perplexity=30, learning_rate=200, ee=12, metric='cosine', init='pca', title='', **kwargs):
     #X = normalize(np.vstack([gensim_skipgram.wv[products[x].barcode + '_child'] for x in sorted_indices]), axis=1)
     pca = PCA(n_components=2)
     if tsne:
-        pca = TSNE(n_components=2)
+        pca = TSNE(n_components=2, init=init, metric=metric, perplexity=perplexity,learning_rate=learning_rate, early_exaggeration=ee, random_state=0)
     transformed = pca.fit_transform(X)
     plt.figure(figsize=(20,10))
     if show:
         transformed = transformed[:show, :]
     if hue is not None:
-        p = sns.scatterplot(x=transformed[:,0], y=transformed[:,1], hue=hue, s=250)
+        p = sns.scatterplot(x=transformed[:,0], y=transformed[:,1], hue=hue, s=250, **kwargs)
     else:
-        p = sns.scatterplot(x=transformed[:,0], y=transformed[:,1], s=250)
+        p = sns.scatterplot(x=transformed[:,0], y=transformed[:,1], s=250,**kwargs)
     if annotations is not None:
         for i,name in enumerate(annotations):
             p.annotate(name, (transformed[i,0], transformed[i,1]), fontsize=13)
-    p.set_title('TSNE decomposition' if tsne else 'PCA decomposition')
+    p.set_title(f"{'TSNE decomposition' if tsne else 'PCA decomposition'} {title}")
+    return p
 
 
 def convert_city_name(city_name):
@@ -57,14 +58,16 @@ def convert_city_name(city_name):
               'קרית שמונה': 'קריית שמונה',
               'סכנין': "סח'נין",
               'נצרת עילית': 'נוף הגליל',
-              'מגד אל כרום': "מג'ד אל-כרום"}
+              'מגד אל כרום': "מג'ד אל-כרום",
+             'קדימה':'קדימה-צורן'
+             }
     same_names = [
         ('מודיעין-מכבים-רעות*', 'מודיעין-מכבים-רעות', 'מודיען', 'מודיעין- מכבים- רעות', 'מודיעין. דירה 81',
          'מודיעין מכבים-רעות', 'מודיעין מכבים ראות', 'מודעין', 'מודיעין מכבים רעות', 'מודיעין-מכבים-רעות'),
         ('מודיעין עילית', 'מודעין עלית', 'מודיעין עלית', 'מודיעים עילית'),
         ('בנימינה-גבעת עדה*', 'בנימינה-גבעת עדה', 'בנימינה', 'בנימינה גבעת עדה'),
         ('תל אביב-יפו', 'תל אביב - יפו 6', 'תל אבי יפו', 'תל אבי', 'תל אבב', 'תל אב - יפו', 'תל אביה', 'תל-אביב -יפו',
-         'תל-אביב', 'תל אביב יפו', 'תל אביב-יפו')
+         'תל-אביב', 'תל אביב יפו', 'תל אביב-יפו', 'תל אביב - יפו')
     ]
     for group in same_names:
         for name in group[1:]:
@@ -74,3 +77,17 @@ def convert_city_name(city_name):
     if city_name in bridge.keys():
         return bridge[city_name]
     return city_name
+
+def translate_district(x):
+    d = {
+        'צפון': 'North',
+        'דרום': 'South',
+        'חיפה': 'Haifa',
+        'שרון-שומרון': 'Sharon - Shomron',
+        'מרכז': 'Central',
+        'ירושלים': 'Jerusalem',
+        'דן - פ"ת': 'Dan - Petach Tikva',
+        'תל אביב-יפו': 'Tel Aviv',
+        'אילת': 'Eilat'
+    }
+    return d.get(x, 'Unknown')

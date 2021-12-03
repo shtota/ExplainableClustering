@@ -1,0 +1,1401 @@
+,test_name,district,age,normal_pct
+7234,hba1c,Sharon - Shomron,01-3,0.919
+7235,trig,Central,04-8,0.9640000000000001
+7236,b12,Eilat,22-30,0.8440000000000001
+7237,transf,Central,80+,0.759
+7238,hdl,Tel Aviv,22-30,0.847
+7239,hba1c,South,51-65,0.43700000000000006
+7240,znb,Tel Aviv,31-50,0.909
+7241,hb,Jerusalem,01-3,0.879
+7242,mgb,Sharon - Shomron,9-13,0.7440000000000001
+7243,trig,Tel Aviv,14-18,0.93
+7244,folacid,South,31-50,0.67
+7245,hb,Central,80+,0.531
+7246,nonhdl,South,22-30,0.847
+7247,trig,Jerusalem,80+,0.7709999999999999
+7248,chol,Haifa,9-13,0.9590000000000001
+7249,iron,Dan - Petach Tikva,22-30,0.809
+7250,vitaminD,South,19-21,0.048
+7251,ferritin,Dan - Petach Tikva,66-79,0.861
+7252,hdl,North,51-65,0.7709999999999999
+7253,nonhdl,Sharon - Shomron,80+,0.784
+7254,ferritin,Central,9-13,0.74
+7255,folacid,Dan - Petach Tikva,22-30,0.6809999999999999
+7256,mgb,South,01-3,0.758
+7257,hdl,Jerusalem,19-21,0.7559999999999999
+7258,trig,Dan - Petach Tikva,04-8,0.9640000000000001
+7259,transf,Dan - Petach Tikva,80+,0.728
+7260,hb,Jerusalem,9-13,0.807
+7261,znb,Tel Aviv,66-79,0.89
+7262,trig,Haifa,31-50,0.7290000000000001
+7263,transf,Jerusalem,9-13,0.9079999999999999
+7264,ferritin,Central,51-65,0.882
+7265,ldl,Dan - Petach Tikva,66-79,0.528
+7266,ldl,Jerusalem,9-13,0.748
+7267,iron,Haifa,14-18,0.763
+7268,folacid,Sharon - Shomron,31-50,0.7170000000000001
+7269,ferritin,Central,01-3,0.691
+7270,hdl,North,9-13,0.81
+7271,hb,Dan - Petach Tikva,80+,0.5479999999999999
+7272,nonhdl,Central,22-30,0.853
+7273,ferritin,Sharon - Shomron,51-65,0.873
+7274,ferritin,Tel Aviv,9-13,0.777
+7275,iron,South,66-79,0.7440000000000001
+7276,hdl,Dan - Petach Tikva,9-13,0.83
+7277,folacid,Dan - Petach Tikva,31-50,0.708
+7278,mgb,Central,51-65,0.9670000000000001
+7279,hba1c,Dan - Petach Tikva,14-18,0.8759999999999999
+7280,ldl,North,04-8,0.737
+7281,trig,Dan - Petach Tikva,51-65,0.657
+7282,vitaminD,Tel Aviv,51-65,0.204
+7283,ferritin,Haifa,01-3,0.802
+7284,nonhdl,Jerusalem,01-3,0.972
+7285,transf,Haifa,19-21,0.9079999999999999
+7286,hb,South,31-50,0.79
+7287,folacid,North,51-65,0.804
+7288,hba1c,Tel Aviv,19-21,0.9129999999999999
+7289,transf,Jerusalem,14-18,0.8859999999999999
+7290,trig,Dan - Petach Tikva,01-3,0.965
+7291,transf,Eilat,66-79,0.792
+7292,znb,Dan - Petach Tikva,80+,0.847
+7293,ldl,North,19-21,0.696
+7294,nonhdl,Dan - Petach Tikva,9-13,0.9570000000000001
+7295,hb,Eilat,22-30,0.86
+7296,hdl,Dan - Petach Tikva,14-18,0.774
+7297,hba1c,Central,01-3,0.9259999999999999
+7298,folacid,Haifa,01-3,0.94
+7299,ferritin,South,51-65,0.852
+7300,ferritin,Haifa,9-13,0.873
+7301,hba1c,North,31-50,0.71
+7302,hdl,Eilat,80+,0.823
+7303,folacid,Central,31-50,0.735
+7304,nonhdl,Dan - Petach Tikva,22-30,0.853
+7305,mgb,Dan - Petach Tikva,51-65,0.96
+7306,ferritin,Tel Aviv,01-3,0.6970000000000001
+7307,hba1c,Central,14-18,0.897
+7308,chol,Central,9-13,0.95
+7309,znb,Dan - Petach Tikva,66-79,0.919
+7310,ferritin,Haifa,22-30,0.875
+7311,hba1c,Central,22-30,0.889
+7312,trig,Jerusalem,51-65,0.633
+7313,trig,Central,01-3,0.968
+7314,hdl,Jerusalem,14-18,0.728
+7315,albumin,Eilat,80+,0.875
+7316,hba1c,Dan - Petach Tikva,01-3,0.8959999999999999
+7317,hdl,Dan - Petach Tikva,22-30,0.815
+7318,folacid,Sharon - Shomron,51-65,0.76
+7319,ldl,South,31-50,0.381
+7320,b12,Central,66-79,0.8759999999999999
+7321,chol,South,19-21,0.9209999999999999
+7322,iron,Sharon - Shomron,01-3,0.622
+7323,albumin,Sharon - Shomron,19-21,0.9640000000000001
+7324,hdl,Eilat,04-8,0.9059999999999999
+7325,hb,Tel Aviv,80+,0.5489999999999999
+7326,hba1c,Sharon - Shomron,9-13,0.846
+7327,chol,Haifa,14-18,0.956
+7328,trig,Sharon - Shomron,04-8,0.9620000000000001
+7329,hb,North,04-8,0.9209999999999999
+7330,transf,South,80+,0.755
+7331,iron,Tel Aviv,80+,0.763
+7332,hb,Tel Aviv,66-79,0.764
+7333,hb,North,19-21,0.8029999999999999
+7334,b12,Tel Aviv,22-30,0.904
+7335,ldl,Sharon - Shomron,66-79,0.54
+7336,b12,Central,80+,0.8320000000000001
+7337,mgb,Sharon - Shomron,04-8,0.603
+7338,b12,North,51-65,0.8320000000000001
+7339,b12,Eilat,31-50,0.83
+7340,b12,Central,31-50,0.9109999999999999
+7341,vitaminD,Jerusalem,31-50,0.08
+7342,folacid,Jerusalem,9-13,0.815
+7343,chol,Tel Aviv,14-18,0.9440000000000001
+7344,trig,South,04-8,0.9520000000000001
+7345,hba1c,South,9-13,0.89
+7346,chol,Haifa,22-30,0.851
+7347,hb,Sharon - Shomron,01-3,0.848
+7348,znb,Central,19-21,0.922
+7349,iron,North,01-3,0.59
+7350,ldl,South,66-79,0.547
+7351,iron,North,04-8,0.669
+7352,ldl,South,80+,0.552
+7353,iron,Sharon - Shomron,51-65,0.816
+7354,ldl,Sharon - Shomron,31-50,0.392
+7355,transf,Central,51-65,0.922
+7356,iron,South,31-50,0.7390000000000001
+7357,transf,Eilat,31-50,0.887
+7358,folacid,Sharon - Shomron,9-13,0.6940000000000001
+7359,transf,North,04-8,0.958
+7360,trig,Eilat,51-65,0.657
+7361,ferritin,Jerusalem,31-50,0.825
+7362,ldl,Central,80+,0.5479999999999999
+7363,folacid,Eilat,31-50,0.6579999999999999
+7364,albumin,Eilat,22-30,0.945
+7365,transf,Haifa,9-13,0.9420000000000001
+7366,trig,Haifa,04-8,0.9620000000000001
+7367,folacid,Central,80+,0.7140000000000001
+7368,iron,Central,19-21,0.736
+7369,hba1c,Central,9-13,0.858
+7370,hdl,Haifa,19-21,0.81
+7371,ldl,Eilat,31-50,0.37200000000000005
+7372,znb,Tel Aviv,51-65,0.9109999999999999
+7373,b12,South,22-30,0.868
+7374,albumin,Central,80+,0.821
+7375,hb,South,80+,0.561
+7376,vitaminD,Central,01-3,0.295
+7377,vitaminD,Central,14-18,0.155
+7378,znb,Haifa,9-13,0.973
+7379,iron,Sharon - Shomron,14-18,0.75
+7380,transf,Central,31-50,0.9
+7381,albumin,Dan - Petach Tikva,80+,0.858
+7382,vitaminD,Eilat,14-18,0.255
+7383,b12,Jerusalem,01-3,0.934
+7384,ferritin,Jerusalem,80+,0.862
+7385,folacid,North,9-13,0.785
+7386,b12,Jerusalem,19-21,0.8859999999999999
+7387,chol,Central,51-65,0.613
+7388,hb,Eilat,66-79,0.777
+7389,ferritin,Dan - Petach Tikva,31-50,0.8390000000000001
+7390,folacid,Dan - Petach Tikva,80+,0.71
+7391,trig,South,22-30,0.8320000000000001
+7392,albumin,Jerusalem,01-3,0.973
+7393,hdl,Central,66-79,0.78
+7394,vitaminD,Dan - Petach Tikva,01-3,0.271
+7395,mgb,North,66-79,0.9309999999999999
+7396,trig,Tel Aviv,04-8,0.96
+7397,znb,Sharon - Shomron,14-18,0.919
+7398,mgb,Tel Aviv,51-65,0.977
+7399,vitaminD,North,22-30,0.198
+7400,ferritin,Sharon - Shomron,9-13,0.755
+7401,hb,Haifa,9-13,0.748
+7402,iron,North,51-65,0.8
+7403,iron,Eilat,66-79,0.7659999999999999
+7404,folacid,Jerusalem,01-3,0.963
+7405,trig,Jerusalem,31-50,0.701
+7406,hb,Eilat,31-50,0.865
+7407,trig,Tel Aviv,19-21,0.917
+7408,albumin,North,19-21,0.981
+7409,chol,Sharon - Shomron,19-21,0.9159999999999999
+7410,hb,North,22-30,0.7879999999999999
+7411,znb,Central,01-3,0.929
+7412,vitaminD,Sharon - Shomron,22-30,0.149
+7413,znb,North,14-18,0.91
+7414,znb,North,22-30,0.889
+7415,transf,North,22-30,0.866
+7416,vitaminD,Sharon - Shomron,04-8,0.24
+7417,b12,Eilat,80+,0.6709999999999999
+7418,hdl,Central,31-50,0.7659999999999999
+7419,albumin,Dan - Petach Tikva,66-79,0.972
+7420,hdl,Haifa,66-79,0.78
+7421,nonhdl,Tel Aviv,66-79,0.762
+7422,b12,Sharon - Shomron,80+,0.8140000000000001
+7423,iron,Central,31-50,0.816
+7424,trig,Jerusalem,19-21,0.905
+7425,hb,North,14-18,0.6579999999999999
+7426,albumin,Haifa,66-79,0.9740000000000001
+7427,trig,Haifa,22-30,0.846
+7428,chol,South,80+,0.732
+7429,albumin,Haifa,01-3,0.9890000000000001
+7430,hdl,Dan - Petach Tikva,04-8,0.877
+7431,chol,North,04-8,0.953
+7432,trig,South,51-65,0.643
+7433,hba1c,Tel Aviv,14-18,0.919
+7434,transf,North,51-65,0.9059999999999999
+7435,b12,Haifa,19-21,0.919
+7436,folacid,Jerusalem,14-18,0.7140000000000001
+7437,hba1c,Jerusalem,80+,0.401
+7438,hdl,Tel Aviv,31-50,0.794
+7439,nonhdl,Haifa,66-79,0.779
+7440,albumin,Tel Aviv,66-79,0.97
+7441,folacid,Haifa,19-21,0.5670000000000001
+7442,transf,Central,19-21,0.877
+7443,b12,South,80+,0.69
+7444,trig,Tel Aviv,22-30,0.873
+7445,hb,Sharon - Shomron,14-18,0.654
+7446,trig,Dan - Petach Tikva,19-21,0.917
+7447,chol,Sharon - Shomron,04-8,0.946
+7448,ldl,North,14-18,0.7709999999999999
+7449,vitaminD,North,80+,0.284
+7450,znb,Sharon - Shomron,9-13,0.905
+7451,transf,Sharon - Shomron,14-18,0.899
+7452,hdl,Jerusalem,04-8,0.847
+7453,b12,North,04-8,0.536
+7454,folacid,Eilat,66-79,0.7390000000000001
+7455,albumin,Haifa,9-13,0.9890000000000001
+7456,hb,Central,19-21,0.785
+7457,ldl,Central,31-50,0.391
+7458,ferritin,Eilat,31-50,0.84
+7459,folacid,Eilat,80+,0.649
+7460,nonhdl,Sharon - Shomron,66-79,0.77
+7461,hba1c,Dan - Petach Tikva,9-13,0.857
+7462,transf,Haifa,01-3,0.97
+7463,mgb,South,14-18,0.813
+7464,vitaminD,Dan - Petach Tikva,14-18,0.14
+7465,hba1c,Tel Aviv,51-65,0.423
+7466,chol,Haifa,04-8,0.9540000000000001
+7467,ferritin,North,04-8,0.782
+7468,hdl,Eilat,66-79,0.816
+7469,hb,Central,51-65,0.8690000000000001
+7470,chol,Sharon - Shomron,14-18,0.946
+7471,trig,Eilat,04-8,0.948
+7472,folacid,Jerusalem,22-30,0.772
+7473,folacid,Sharon - Shomron,66-79,0.7809999999999999
+7474,znb,Central,51-65,0.9309999999999999
+7475,chol,Sharon - Shomron,51-65,0.629
+7476,ldl,Sharon - Shomron,80+,0.56
+7477,vitaminD,Tel Aviv,14-18,0.21600000000000003
+7478,folacid,Sharon - Shomron,80+,0.727
+7479,b12,North,19-21,0.7959999999999999
+7480,hb,North,01-3,0.835
+7481,transf,North,14-18,0.897
+7482,b12,South,04-8,0.597
+18989,trig,South,31-50,0.711
+18990,b12,South,01-3,0.425
+18991,nonhdl,Eilat,80+,0.775
+18992,hb,Tel Aviv,01-3,0.877
+18993,ferritin,South,01-3,0.785
+18994,mgb,Jerusalem,01-3,0.787
+18995,folacid,Haifa,31-50,0.7290000000000001
+18996,hdl,Haifa,14-18,0.81
+18997,hba1c,South,22-30,0.883
+18998,ferritin,Sharon - Shomron,31-50,0.8170000000000001
+18999,mgb,Eilat,22-30,0.9470000000000001
+19000,transf,North,66-79,0.861
+19001,mgb,North,19-21,0.968
+19002,transf,South,01-3,0.945
+19003,hba1c,Central,80+,0.285
+19004,nonhdl,Sharon - Shomron,14-18,0.9470000000000001
+19005,iron,Eilat,51-65,0.823
+19006,znb,Jerusalem,14-18,0.9109999999999999
+19007,folacid,South,01-3,0.907
+19008,albumin,Eilat,19-21,0.956
+19009,trig,Tel Aviv,80+,0.774
+19010,iron,Dan - Petach Tikva,14-18,0.768
+19011,nonhdl,Dan - Petach Tikva,19-21,0.9279999999999999
+19012,chol,Sharon - Shomron,22-30,0.8370000000000001
+19013,albumin,Sharon - Shomron,14-18,0.9890000000000001
+19014,b12,Dan - Petach Tikva,14-18,0.937
+19015,b12,Sharon - Shomron,01-3,0.915
+19016,hdl,Tel Aviv,14-18,0.7879999999999999
+19017,transf,Haifa,80+,0.701
+19018,albumin,Central,04-8,0.987
+19019,transf,Sharon - Shomron,66-79,0.856
+19020,ferritin,North,31-50,0.785
+19021,mgb,Sharon - Shomron,19-21,0.934
+19022,vitaminD,North,14-18,0.23399999999999999
+19023,nonhdl,South,14-18,0.95
+19024,hba1c,Dan - Petach Tikva,80+,0.28800000000000003
+19025,albumin,Central,19-21,0.9670000000000001
+19026,znb,Dan - Petach Tikva,14-18,0.88
+19027,albumin,South,14-18,0.97
+19028,transf,North,31-50,0.883
+19029,chol,South,22-30,0.836
+19030,b12,Tel Aviv,19-21,0.9109999999999999
+19031,nonhdl,Central,19-21,0.924
+19032,chol,Eilat,66-79,0.6779999999999999
+19033,iron,Jerusalem,14-18,0.7090000000000001
+19034,ldl,Haifa,66-79,0.574
+19035,b12,North,01-3,0.39799999999999996
+19036,ferritin,Jerusalem,22-30,0.855
+19037,ldl,Dan - Petach Tikva,22-30,0.591
+19038,vitaminD,Jerusalem,19-21,0.054000000000000006
+22440,vitaminD,Sharon - Shomron,01-3,0.29100000000000004
+22441,albumin,Haifa,80+,0.89
+22442,transf,Tel Aviv,66-79,0.8909999999999999
+22443,ldl,Jerusalem,51-65,0.373
+22444,mgb,Jerusalem,66-79,0.963
+22445,iron,Sharon - Shomron,19-21,0.733
+22446,mgb,Tel Aviv,19-21,0.9690000000000001
+22447,mgb,Jerusalem,80+,0.9470000000000001
+22448,iron,Dan - Petach Tikva,31-50,0.821
+22449,chol,South,51-65,0.598
+22450,hdl,Tel Aviv,66-79,0.8009999999999999
+22451,transf,Tel Aviv,31-50,0.919
+22452,folacid,South,80+,0.65
+22453,albumin,Haifa,14-18,0.965
+22454,folacid,South,66-79,0.7190000000000001
+22455,ferritin,Central,19-21,0.779
+22456,iron,North,19-21,0.7170000000000001
+22457,albumin,Tel Aviv,80+,0.841
+22458,vitaminD,South,01-3,0.262
+22459,hb,Sharon - Shomron,19-21,0.799
+22460,ferritin,Tel Aviv,31-50,0.877
+22461,vitaminD,Haifa,66-79,0.299
+22462,ferritin,Jerusalem,04-8,0.848
+22463,ferritin,Sharon - Shomron,14-18,0.78
+22464,vitaminD,Haifa,80+,0.305
+22465,hdl,Tel Aviv,80+,0.805
+22466,chol,Tel Aviv,9-13,0.945
+22467,hba1c,Haifa,22-30,0.878
+22468,iron,Jerusalem,22-30,0.7509999999999999
+22469,nonhdl,South,80+,0.773
+22470,albumin,Haifa,31-50,0.987
+22471,ldl,Jerusalem,04-8,0.711
+22472,nonhdl,North,51-65,0.63
+22473,hba1c,North,22-30,0.912
+22474,hba1c,Central,19-21,0.872
+22475,albumin,Tel Aviv,22-30,0.9840000000000001
+22476,folacid,Jerusalem,51-65,0.789
+22477,hdl,South,22-30,0.789
+22478,vitaminD,South,04-8,0.22
+22479,hba1c,Haifa,01-3,0.917
+22480,mgb,Haifa,9-13,0.7709999999999999
+22481,trig,Tel Aviv,9-13,0.934
+22482,albumin,North,01-3,0.9440000000000001
+22483,trig,Jerusalem,66-79,0.6970000000000001
+22484,nonhdl,Tel Aviv,22-30,0.8640000000000001
+22485,hdl,Haifa,80+,0.789
+22486,hb,Central,31-50,0.83
+22487,iron,Dan - Petach Tikva,66-79,0.8140000000000001
+22488,vitaminD,Eilat,51-65,0.233
+22489,nonhdl,Tel Aviv,31-50,0.7120000000000001
+22490,transf,Jerusalem,04-8,0.9570000000000001
+22491,hba1c,Jerusalem,66-79,0.379
+22492,albumin,Sharon - Shomron,51-65,0.976
+22493,hba1c,Sharon - Shomron,14-18,0.89
+22494,chol,Sharon - Shomron,9-13,0.948
+22495,hba1c,Sharon - Shomron,22-30,0.848
+22496,ldl,Dan - Petach Tikva,04-8,0.7020000000000001
+22497,albumin,North,9-13,0.991
+22498,nonhdl,Tel Aviv,80+,0.77
+22499,b12,North,9-13,0.723
+22500,trig,Tel Aviv,01-3,0.963
+22501,mgb,Tel Aviv,01-3,0.9309999999999999
+22502,hba1c,Tel Aviv,01-3,0.9229999999999999
+22503,nonhdl,North,9-13,0.96
+22504,hb,Dan - Petach Tikva,31-50,0.823
+22505,hb,Haifa,14-18,0.66
+22506,hdl,North,14-18,0.7709999999999999
+22507,znb,Haifa,04-8,0.9390000000000001
+22508,mgb,Tel Aviv,9-13,0.794
+22509,iron,Haifa,31-50,0.79
+22510,trig,Eilat,80+,0.763
+22511,transf,Eilat,22-30,0.855
+22512,folacid,Haifa,80+,0.73
+22513,albumin,Jerusalem,14-18,0.993
+22514,mgb,Central,14-18,0.865
+22515,chol,Dan - Petach Tikva,80+,0.758
+22516,hba1c,Sharon - Shomron,04-8,0.8690000000000001
+22517,vitaminD,Tel Aviv,01-3,0.389
+22518,hb,Tel Aviv,31-50,0.846
+22519,znb,Jerusalem,22-30,0.843
+22520,albumin,Jerusalem,51-65,0.986
+22521,ldl,Tel Aviv,31-50,0.397
+22522,vitaminD,Jerusalem,80+,0.258
+22523,nonhdl,Central,66-79,0.767
+22524,trig,Central,9-13,0.9279999999999999
+22525,chol,Haifa,51-65,0.617
+22526,hdl,South,04-8,0.855
+22527,chol,Eilat,19-21,0.86
+22528,trig,Eilat,9-13,0.903
+22529,folacid,North,14-18,0.6829999999999999
+22530,b12,Dan - Petach Tikva,04-8,0.955
+22531,albumin,Central,66-79,0.9620000000000001
+22532,folacid,Jerusalem,04-8,0.9520000000000001
+22533,transf,North,19-21,0.872
+22534,iron,Tel Aviv,31-50,0.83
+22535,ferritin,North,22-30,0.813
+22536,mgb,Dan - Petach Tikva,14-18,0.846
+22537,hba1c,South,04-8,0.905
+22538,hb,Haifa,19-21,0.81
+30264,ferritin,Haifa,80+,0.87
+30265,hb,South,01-3,0.795
+30266,hb,South,04-8,0.88
+30267,transf,North,80+,0.745
+30268,ldl,Central,01-3,0.716
+30269,ldl,Central,51-65,0.35600000000000004
+30270,ldl,North,31-50,0.375
+30271,iron,Sharon - Shomron,04-8,0.69
+30272,b12,Dan - Petach Tikva,66-79,0.87
+30273,transf,Eilat,01-3,0.941
+30274,transf,Eilat,04-8,0.94
+30275,b12,Dan - Petach Tikva,80+,0.8340000000000001
+30276,b12,Jerusalem,80+,0.8290000000000001
+30277,mgb,Eilat,66-79,0.914
+30278,chol,North,51-65,0.612
+30279,ferritin,Tel Aviv,66-79,0.865
+30280,mgb,Eilat,80+,0.8959999999999999
+30281,iron,South,01-3,0.5660000000000001
+30282,hb,Haifa,80+,0.534
+30283,albumin,South,19-21,0.899
+30284,b12,Tel Aviv,14-18,0.935
+30285,ferritin,Jerusalem,19-21,0.8270000000000001
+30286,transf,Sharon - Shomron,80+,0.7490000000000001
+30287,hb,Sharon - Shomron,04-8,0.924
+30288,iron,Haifa,80+,0.701
+30289,ferritin,Tel Aviv,80+,0.852
+30290,b12,Haifa,01-3,0.905
+30291,hb,Haifa,66-79,0.754
+30292,trig,Eilat,31-50,0.745
+30293,b12,Haifa,22-30,0.9109999999999999
+30294,b12,Jerusalem,66-79,0.86
+30295,ldl,Dan - Petach Tikva,51-65,0.35100000000000003
+30296,ferritin,Haifa,31-50,0.851
+30297,mgb,South,04-8,0.48700000000000004
+30298,b12,Jerusalem,22-30,0.8809999999999999
+30299,hb,Jerusalem,66-79,0.7759999999999999
+30300,folacid,Eilat,04-8,0.866
+30301,hb,Eilat,04-8,0.9329999999999999
+30302,hba1c,Jerusalem,19-21,0.9640000000000001
+30303,hba1c,Dan - Petach Tikva,66-79,0.27899999999999997
+30304,vitaminD,Tel Aviv,31-50,0.18899999999999997
+30305,znb,Central,22-30,0.9
+30306,hdl,Dan - Petach Tikva,19-21,0.7859999999999999
+30307,transf,Dan - Petach Tikva,9-13,0.9129999999999999
+30308,trig,Jerusalem,9-13,0.903
+30309,iron,Jerusalem,80+,0.7
+30310,folacid,Tel Aviv,51-65,0.763
+30311,ldl,Sharon - Shomron,01-3,0.73
+30312,trig,Tel Aviv,66-79,0.7120000000000001
+30313,ferritin,Jerusalem,9-13,0.846
+30314,hb,Jerusalem,80+,0.6
+30315,hb,Dan - Petach Tikva,51-65,0.8590000000000001
+30316,mgb,Dan - Petach Tikva,31-50,0.961
+30317,chol,South,14-18,0.9490000000000001
+30318,vitaminD,Jerusalem,51-65,0.136
+30319,transf,Tel Aviv,14-18,0.915
+30320,ldl,South,01-3,0.7390000000000001
+30321,trig,Haifa,51-65,0.653
+30322,hb,Haifa,31-50,0.818
+30323,hba1c,Central,66-79,0.27699999999999997
+30324,hba1c,North,04-8,0.94
+30325,albumin,North,80+,0.8109999999999999
+30326,hdl,Central,19-21,0.7859999999999999
+30327,hdl,Haifa,22-30,0.8
+30328,znb,Dan - Petach Tikva,22-30,0.894
+30329,transf,Central,9-13,0.9179999999999999
+30330,iron,Eilat,04-8,0.7120000000000001
+30331,b12,Central,22-30,0.897
+30332,hba1c,Eilat,31-50,0.747
+30333,hdl,North,80+,0.797
+30334,chol,Dan - Petach Tikva,19-21,0.9209999999999999
+30335,folacid,Haifa,66-79,0.79
+30336,hdl,North,66-79,0.7829999999999999
+30337,vitaminD,Haifa,31-50,0.132
+30338,hb,Jerusalem,51-65,0.87
+30339,mgb,Central,31-50,0.98
+30340,trig,Jerusalem,22-30,0.838
+30341,b12,Jerusalem,14-18,0.895
+30342,znb,Central,14-18,0.9209999999999999
+30343,albumin,Dan - Petach Tikva,04-8,0.988
+30344,transf,South,66-79,0.857
+30345,transf,North,01-3,0.948
+30346,znb,North,01-3,0.9359999999999999
+30347,iron,Tel Aviv,19-21,0.767
+30348,nonhdl,Dan - Petach Tikva,04-8,0.963
+30349,ldl,Haifa,80+,0.589
+30350,ferritin,South,66-79,0.83
+30351,ferritin,Haifa,51-65,0.8959999999999999
+30352,hba1c,Haifa,9-13,0.882
+30353,hba1c,Eilat,51-65,0.483
+30354,trig,North,31-50,0.7340000000000001
+30355,hb,Haifa,01-3,0.848
+30356,ldl,Jerusalem,22-30,0.563
+30357,chol,North,22-30,0.852
+30358,folacid,Tel Aviv,31-50,0.735
+30359,trig,Sharon - Shomron,31-50,0.748
+30360,ldl,Tel Aviv,66-79,0.527
+30361,ferritin,South,31-50,0.792
+30362,trig,Haifa,80+,0.77
+30363,znb,Sharon - Shomron,01-3,0.8690000000000001
+30364,albumin,Jerusalem,04-8,0.99
+30365,transf,Sharon - Shomron,01-3,0.9570000000000001
+30366,albumin,Tel Aviv,31-50,0.986
+30367,ferritin,Tel Aviv,14-18,0.812
+30368,nonhdl,North,14-18,0.955
+30369,iron,Central,51-65,0.8490000000000001
+30370,ldl,Tel Aviv,80+,0.537
+30371,ldl,Haifa,51-65,0.397
+30372,albumin,North,14-18,0.993
+30373,hba1c,Tel Aviv,9-13,0.88
+30374,trig,South,01-3,0.9490000000000001
+30375,nonhdl,Jerusalem,04-8,0.9590000000000001
+30376,chol,Eilat,04-8,0.929
+30377,folacid,Tel Aviv,04-8,0.91
+30378,hdl,Eilat,51-65,0.7859999999999999
+30379,hba1c,Haifa,80+,0.28
+30380,chol,North,19-21,0.9229999999999999
+30381,albumin,Sharon - Shomron,9-13,0.9890000000000001
+30382,folacid,Eilat,51-65,0.74
+30383,mgb,South,31-50,0.9740000000000001
+30384,nonhdl,Jerusalem,66-79,0.765
+30385,hba1c,Haifa,31-50,0.643
+30386,znb,Sharon - Shomron,22-30,0.898
+30387,chol,Haifa,80+,0.753
+30388,transf,Sharon - Shomron,22-30,0.858
+30389,hdl,Dan - Petach Tikva,31-50,0.7659999999999999
+30390,iron,Haifa,22-30,0.7879999999999999
+30391,vitaminD,South,22-30,0.135
+30392,trig,Central,66-79,0.713
+30393,albumin,Jerusalem,66-79,0.9640000000000001
+30394,chol,South,9-13,0.9520000000000001
+30395,vitaminD,North,04-8,0.349
+30396,trig,Central,31-50,0.754
+30397,nonhdl,Tel Aviv,01-3,0.972
+30398,trig,Haifa,19-21,0.909
+30399,folacid,Haifa,04-8,0.912
+30400,hb,Tel Aviv,9-13,0.778
+30401,nonhdl,Sharon - Shomron,19-21,0.914
+30402,ldl,Dan - Petach Tikva,01-3,0.745
+30403,albumin,South,9-13,0.982
+30404,hba1c,Tel Aviv,80+,0.32899999999999996
+30405,ferritin,Eilat,22-30,0.8320000000000001
+30406,mgb,Sharon - Shomron,31-50,0.966
+30407,mgb,Haifa,51-65,0.9520000000000001
+30408,hba1c,Tel Aviv,31-50,0.772
+30409,transf,South,22-30,0.8420000000000001
+30410,nonhdl,South,9-13,0.9540000000000001
+30411,hdl,Jerusalem,31-50,0.72
+30412,iron,Tel Aviv,22-30,0.8109999999999999
+30413,ferritin,South,9-13,0.8240000000000001
+30414,trig,Dan - Petach Tikva,31-50,0.7490000000000001
+30415,ldl,Eilat,14-18,0.752
+30416,nonhdl,Haifa,01-3,0.977
+30417,trig,Dan - Petach Tikva,66-79,0.706
+30418,nonhdl,North,19-21,0.9279999999999999
+30419,vitaminD,Tel Aviv,9-13,0.196
+30420,folacid,Jerusalem,19-21,0.728
+30421,ldl,Jerusalem,01-3,0.746
+30422,nonhdl,Haifa,80+,0.7929999999999999
+30423,mgb,North,31-50,0.98
+30424,chol,Tel Aviv,01-3,0.965
+30425,znb,Tel Aviv,9-13,0.9309999999999999
+30426,iron,South,14-18,0.6940000000000001
+30427,hb,Tel Aviv,51-65,0.863
+30428,hdl,Haifa,04-8,0.894
+30429,b12,North,22-30,0.828
+30430,b12,Dan - Petach Tikva,01-3,0.9259999999999999
+30431,chol,Dan - Petach Tikva,51-65,0.605
+30432,folacid,Jerusalem,80+,0.722
+30433,hdl,Tel Aviv,19-21,0.8
+30434,mgb,Sharon - Shomron,66-79,0.93
+30435,ferritin,Central,31-50,0.8320000000000001
+30436,iron,Jerusalem,19-21,0.723
+30437,hdl,Dan - Petach Tikva,66-79,0.7929999999999999
+30438,b12,Dan - Petach Tikva,19-21,0.9109999999999999
+30439,albumin,Dan - Petach Tikva,01-3,0.968
+30440,ldl,Tel Aviv,9-13,0.7390000000000001
+30441,b12,Sharon - Shomron,14-18,0.9259999999999999
+30442,vitaminD,Jerusalem,01-3,0.163
+30443,transf,Eilat,14-18,0.8759999999999999
+30444,hba1c,Haifa,51-65,0.345
+30445,hdl,Eilat,9-13,0.878
+30446,b12,Sharon - Shomron,22-30,0.89
+30447,chol,Jerusalem,51-65,0.617
+30448,mgb,Tel Aviv,80+,0.94
+30449,transf,Sharon - Shomron,04-8,0.9590000000000001
+30450,ferritin,North,19-21,0.784
+30451,b12,Central,01-3,0.9009999999999999
+30452,hba1c,Jerusalem,22-30,0.94
+30453,mgb,South,66-79,0.924
+30454,transf,Tel Aviv,9-13,0.92
+30455,hdl,Haifa,01-3,0.812
+30456,vitaminD,Haifa,19-21,0.071
+30457,hdl,Jerusalem,66-79,0.7609999999999999
+30458,iron,Dan - Petach Tikva,19-21,0.774
+30459,hb,Eilat,14-18,0.687
+30460,b12,Central,19-21,0.9079999999999999
+30461,b12,South,14-18,0.8640000000000001
+30462,ldl,Haifa,9-13,0.825
+30463,iron,Eilat,01-3,0.669
+30464,hba1c,Sharon - Shomron,66-79,0.267
+30465,nonhdl,Eilat,22-30,0.8390000000000001
+30466,hba1c,North,66-79,0.335
+30467,hdl,Tel Aviv,04-8,0.8809999999999999
+30468,ldl,Sharon - Shomron,51-65,0.37799999999999995
+30469,albumin,Jerusalem,80+,0.8540000000000001
+30470,ldl,Jerusalem,80+,0.606
+30471,b12,Haifa,04-8,0.958
+30472,iron,Dan - Petach Tikva,9-13,0.693
+30473,transf,Tel Aviv,51-65,0.9279999999999999
+30474,vitaminD,Sharon - Shomron,66-79,0.3
+30475,b12,Central,51-65,0.903
+30476,hba1c,Jerusalem,9-13,0.927
+30477,mgb,Haifa,80+,0.917
+30478,hb,Dan - Petach Tikva,04-8,0.925
+30479,chol,Jerusalem,19-21,0.917
+30480,b12,Eilat,01-3,0.287
+30481,albumin,Dan - Petach Tikva,19-21,0.973
+30482,vitaminD,Jerusalem,14-18,0.055999999999999994
+30483,nonhdl,North,66-79,0.753
+30484,hdl,Tel Aviv,01-3,0.75
+30485,iron,Jerusalem,01-3,0.5589999999999999
+30486,chol,North,66-79,0.726
+30487,trig,North,14-18,0.932
+30488,vitaminD,South,31-50,0.124
+30489,mgb,South,22-30,0.963
+30490,znb,North,31-50,0.893
+30491,chol,Tel Aviv,04-8,0.9390000000000001
+30492,iron,Dan - Petach Tikva,51-65,0.852
+30493,albumin,Haifa,04-8,0.993
+30494,ldl,Haifa,14-18,0.8140000000000001
+30495,ldl,Jerusalem,31-50,0.377
+30496,transf,Jerusalem,31-50,0.883
+30497,ldl,South,51-65,0.368
+30498,b12,Tel Aviv,04-8,0.9540000000000001
+30499,nonhdl,Haifa,04-8,0.971
+30500,hb,Central,04-8,0.9309999999999999
+30501,folacid,South,9-13,0.6759999999999999
+30502,vitaminD,South,66-79,0.22
+30503,chol,Eilat,01-3,0.98
+30504,hdl,North,31-50,0.752
+30505,iron,Dan - Petach Tikva,01-3,0.633
+30506,ldl,Haifa,22-30,0.628
+30507,chol,Sharon - Shomron,66-79,0.741
+30508,b12,Eilat,51-65,0.816
+30509,mgb,North,14-18,0.8370000000000001
+30510,vitaminD,Sharon - Shomron,31-50,0.14800000000000002
+30511,ferritin,Central,80+,0.847
+30512,trig,North,22-30,0.862
+30513,albumin,North,66-79,0.9520000000000001
+30514,b12,North,66-79,0.7859999999999999
+30515,mgb,North,51-65,0.9620000000000001
+30516,albumin,North,22-30,0.961
+30517,iron,Central,04-8,0.682
+30518,trig,Jerusalem,04-8,0.946
+30519,ldl,North,22-30,0.588
+30520,vitaminD,North,19-21,0.15
+30521,vitaminD,Eilat,22-30,0.251
+30522,hdl,South,01-3,0.754
+30523,mgb,Jerusalem,19-21,0.961
+30524,nonhdl,South,01-3,0.965
+30525,ldl,Jerusalem,66-79,0.534
+30526,hba1c,Central,31-50,0.6920000000000001
+30527,transf,Jerusalem,80+,0.775
+30528,ferritin,Dan - Petach Tikva,51-65,0.883
+30529,znb,Haifa,66-79,0.929
+30530,hba1c,Sharon - Shomron,51-65,0.33899999999999997
+30531,hb,Dan - Petach Tikva,9-13,0.754
+30532,nonhdl,North,22-30,0.8590000000000001
+30533,ldl,Dan - Petach Tikva,9-13,0.764
+30534,iron,Tel Aviv,14-18,0.782
+30535,hdl,Sharon - Shomron,9-13,0.805
+30536,folacid,North,31-50,0.777
+30537,mgb,Tel Aviv,22-30,0.986
+30538,hba1c,Tel Aviv,22-30,0.925
+30539,chol,North,31-50,0.6970000000000001
+30540,nonhdl,North,04-8,0.965
+30541,ferritin,Dan - Petach Tikva,01-3,0.687
+30542,iron,Central,22-30,0.79
+30543,hdl,South,51-65,0.789
+30544,iron,Dan - Petach Tikva,04-8,0.705
+30545,mgb,Sharon - Shomron,51-65,0.9590000000000001
+33977,mgb,Dan - Petach Tikva,22-30,0.9390000000000001
+33978,hba1c,North,19-21,0.919
+33979,hdl,Dan - Petach Tikva,51-65,0.7709999999999999
+33980,iron,Sharon - Shomron,22-30,0.7759999999999999
+33981,hb,North,66-79,0.73
+33982,nonhdl,Dan - Petach Tikva,80+,0.7859999999999999
+33983,ldl,South,9-13,0.7609999999999999
+33984,iron,Tel Aviv,04-8,0.7
+33985,vitaminD,Central,66-79,0.254
+33986,znb,Jerusalem,31-50,0.8420000000000001
+33987,ferritin,North,9-13,0.77
+33988,vitaminD,North,51-65,0.272
+33989,ferritin,North,66-79,0.845
+33990,folacid,Sharon - Shomron,22-30,0.66
+33991,nonhdl,Eilat,19-21,0.883
+33992,transf,Sharon - Shomron,31-50,0.885
+33993,hb,North,80+,0.55
+33994,trig,Jerusalem,14-18,0.917
+33995,iron,Eilat,14-18,0.753
+33996,iron,South,9-13,0.6459999999999999
+33997,hdl,Dan - Petach Tikva,01-3,0.7759999999999999
+33998,iron,South,22-30,0.7390000000000001
+33999,hb,Sharon - Shomron,66-79,0.762
+34000,mgb,Jerusalem,22-30,0.993
+34001,ldl,Central,22-30,0.585
+34002,hdl,Central,51-65,0.774
+34003,ldl,Sharon - Shomron,9-13,0.741
+34004,ferritin,Tel Aviv,04-8,0.769
+34005,hba1c,Jerusalem,51-65,0.47100000000000003
+34006,nonhdl,Central,04-8,0.961
+34007,hba1c,Eilat,80+,0.374
+34008,znb,Central,31-50,0.914
+34009,trig,Eilat,66-79,0.6990000000000001
+34010,hb,South,9-13,0.7709999999999999
+34011,vitaminD,Dan - Petach Tikva,66-79,0.268
+34012,ferritin,Sharon - Shomron,66-79,0.856
+34013,nonhdl,Jerusalem,80+,0.82
+34014,hb,Sharon - Shomron,80+,0.551
+34015,hdl,Central,01-3,0.74
+34016,ferritin,North,01-3,0.6920000000000001
+34017,chol,Central,66-79,0.743
+34018,chol,Central,31-50,0.705
+34019,iron,North,9-13,0.6629999999999999
+34020,transf,Tel Aviv,80+,0.7709999999999999
+34021,albumin,Eilat,04-8,0.991
+34022,vitaminD,Central,19-21,0.09699999999999999
+34023,vitaminD,Haifa,22-30,0.149
+34024,chol,Eilat,31-50,0.647
+34025,mgb,Central,9-13,0.758
+34026,vitaminD,Dan - Petach Tikva,31-50,0.141
+34027,nonhdl,Haifa,14-18,0.958
+34028,hdl,South,19-21,0.765
+34029,nonhdl,South,19-21,0.9259999999999999
+34030,iron,South,51-65,0.7959999999999999
+34031,transf,Eilat,51-65,0.89
+34032,ferritin,Haifa,66-79,0.887
+34033,b12,Haifa,14-18,0.9309999999999999
+34034,iron,Tel Aviv,9-13,0.703
+34035,ferritin,Dan - Petach Tikva,19-21,0.807
+34036,iron,Sharon - Shomron,31-50,0.785
+34037,hba1c,Haifa,19-21,0.889
+34038,transf,Dan - Petach Tikva,14-18,0.9009999999999999
+34039,hb,Sharon - Shomron,31-50,0.8109999999999999
+34040,folacid,Jerusalem,31-50,0.759
+34041,nonhdl,Central,9-13,0.9540000000000001
+34042,hba1c,South,80+,0.342
+34043,hba1c,South,31-50,0.685
+34044,znb,Central,80+,0.862
+34045,hdl,Central,22-30,0.8109999999999999
+34046,znb,Haifa,14-18,0.9540000000000001
+34047,b12,Jerusalem,9-13,0.927
+34048,mgb,Central,80+,0.9209999999999999
+34049,folacid,North,66-79,0.789
+34050,iron,Jerusalem,31-50,0.7490000000000001
+34051,folacid,Dan - Petach Tikva,9-13,0.682
+34052,mgb,North,04-8,0.519
+34053,transf,Dan - Petach Tikva,04-8,0.9590000000000001
+34054,transf,Haifa,31-50,0.905
+34055,znb,Jerusalem,51-65,0.857
+34056,b12,South,19-21,0.8590000000000001
+34057,chol,Tel Aviv,22-30,0.8320000000000001
+34058,folacid,North,80+,0.7140000000000001
+34059,hb,South,19-21,0.725
+34060,b12,Tel Aviv,01-3,0.9079999999999999
+34061,ferritin,Eilat,01-3,0.731
+34062,ldl,Eilat,9-13,0.7340000000000001
+34063,vitaminD,Tel Aviv,66-79,0.29
+34064,mgb,Central,66-79,0.9390000000000001
+34065,vitaminD,North,01-3,0.465
+34066,b12,Dan - Petach Tikva,31-50,0.9079999999999999
+34067,ferritin,South,14-18,0.784
+34068,ferritin,Dan - Petach Tikva,04-8,0.745
+34069,transf,Dan - Petach Tikva,51-65,0.909
+34070,albumin,South,01-3,0.946
+34071,vitaminD,Tel Aviv,80+,0.29600000000000004
+34072,vitaminD,Haifa,14-18,0.135
+34073,mgb,Dan - Petach Tikva,80+,0.92
+34074,transf,Central,04-8,0.965
+34075,folacid,Central,9-13,0.7070000000000001
+34076,nonhdl,Tel Aviv,14-18,0.948
+34077,ldl,North,80+,0.46299999999999997
+34078,folacid,Eilat,01-3,0.9390000000000001
+34079,trig,Haifa,14-18,0.924
+34080,hba1c,North,9-13,0.929
+34081,znb,Haifa,31-50,0.9390000000000001
+34082,hdl,Central,04-8,0.8759999999999999
+34083,albumin,Tel Aviv,14-18,0.9940000000000001
+34084,b12,Sharon - Shomron,19-21,0.905
+34085,znb,Dan - Petach Tikva,51-65,0.922
+34086,ferritin,Central,04-8,0.746
+34087,ldl,North,66-79,0.52
+34088,mgb,Dan - Petach Tikva,66-79,0.9309999999999999
+34089,iron,South,04-8,0.652
+34090,mgb,Haifa,19-21,0.968
+34091,b12,Jerusalem,31-50,0.873
+34092,transf,Jerusalem,51-65,0.915
+34093,iron,South,19-21,0.679
+34094,albumin,Sharon - Shomron,01-3,0.956
+34095,ferritin,North,14-18,0.7809999999999999
+34096,albumin,South,51-65,0.973
+34097,trig,Haifa,01-3,0.971
+34098,iron,Jerusalem,66-79,0.768
+34099,hdl,Haifa,9-13,0.846
+34100,ferritin,Central,22-30,0.83
+34101,hba1c,North,14-18,0.94
+34102,b12,Sharon - Shomron,9-13,0.9490000000000001
+34103,chol,Haifa,31-50,0.706
+34104,nonhdl,South,51-65,0.62
+34105,nonhdl,Sharon - Shomron,9-13,0.9540000000000001
+34106,hdl,Sharon - Shomron,14-18,0.754
+34107,folacid,Central,51-65,0.774
+34108,ldl,Central,04-8,0.7090000000000001
+34109,hdl,North,22-30,0.787
+34110,znb,Tel Aviv,04-8,0.946
+34111,hb,Jerusalem,31-50,0.8270000000000001
+34112,hb,Tel Aviv,14-18,0.6829999999999999
+34113,znb,Sharon - Shomron,66-79,0.885
+34114,folacid,Central,01-3,0.914
+34115,iron,Central,66-79,0.804
+34116,hdl,Tel Aviv,9-13,0.8370000000000001
+34117,ferritin,Dan - Petach Tikva,22-30,0.855
+34118,znb,Haifa,80+,0.816
+34119,chol,North,9-13,0.958
+34120,nonhdl,Sharon - Shomron,51-65,0.642
+34121,b12,South,9-13,0.78
+34122,znb,South,22-30,0.825
+34123,albumin,Haifa,22-30,0.975
+34124,chol,Tel Aviv,80+,0.736
+34125,ferritin,Eilat,04-8,0.78
+34126,folacid,Dan - Petach Tikva,51-65,0.752
+34127,hdl,South,14-18,0.754
+34128,mgb,Haifa,01-3,0.907
+34129,transf,Haifa,66-79,0.847
+34130,hdl,Sharon - Shomron,22-30,0.785
+34131,trig,Haifa,9-13,0.925
+34132,znb,North,66-79,0.894
+34133,folacid,Dan - Petach Tikva,01-3,0.925
+34134,nonhdl,Haifa,22-30,0.861
+34135,hba1c,South,14-18,0.902
+34136,albumin,North,51-65,0.983
+34137,vitaminD,Central,51-65,0.179
+34138,trig,Tel Aviv,51-65,0.682
+34139,nonhdl,Haifa,31-50,0.701
+34140,chol,Tel Aviv,31-50,0.708
+34141,znb,Tel Aviv,80+,0.853
+34142,folacid,South,22-30,0.653
+34143,mgb,Central,01-3,0.922
+34144,ferritin,Haifa,04-8,0.885
+34145,mgb,South,19-21,0.946
+34146,folacid,North,01-3,0.9420000000000001
+34147,znb,Dan - Petach Tikva,31-50,0.91
+34148,hba1c,Dan - Petach Tikva,51-65,0.371
+34149,vitaminD,Jerusalem,66-79,0.21899999999999997
+34150,nonhdl,Eilat,04-8,0.9390000000000001
+34151,vitaminD,Sharon - Shomron,14-18,0.152
+34152,hb,Sharon - Shomron,9-13,0.7440000000000001
+34153,trig,Central,14-18,0.927
+34154,ldl,Eilat,22-30,0.578
+34155,chol,Dan - Petach Tikva,66-79,0.7290000000000001
+34156,ferritin,Sharon - Shomron,01-3,0.6990000000000001
+34157,hdl,Jerusalem,51-65,0.741
+34158,vitaminD,Tel Aviv,22-30,0.23399999999999999
+34159,iron,Haifa,19-21,0.764
+34160,vitaminD,Dan - Petach Tikva,19-21,0.083
+34161,iron,North,22-30,0.7509999999999999
+34162,mgb,Dan - Petach Tikva,9-13,0.7390000000000001
+34163,nonhdl,Central,80+,0.775
+34164,iron,Haifa,04-8,0.7070000000000001
+34165,mgb,Dan - Petach Tikva,01-3,0.91
+34166,mgb,Central,22-30,0.972
+34167,trig,Dan - Petach Tikva,14-18,0.924
+34168,vitaminD,South,14-18,0.106
+34169,hba1c,Central,51-65,0.374
+34170,ferritin,Tel Aviv,51-65,0.887
+34171,folacid,Sharon - Shomron,01-3,0.9359999999999999
+34172,iron,Central,14-18,0.755
+34173,transf,South,31-50,0.87
+34174,chol,Jerusalem,66-79,0.737
+34175,folacid,North,22-30,0.7440000000000001
+34176,iron,Sharon - Shomron,9-13,0.6940000000000001
+34177,ferritin,North,80+,0.8370000000000001
+34178,nonhdl,Dan - Petach Tikva,51-65,0.616
+34179,chol,Central,04-8,0.9470000000000001
+34180,mgb,Jerusalem,14-18,0.772
+34181,folacid,South,14-18,0.5479999999999999
+34182,hb,Tel Aviv,19-21,0.81
+34183,ldl,Central,14-18,0.7709999999999999
+34184,vitaminD,Central,80+,0.23800000000000002
+34185,hb,Sharon - Shomron,22-30,0.804
+34186,ferritin,Eilat,14-18,0.809
+34187,znb,Dan - Petach Tikva,9-13,0.895
+34188,ldl,Tel Aviv,19-21,0.7070000000000001
+34189,nonhdl,Eilat,31-50,0.6629999999999999
+34190,hba1c,Eilat,66-79,0.39
+34191,hdl,Eilat,19-21,0.812
+34192,albumin,Central,51-65,0.9840000000000001
+34193,transf,South,04-8,0.95
+34194,b12,Tel Aviv,51-65,0.907
+34195,albumin,Eilat,01-3,0.965
+34196,mgb,Eilat,31-50,0.958
+34197,b12,Eilat,19-21,0.8290000000000001
+34198,trig,Sharon - Shomron,19-21,0.9079999999999999
+34199,hb,Central,14-18,0.662
+34200,znb,Dan - Petach Tikva,01-3,0.86
+34201,trig,Dan - Petach Tikva,22-30,0.8490000000000001
+34202,transf,South,19-21,0.838
+34203,vitaminD,Jerusalem,04-8,0.134
+34204,folacid,Dan - Petach Tikva,04-8,0.892
+34205,hb,Eilat,51-65,0.8909999999999999
+34206,ferritin,Sharon - Shomron,22-30,0.823
+34207,nonhdl,Central,51-65,0.628
+34208,ldl,Dan - Petach Tikva,14-18,0.777
+34209,vitaminD,Haifa,9-13,0.141
+34210,ferritin,Sharon - Shomron,80+,0.8490000000000001
+34211,albumin,Dan - Petach Tikva,51-65,0.987
+34212,folacid,Dan - Petach Tikva,19-21,0.635
+34213,vitaminD,Haifa,01-3,0.316
+34214,chol,Dan - Petach Tikva,04-8,0.945
+34215,hb,South,22-30,0.75
+34216,vitaminD,Dan - Petach Tikva,80+,0.292
+34217,hb,Dan - Petach Tikva,14-18,0.6729999999999999
+34218,znb,Jerusalem,9-13,0.889
+34219,nonhdl,Dan - Petach Tikva,66-79,0.7609999999999999
+34220,hdl,Sharon - Shomron,04-8,0.87
+34221,transf,Eilat,9-13,0.893
+34222,albumin,Central,01-3,0.961
+34223,chol,Central,80+,0.7559999999999999
+34224,b12,Central,04-8,0.945
+34225,hb,Eilat,19-21,0.845
+34226,transf,Haifa,22-30,0.8859999999999999
+34227,chol,North,80+,0.693
+34228,transf,Dan - Petach Tikva,19-21,0.8859999999999999
+34229,folacid,Tel Aviv,19-21,0.5710000000000001
+34230,b12,Central,14-18,0.934
+34231,mgb,Jerusalem,04-8,0.467
+34232,hb,South,14-18,0.62
+34233,nonhdl,Haifa,9-13,0.966
+34234,chol,Eilat,14-18,0.925
+34235,trig,North,9-13,0.929
+34236,mgb,Haifa,66-79,0.924
+34237,vitaminD,Eilat,31-50,0.24100000000000002
+34238,transf,South,14-18,0.862
+34239,ldl,Sharon - Shomron,14-18,0.7490000000000001
+34240,vitaminD,Sharon - Shomron,80+,0.304
+34241,ldl,Tel Aviv,51-65,0.355
+34242,trig,North,51-65,0.6659999999999999
+34243,folacid,South,04-8,0.871
+34244,albumin,Tel Aviv,51-65,0.986
+34245,hba1c,Dan - Petach Tikva,04-8,0.895
+34246,ldl,Haifa,01-3,0.812
+34247,folacid,Central,14-18,0.588
+34248,mgb,Tel Aviv,31-50,0.986
+34249,trig,Sharon - Shomron,01-3,0.971
+34250,folacid,Eilat,9-13,0.632
+34251,nonhdl,Tel Aviv,9-13,0.955
+34252,hba1c,Jerusalem,04-8,0.94
+34253,chol,Sharon - Shomron,80+,0.758
+34254,b12,North,80+,0.7170000000000001
+34255,mgb,Dan - Petach Tikva,04-8,0.6509999999999999
+34256,b12,Eilat,14-18,0.8059999999999999
+34257,albumin,Tel Aviv,01-3,0.963
+34258,trig,North,01-3,0.97
+34259,vitaminD,South,80+,0.218
+34260,b12,Sharon - Shomron,04-8,0.9520000000000001
+34261,trig,Sharon - Shomron,51-65,0.674
+34262,ldl,Eilat,19-21,0.667
+34263,znb,Sharon - Shomron,80+,0.8079999999999999
+34264,folacid,Sharon - Shomron,04-8,0.894
+34265,albumin,Tel Aviv,9-13,0.995
+34266,mgb,Haifa,31-50,0.9790000000000001
+34267,folacid,Dan - Petach Tikva,14-18,0.568
+34268,ldl,Tel Aviv,01-3,0.735
+34269,hdl,Haifa,31-50,0.73
+34270,iron,Tel Aviv,01-3,0.6409999999999999
+34271,transf,Central,22-30,0.8640000000000001
+34272,vitaminD,Dan - Petach Tikva,04-8,0.233
+34273,chol,North,14-18,0.9540000000000001
+34274,folacid,Central,04-8,0.88
+34275,ferritin,Dan - Petach Tikva,9-13,0.743
+34276,iron,Haifa,66-79,0.785
+34277,ldl,Jerusalem,14-18,0.747
+34278,b12,Dan - Petach Tikva,22-30,0.897
+34279,albumin,Sharon - Shomron,80+,0.823
+34280,iron,Haifa,01-3,0.635
+34281,nonhdl,Eilat,66-79,0.716
+34282,iron,Central,80+,0.7240000000000001
+34283,chol,Jerusalem,04-8,0.951
+34284,b12,Haifa,66-79,0.8759999999999999
+34285,ferritin,South,80+,0.835
+34286,hdl,Sharon - Shomron,80+,0.789
+34287,hb,Jerusalem,14-18,0.6990000000000001
+34288,folacid,Tel Aviv,66-79,0.779
+34289,mgb,Tel Aviv,04-8,0.6709999999999999
+34290,chol,Central,19-21,0.915
+34291,hdl,Sharon - Shomron,66-79,0.782
+34292,b12,Haifa,80+,0.838
+34293,folacid,Tel Aviv,80+,0.735
+34294,iron,Tel Aviv,66-79,0.838
+34295,transf,Dan - Petach Tikva,22-30,0.867
+34296,znb,Sharon - Shomron,19-21,0.882
+34297,b12,Eilat,04-8,0.505
+34298,vitaminD,Central,04-8,0.23399999999999999
+34299,chol,Eilat,80+,0.722
+34300,transf,Haifa,14-18,0.932
+34301,folacid,Haifa,51-65,0.78
+34302,vitaminD,Dan - Petach Tikva,51-65,0.18100000000000002
+34303,albumin,Eilat,66-79,0.958
+34304,hba1c,Dan - Petach Tikva,19-21,0.86
+34305,iron,Dan - Petach Tikva,80+,0.726
+34306,znb,Central,9-13,0.935
+34307,mgb,Jerusalem,31-50,0.993
+34308,hb,Dan - Petach Tikva,66-79,0.767
+34309,ldl,Haifa,31-50,0.423
+34310,hdl,South,66-79,0.8009999999999999
+34311,trig,Dan - Petach Tikva,9-13,0.93
+45533,hdl,Sharon - Shomron,01-3,0.76
+45534,chol,Tel Aviv,66-79,0.727
+45535,nonhdl,Eilat,14-18,0.9329999999999999
+45536,hba1c,Dan - Petach Tikva,31-50,0.688
+45537,hba1c,North,01-3,0.956
+45538,mgb,North,01-3,0.8270000000000001
+45539,ferritin,Jerusalem,51-65,0.8740000000000001
+45540,albumin,Eilat,14-18,0.97
+45541,mgb,North,9-13,0.733
+45542,chol,Eilat,22-30,0.777
+45543,hb,Dan - Petach Tikva,01-3,0.845
+45544,nonhdl,Sharon - Shomron,22-30,0.847
+45545,hba1c,North,51-65,0.436
+45546,ldl,Central,9-13,0.752
+45547,folacid,Central,22-30,0.713
+45548,ferritin,Eilat,9-13,0.792
+45549,b12,Tel Aviv,9-13,0.958
+45550,b12,Central,9-13,0.953
+45551,ldl,South,04-8,0.7120000000000001
+45552,chol,Dan - Petach Tikva,9-13,0.953
+45553,hba1c,Sharon - Shomron,31-50,0.626
+45554,albumin,Central,9-13,0.992
+45555,folacid,Jerusalem,66-79,0.784
+45556,trig,South,66-79,0.691
+45557,folacid,Tel Aviv,01-3,0.9440000000000001
+45558,folacid,Haifa,22-30,0.6729999999999999
+45559,trig,South,80+,0.759
+45560,hdl,Central,9-13,0.825
+45561,iron,North,31-50,0.745
+45562,mgb,Jerusalem,51-65,0.98
+45563,transf,Tel Aviv,19-21,0.8759999999999999
+45564,hba1c,Dan - Petach Tikva,22-30,0.885
+45565,ferritin,Tel Aviv,22-30,0.8959999999999999
+45566,iron,North,66-79,0.73
+45567,znb,Central,66-79,0.914
+45568,hb,North,31-50,0.794
+45569,folacid,Tel Aviv,14-18,0.539
+45570,transf,Central,14-18,0.9
+45571,folacid,South,51-65,0.73
+45572,hdl,Central,14-18,0.773
+45573,hba1c,South,66-79,0.331
+45574,hdl,Jerusalem,22-30,0.762
+45575,b12,Dan - Petach Tikva,9-13,0.96
+45576,albumin,Central,22-30,0.9620000000000001
+45577,albumin,Eilat,9-13,0.988
+45578,ferritin,North,51-65,0.862
+45579,vitaminD,Haifa,51-65,0.18899999999999997
+45580,iron,Sharon - Shomron,66-79,0.767
+45581,folacid,Tel Aviv,22-30,0.7020000000000001
+45582,hba1c,Jerusalem,14-18,0.956
+45583,trig,Central,51-65,0.6729999999999999
+45584,ldl,Sharon - Shomron,04-8,0.7020000000000001
+49303,hdl,South,80+,0.8059999999999999
+49304,b12,Tel Aviv,66-79,0.882
+49305,trig,Haifa,66-79,0.7
+49306,ldl,Eilat,04-8,0.653
+49307,b12,Tel Aviv,80+,0.8320000000000001
+49308,transf,Jerusalem,22-30,0.862
+49309,mgb,Haifa,04-8,0.637
+49310,iron,Jerusalem,51-65,0.8170000000000001
+49311,znb,Sharon - Shomron,31-50,0.904
+49312,albumin,Tel Aviv,04-8,0.988
+49313,ldl,Tel Aviv,14-18,0.765
+49314,trig,Sharon - Shomron,14-18,0.924
+49315,iron,North,14-18,0.725
+49316,transf,Dan - Petach Tikva,31-50,0.8959999999999999
+49317,iron,Jerusalem,9-13,0.643
+49318,ferritin,Dan - Petach Tikva,80+,0.851
+49319,mgb,North,22-30,0.968
+49320,ldl,North,51-65,0.36200000000000004
+49321,ferritin,Sharon - Shomron,19-21,0.78
+49322,hb,Central,66-79,0.76
+49323,vitaminD,Tel Aviv,19-21,0.138
+49324,nonhdl,Tel Aviv,04-8,0.9620000000000001
+49325,b12,Haifa,31-50,0.9129999999999999
+49326,znb,Haifa,19-21,0.938
+49327,ferritin,Haifa,14-18,0.8690000000000001
+49328,iron,Central,01-3,0.606
+49329,hb,Dan - Petach Tikva,22-30,0.816
+49330,chol,South,66-79,0.728
+49331,albumin,Sharon - Shomron,66-79,0.955
+49332,folacid,North,19-21,0.6579999999999999
+49333,iron,Eilat,80+,0.632
+49334,trig,Sharon - Shomron,22-30,0.85
+49335,mgb,Sharon - Shomron,14-18,0.8440000000000001
+49336,nonhdl,South,66-79,0.7659999999999999
+49337,znb,South,31-50,0.804
+49338,ldl,Dan - Petach Tikva,31-50,0.39799999999999996
+49339,ldl,Tel Aviv,22-30,0.584
+49340,trig,South,14-18,0.9179999999999999
+49341,b12,Sharon - Shomron,66-79,0.858
+49342,hb,Haifa,51-65,0.86
+49343,nonhdl,Jerusalem,19-21,0.917
+49344,ldl,Dan - Petach Tikva,80+,0.5579999999999999
+49345,iron,Central,9-13,0.6890000000000001
+49346,mgb,Sharon - Shomron,22-30,0.9420000000000001
+49347,transf,Haifa,51-65,0.9
+49348,ferritin,South,19-21,0.765
+49349,vitaminD,North,66-79,0.341
+49350,b12,Tel Aviv,31-50,0.915
+49351,hb,Jerusalem,04-8,0.946
+49352,ldl,North,01-3,0.7559999999999999
+49353,albumin,Jerusalem,19-21,0.987
+49354,vitaminD,Eilat,9-13,0.139
+49355,chol,Eilat,51-65,0.52
+49356,b12,South,66-79,0.76
+49357,folacid,Sharon - Shomron,19-21,0.52
+49358,hb,Jerusalem,22-30,0.8270000000000001
+49359,vitaminD,Sharon - Shomron,19-21,0.07200000000000001
+49360,nonhdl,North,80+,0.718
+49361,albumin,Sharon - Shomron,22-30,0.9570000000000001
+49362,b12,North,31-50,0.8440000000000001
+49363,hdl,Sharon - Shomron,51-65,0.764
+49364,ferritin,Central,66-79,0.857
+49365,znb,North,19-21,0.902
+49366,mgb,Sharon - Shomron,01-3,0.872
+49367,hdl,North,01-3,0.7709999999999999
+49368,mgb,South,51-65,0.9590000000000001
+49369,vitaminD,Eilat,04-8,0.22699999999999998
+49370,hba1c,Jerusalem,31-50,0.775
+54311,b12,North,14-18,0.792
+54312,albumin,Eilat,31-50,0.966
+54313,nonhdl,Jerusalem,51-65,0.627
+54314,chol,Jerusalem,80+,0.787
+54315,folacid,Sharon - Shomron,14-18,0.556
+54316,ldl,Eilat,80+,0.586
+54317,ldl,Haifa,19-21,0.75
+54318,albumin,South,80+,0.826
+54319,folacid,Central,19-21,0.623
+54320,chol,Haifa,01-3,0.973
+54321,trig,Central,22-30,0.8540000000000001
+54322,b12,Haifa,51-65,0.899
+54323,trig,South,19-21,0.905
+54324,chol,Tel Aviv,51-65,0.598
+54325,znb,Haifa,51-65,0.95
+54326,hdl,Eilat,31-50,0.784
+54327,transf,Sharon - Shomron,19-21,0.856
+54328,hba1c,Eilat,9-13,0.903
+54329,hb,Eilat,9-13,0.7909999999999999
+54330,hba1c,Jerusalem,01-3,0.948
+54331,nonhdl,Central,01-3,0.9690000000000001
+54332,nonhdl,Jerusalem,22-30,0.843
+54333,iron,Eilat,9-13,0.6659999999999999
+54334,trig,Central,19-21,0.905
+54335,hdl,Tel Aviv,51-65,0.792
+54336,folacid,South,19-21,0.557
+54337,trig,Tel Aviv,31-50,0.78
+54338,hba1c,Eilat,22-30,0.9009999999999999
+54339,vitaminD,Jerusalem,9-13,0.063
+54340,nonhdl,Tel Aviv,51-65,0.623
+54341,chol,Jerusalem,01-3,0.9640000000000001
+54342,transf,Tel Aviv,01-3,0.9540000000000001
+54343,vitaminD,Dan - Petach Tikva,22-30,0.16
+54344,chol,Jerusalem,9-13,0.951
+54345,albumin,Dan - Petach Tikva,9-13,0.992
+54346,ldl,South,19-21,0.7170000000000001
+54347,b12,Dan - Petach Tikva,51-65,0.893
+54348,hdl,Haifa,51-65,0.743
+54349,hb,Central,9-13,0.76
+54350,hb,Central,22-30,0.8140000000000001
+54351,iron,Eilat,22-30,0.78
+54352,nonhdl,North,31-50,0.69
+54353,chol,Sharon - Shomron,31-50,0.713
+54354,albumin,North,31-50,0.9790000000000001
+54355,nonhdl,Haifa,51-65,0.644
+54356,chol,Dan - Petach Tikva,01-3,0.9690000000000001
+54357,b12,Eilat,9-13,0.6859999999999999
+54358,vitaminD,Jerusalem,22-30,0.08800000000000001
+54359,trig,North,66-79,0.7020000000000001
+54360,ferritin,Eilat,66-79,0.823
+54361,vitaminD,North,31-50,0.225
+54362,albumin,Dan - Petach Tikva,22-30,0.965
+54363,vitaminD,Central,9-13,0.132
+54364,znb,North,04-8,0.97
+54365,albumin,Jerusalem,9-13,0.993
+54366,b12,Jerusalem,51-65,0.873
+54367,hdl,Sharon - Shomron,31-50,0.7440000000000001
+54368,hba1c,Eilat,14-18,0.9279999999999999
+54369,nonhdl,Sharon - Shomron,31-50,0.7020000000000001
+54370,chol,Central,01-3,0.9640000000000001
+54371,trig,North,80+,0.748
+54372,chol,South,31-50,0.682
+54373,hba1c,Haifa,04-8,0.9109999999999999
+54374,albumin,Sharon - Shomron,31-50,0.975
+54375,znb,Jerusalem,66-79,0.866
+54376,ferritin,Eilat,80+,0.809
+54377,trig,Eilat,19-21,0.88
+54378,nonhdl,Dan - Petach Tikva,01-3,0.976
+54379,trig,Sharon - Shomron,66-79,0.71
+54380,albumin,Jerusalem,22-30,0.981
+54381,znb,Sharon - Shomron,04-8,0.92
+54382,folacid,Haifa,14-18,0.583
+54383,hdl,Jerusalem,9-13,0.772
+54384,trig,Sharon - Shomron,80+,0.773
+54385,mgb,South,9-13,0.654
+54386,hdl,South,31-50,0.7609999999999999
+54387,vitaminD,Dan - Petach Tikva,9-13,0.145
+54388,albumin,South,31-50,0.9620000000000001
+54389,nonhdl,South,31-50,0.679
+54390,albumin,Haifa,51-65,0.988
+54391,mgb,Eilat,51-65,0.9640000000000001
+54392,albumin,South,66-79,0.945
+54393,hba1c,Tel Aviv,04-8,0.894
+54394,vitaminD,Central,22-30,0.171
+54395,ldl,Sharon - Shomron,19-21,0.6809999999999999
+54396,nonhdl,Jerusalem,9-13,0.948
+54397,znb,Haifa,01-3,0.946
+54398,b12,Sharon - Shomron,51-65,0.885
+54399,hb,Tel Aviv,04-8,0.9390000000000001
+54400,chol,Dan - Petach Tikva,14-18,0.948
+54401,iron,North,80+,0.631
+54402,hdl,Dan - Petach Tikva,80+,0.797
+54403,znb,Haifa,22-30,0.9390000000000001
+54404,chol,Eilat,9-13,0.94
+54405,mgb,Jerusalem,9-13,0.622
+54406,znb,North,51-65,0.9259999999999999
+54407,hb,South,51-65,0.863
+54408,hba1c,Tel Aviv,66-79,0.32299999999999995
+54409,chol,South,04-8,0.943
+54410,znb,Dan - Petach Tikva,19-21,0.863
+54411,ldl,Central,19-21,0.715
+54412,transf,South,51-65,0.905
+54413,hb,Dan - Petach Tikva,19-21,0.8009999999999999
+54414,transf,Tel Aviv,04-8,0.96
+54415,hba1c,Eilat,04-8,0.88
+54416,chol,North,01-3,0.9690000000000001
+54417,ldl,Tel Aviv,04-8,0.698
+54418,hb,Haifa,22-30,0.8079999999999999
+54419,trig,North,04-8,0.96
+54420,transf,Jerusalem,19-21,0.873
+54421,hdl,Sharon - Shomron,19-21,0.74
+54422,mgb,Tel Aviv,66-79,0.9520000000000001
+54423,iron,Sharon - Shomron,80+,0.7
+54424,b12,South,51-65,0.8270000000000001
+54425,hb,Haifa,04-8,0.9259999999999999
+54426,chol,Jerusalem,14-18,0.9490000000000001
+54427,vitaminD,Central,31-50,0.147
+54428,znb,Tel Aviv,22-30,0.912
+54429,hba1c,Sharon - Shomron,19-21,0.87
+54430,transf,Tel Aviv,22-30,0.9
+54431,chol,South,01-3,0.9590000000000001
+54432,transf,South,9-13,0.895
+54433,ldl,South,14-18,0.7759999999999999
+54434,hdl,Jerusalem,80+,0.77
+54435,trig,Sharon - Shomron,9-13,0.927
+54436,znb,Jerusalem,19-21,0.8740000000000001
+54437,hba1c,Haifa,66-79,0.267
+54438,vitaminD,North,9-13,0.294
+54439,folacid,Eilat,14-18,0.516
+54440,hb,Tel Aviv,22-30,0.863
+54441,hb,Jerusalem,19-21,0.84
+54442,ldl,Dan - Petach Tikva,19-21,0.736
+54443,vitaminD,Eilat,66-79,0.3
+54444,ldl,Haifa,04-8,0.802
+54445,vitaminD,Sharon - Shomron,51-65,0.217
+54446,hba1c,South,19-21,0.875
+54447,iron,South,80+,0.675
+54448,hdl,Jerusalem,01-3,0.76
+54449,hb,South,66-79,0.754
+54450,transf,Sharon - Shomron,9-13,0.92
+54451,trig,South,9-13,0.919
+54452,hdl,North,19-21,0.7809999999999999
+54453,hdl,Eilat,22-30,0.847
+54454,vitaminD,Tel Aviv,04-8,0.27699999999999997
+54455,znb,Eilat,31-50,0.855
+54456,mgb,Haifa,14-18,0.851
+54457,mgb,Central,04-8,0.6579999999999999
+54458,ldl,North,9-13,0.768
+54459,trig,Eilat,14-18,0.902
+54460,znb,North,9-13,0.938
+54461,hb,North,51-65,0.848
+54462,folacid,North,04-8,0.927
+54463,vitaminD,Sharon - Shomron,9-13,0.159
+54464,folacid,Central,66-79,0.762
+54465,iron,Eilat,31-50,0.7909999999999999
+54466,chol,Tel Aviv,19-21,0.92
+54467,transf,Haifa,04-8,0.971
+54468,vitaminD,South,51-65,0.155
+54469,ldl,Jerusalem,19-21,0.6729999999999999
+54470,chol,Dan - Petach Tikva,31-50,0.7070000000000001
+54471,transf,North,9-13,0.91
+54472,b12,Eilat,66-79,0.76
+54473,chol,Central,14-18,0.948
+54474,hdl,Central,80+,0.775
+54475,folacid,Dan - Petach Tikva,66-79,0.765
+54476,mgb,Tel Aviv,14-18,0.835
+54477,hb,North,9-13,0.725
+54478,vitaminD,Haifa,04-8,0.259
+54479,znb,Sharon - Shomron,51-65,0.899
+54480,hb,Sharon - Shomron,51-65,0.8540000000000001
+54481,transf,Sharon - Shomron,51-65,0.8909999999999999
+54482,hba1c,Haifa,14-18,0.907
+54483,chol,Haifa,19-21,0.929
+54484,chol,Jerusalem,31-50,0.69
+54485,vitaminD,South,9-13,0.125
+54486,chol,Sharon - Shomron,01-3,0.97
+54487,hba1c,Central,04-8,0.894
+54488,ferritin,Dan - Petach Tikva,14-18,0.78
+54489,hb,Eilat,01-3,0.847
+54490,albumin,Central,14-18,0.992
+54491,chol,Central,22-30,0.8340000000000001
+54492,chol,Haifa,66-79,0.738
+54493,hb,Central,01-3,0.851
+54494,iron,Tel Aviv,51-65,0.863
+54495,albumin,Sharon - Shomron,04-8,0.985
+54496,trig,Eilat,22-30,0.875
+54497,transf,Jerusalem,66-79,0.8740000000000001
+54498,trig,Central,80+,0.769
+54499,znb,Central,04-8,0.927
+54500,nonhdl,Dan - Petach Tikva,31-50,0.7020000000000001
+54501,hdl,North,04-8,0.872
+54502,nonhdl,Tel Aviv,19-21,0.932
+54503,mgb,Sharon - Shomron,80+,0.925
+54504,hba1c,Sharon - Shomron,80+,0.281
+54505,albumin,Jerusalem,31-50,0.988
+54506,b12,Haifa,9-13,0.948
+54507,nonhdl,Eilat,51-65,0.561
+54508,ferritin,Jerusalem,14-18,0.8290000000000001
+54509,albumin,Dan - Petach Tikva,14-18,0.986
+54510,hdl,Eilat,14-18,0.8640000000000001
+54511,znb,Tel Aviv,14-18,0.875
+54512,ferritin,South,04-8,0.862
+54513,nonhdl,Eilat,9-13,0.943
+54514,chol,Dan - Petach Tikva,22-30,0.833
+54515,transf,Dan - Petach Tikva,01-3,0.9540000000000001
+54516,nonhdl,Sharon - Shomron,01-3,0.972
+54517,nonhdl,Central,14-18,0.953
+54518,ldl,Sharon - Shomron,22-30,0.57
+54519,trig,North,19-21,0.9179999999999999
+54520,albumin,South,04-8,0.9670000000000001
+54521,hdl,South,9-13,0.785
+54522,nonhdl,Haifa,19-21,0.93
+54523,albumin,Eilat,51-65,0.981
+54524,ldl,Eilat,51-65,0.304
+54525,nonhdl,Jerusalem,31-50,0.6709999999999999
+54526,trig,Dan - Petach Tikva,80+,0.764
+54527,trig,Jerusalem,01-3,0.961
+54528,znb,Dan - Petach Tikva,04-8,0.894
+54529,mgb,South,80+,0.91
+54530,folacid,Tel Aviv,9-13,0.696
+54531,albumin,Tel Aviv,19-21,0.982
+54532,ferritin,Jerusalem,01-3,0.7709999999999999
+54533,nonhdl,Sharon - Shomron,04-8,0.96
+54534,ferritin,South,22-30,0.807
+54535,chol,Jerusalem,22-30,0.843
+54536,albumin,Central,31-50,0.978
+54537,transf,Eilat,80+,0.71
+54538,transf,Jerusalem,01-3,0.953
+54539,iron,Jerusalem,04-8,0.637
+54540,nonhdl,Dan - Petach Tikva,14-18,0.951
+54541,iron,Haifa,51-65,0.84
+54542,nonhdl,North,01-3,0.9740000000000001
+54543,ldl,Central,66-79,0.54
+54544,ldl,South,22-30,0.579
+54545,transf,Central,66-79,0.8809999999999999
+54546,znb,Jerusalem,04-8,0.948
+54547,mgb,Central,19-21,0.95
+54548,folacid,Eilat,22-30,0.653
+54549,albumin,Haifa,19-21,0.973
+54550,folacid,Haifa,9-13,0.726
+54551,nonhdl,South,04-8,0.9590000000000001
+54552,ferritin,Haifa,19-21,0.866
+54553,b12,Sharon - Shomron,31-50,0.902
+54554,ferritin,Sharon - Shomron,04-8,0.764
+54555,albumin,South,22-30,0.914
+54556,ldl,Eilat,66-79,0.496
+54557,transf,Central,01-3,0.958
+54558,hba1c,South,01-3,0.9279999999999999
+54559,ferritin,Central,14-18,0.765
+54560,nonhdl,Central,31-50,0.7
+54561,albumin,North,04-8,0.9790000000000001
+54562,hb,Eilat,80+,0.537
+54563,nonhdl,Jerusalem,14-18,0.946
+54564,iron,Haifa,9-13,0.6940000000000001
+54565,ferritin,Eilat,51-65,0.8809999999999999
+54566,transf,Dan - Petach Tikva,66-79,0.861
+54567,mgb,Haifa,22-30,0.976
+54568,mgb,Dan - Petach Tikva,19-21,0.9229999999999999
+54569,b12,Jerusalem,04-8,0.961
+54570,ferritin,Tel Aviv,19-21,0.8290000000000001
+54571,hba1c,North,80+,0.336
+54572,mgb,North,80+,0.92
+54573,ferritin,Jerusalem,66-79,0.861
+54574,albumin,Dan - Petach Tikva,31-50,0.978
+54575,b12,South,31-50,0.863
