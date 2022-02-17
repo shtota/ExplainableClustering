@@ -6,8 +6,8 @@ TEST_MODE = False
 SERVER_NAME = 'Bianalyzelab'
 PORT = '1521'
 SERVICE_NAME='ALP'
-USER='AlexanderCh'
-PASSWORD='Aa123456'
+with open('login.txt', 'r') as f:
+    USER, PASSWORD  = f.read().split('\n')
 
 DEPTH = 5
 

@@ -1,2 +1,2 @@
-USER='AlexanderCh'
-PASSWORD='Aa123456'
+AlexanderCh
+Aa123456
