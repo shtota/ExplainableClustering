@@ -1,0 +1,3245 @@
+test_name,sector,district,age,low_val_pct,normal_pct,high_val_pct
+trig,arab,Jerusalem,80+,0.0,0.726,0.27399999999999997
+hdl,haredi,North,09-13,0.195,0.805,0.0
+albumin,arab,North,19-21,0.016,0.983,0.001
+hba1c,arab,Haifa,22-30,0.001,0.858,0.14
+vitaminD,general,Sharon - Shomron,80+,0.6579999999999999,0.311,0.032
+hb,arab,Dan - Petach Tikva,01-03,0.214,0.785,0.001
+trig,haredi,Dan - Petach Tikva,01-03,0.0,0.96,0.04
+hb,general,Sharon - Shomron,14-18,0.29100000000000004,0.679,0.03
+albumin,general,Central,19-21,0.026000000000000002,0.9690000000000001,0.005
+b12,haredi,Jerusalem,09-13,0.04,0.9520000000000001,0.008
+nonhdl,general,Haifa,22-30,0.0,0.862,0.138
+vitaminD,arab,Sharon - Shomron,19-21,0.976,0.022000000000000002,0.003
+hba1c,arab,Jerusalem,09-13,0.0,0.929,0.07
+transf,haredi,Central,66-79,0.19,0.872,0.018000000000000002
+folacid,arab,Jerusalem,31-50,0.265,0.735,0.0
+nonhdl,general,Jerusalem,19-21,0.0,0.9309999999999999,0.069
+chol,general,Eilat,51-65,0.0,0.52,0.48
+hdl,arab,Jerusalem,14-18,0.29100000000000004,0.7090000000000001,0.0
+albumin,haredi,North,22-30,0.07400000000000001,0.9229999999999999,0.003
+ferritin,haredi,Central,01-03,0.298,0.7020000000000001,0.0
+nonhdl,haredi,South,09-13,0.0,0.96,0.04
+albumin,haredi,Dan - Petach Tikva,80+,0.14,0.86,0.0
+nonhdl,arab,South,31-50,0.0,0.679,0.321
+folacid,general,Tel Aviv,80+,0.265,0.735,0.0
+trig,haredi,Jerusalem,19-21,0.0,0.912,0.08800000000000001
+chol,general,Sharon - Shomron,14-18,0.0,0.941,0.059000000000000004
+ldl,arab,Jerusalem,31-50,0.0,0.33799999999999997,0.662
+trig,arab,South,22-30,0.0,0.818,0.182
+nonhdl,arab,South,66-79,0.0,0.772,0.228
+albumin,arab,South,66-79,0.13699999999999998,0.863,0.0
+trig,general,Central,09-13,0.0,0.927,0.073
+hba1c,arab,North,66-79,0.0,0.24,0.76
+albumin,general,Jerusalem,66-79,0.028999999999999998,0.971,0.0
+folacid,general,Tel Aviv,66-79,0.221,0.779,0.0
+trig,general,Eilat,80+,0.0,0.763,0.237
+albumin,haredi,Haifa,51-65,0.018000000000000002,0.981,0.001
+hdl,arab,Sharon - Shomron,31-50,0.335,0.665,0.0
+hdl,general,Dan - Petach Tikva,31-50,0.221,0.779,0.0
+albumin,general,Central,01-03,0.038,0.9620000000000001,0.0
+hdl,haredi,Dan - Petach Tikva,66-79,0.205,0.795,0.0
+mgb,arab,South,31-50,0.027999999999999997,0.9670000000000001,0.005
+transf,general,South,19-21,0.012,0.87,0.11699999999999999
+hdl,haredi,Jerusalem,04-08,0.158,0.8420000000000001,0.0
+mgb,arab,Haifa,66-79,0.066,0.9009999999999999,0.033
+chol,general,Tel Aviv,01-03,0.0,0.965,0.035
+hba1c,general,Central,09-13,0.0,0.863,0.13699999999999998
+trig,arab,North,80+,0.0,0.731,0.26899999999999996
+mgb,haredi,Dan - Petach Tikva,80+,0.077,0.899,0.024
+b12,haredi,North,09-13,0.015,0.7659999999999999,0.21899999999999997
+folacid,arab,Haifa,14-18,0.444,0.556,0.0
+albumin,arab,North,01-03,0.057999999999999996,0.9420000000000001,0.0
+b12,general,Dan - Petach Tikva,19-21,0.07,0.909,0.021
+b12,arab,Jerusalem,51-65,0.133,0.851,0.016
+folacid,haredi,South,09-13,0.321,0.679,0.0
+vitaminD,general,Tel Aviv,31-50,0.804,0.18899999999999997,0.006999999999999999
+hb,arab,Jerusalem,51-65,0.153,0.838,0.009000000000000001
+hba1c,general,Dan - Petach Tikva,09-13,0.0,0.862,0.13699999999999998
+trig,haredi,Jerusalem,14-18,0.0,0.924,0.076
+b12,haredi,Haifa,19-21,0.038,0.9420000000000001,0.019
+albumin,arab,North,22-30,0.03,0.9690000000000001,0.001
+iron,general,Central,01-03,0.322,0.614,0.064
+iron,arab,Haifa,31-50,0.2,0.774,0.027000000000000003
+folacid,arab,South,31-50,0.41,0.59,0.0
+albumin,general,Central,22-30,0.035,0.9640000000000001,0.001
+hdl,general,Central,09-13,0.17,0.83,0.0
+hb,haredi,Sharon - Shomron,19-21,0.257,0.736,0.006999999999999999
+ldl,general,Jerusalem,80+,0.0,0.605,0.395
+vitaminD,general,Central,80+,0.743,0.24,0.016
+hdl,general,Haifa,01-03,0.16399999999999998,0.836,0.0
+trig,haredi,South,04-08,0.0,0.961,0.039
+hdl,arab,North,09-13,0.207,0.7929999999999999,0.0
+ldl,general,North,04-08,0.0,0.708,0.292
+transf,general,South,04-08,0.006,0.9590000000000001,0.035
+znb,haredi,Jerusalem,31-50,0.174,0.813,0.013999999999999999
+folacid,haredi,Haifa,80+,0.293,0.7070000000000001,0.0
+hb,general,Dan - Petach Tikva,14-18,0.284,0.682,0.035
+ldl,arab,South,22-30,0.0,0.5660000000000001,0.434
+vitaminD,arab,Central,22-30,0.963,0.037000000000000005,0.0
+chol,haredi,Haifa,31-50,0.0,0.755,0.245
+mgb,general,Haifa,51-65,0.024,0.955,0.021
+hb,haredi,Central,09-13,0.231,0.762,0.006999999999999999
+iron,general,Jerusalem,14-18,0.215,0.7340000000000001,0.051
+folacid,general,Haifa,31-50,0.245,0.755,0.0
+transf,arab,Jerusalem,80+,0.27399999999999997,0.7070000000000001,0.018000000000000002
+iron,haredi,Haifa,14-18,0.242,0.715,0.043
+vitaminD,haredi,Jerusalem,14-18,0.915,0.085,0.0
+b12,general,Sharon - Shomron,01-03,0.004,0.919,0.078
+ferritin,general,Sharon - Shomron,31-50,0.11800000000000001,0.855,0.027000000000000003
+hba1c,haredi,Haifa,51-65,0.0,0.38299999999999995,0.617
+albumin,general,North,14-18,0.004,0.993,0.003
+iron,haredi,Central,22-30,0.132,0.816,0.052000000000000005
+vitaminD,general,Sharon - Shomron,04-08,0.6809999999999999,0.308,0.011000000000000001
+iron,haredi,South,19-21,0.221,0.6990000000000001,0.081
+chol,general,Central,31-50,0.0,0.701,0.299
+ferritin,arab,Jerusalem,51-65,0.075,0.863,0.062
+trig,general,Jerusalem,14-18,0.0,0.91,0.09
+trig,haredi,Dan - Petach Tikva,31-50,0.0,0.733,0.267
+nonhdl,general,Sharon - Shomron,14-18,0.0,0.95,0.05
+iron,general,South,80+,0.312,0.6809999999999999,0.006999999999999999
+ferritin,general,North,09-13,0.22899999999999998,0.77,0.002
+mgb,haredi,Jerusalem,19-21,0.006999999999999999,0.971,0.022000000000000002
+mgb,general,Jerusalem,22-30,0.005,0.992,0.003
+mgb,arab,Sharon - Shomron,09-13,0.013000000000000001,0.713,0.27399999999999997
+chol,arab,North,31-50,0.0,0.7,0.3
+hb,general,South,66-79,0.237,0.758,0.005
+hb,general,South,80+,0.434,0.562,0.004
+iron,arab,Sharon - Shomron,14-18,0.257,0.7070000000000001,0.036000000000000004
+ferritin,arab,Jerusalem,04-08,0.168,0.8290000000000001,0.003
+trig,general,Central,66-79,0.0,0.713,0.287
+vitaminD,general,South,51-65,0.8270000000000001,0.16699999999999998,0.006
+ferritin,general,South,01-03,0.16899999999999998,0.825,0.006
+znb,general,Jerusalem,31-50,0.14,0.841,0.019
+albumin,arab,Sharon - Shomron,04-08,0.019,0.981,0.0
+mgb,arab,South,01-03,0.011000000000000001,0.763,0.22699999999999998
+albumin,general,Dan - Petach Tikva,04-08,0.01,0.9890000000000001,0.001
+chol,haredi,Haifa,66-79,0.0,0.728,0.272
+vitaminD,arab,Dan - Petach Tikva,22-30,0.981,0.019,0.0
+mgb,general,Jerusalem,09-13,0.0,0.611,0.389
+nonhdl,haredi,North,22-30,0.0,0.851,0.149
+ferritin,general,Sharon - Shomron,66-79,0.078,0.863,0.059000000000000004
+hb,haredi,Dan - Petach Tikva,09-13,0.271,0.7240000000000001,0.005
+iron,general,Eilat,66-79,0.203,0.7659999999999999,0.031
+hdl,general,Haifa,14-18,0.165,0.835,0.0
+vitaminD,general,Tel Aviv,22-30,0.752,0.23399999999999999,0.013999999999999999
+hba1c,arab,South,51-65,0.0,0.278,0.722
+hb,haredi,Jerusalem,09-13,0.16399999999999998,0.82,0.015
+albumin,general,Sharon - Shomron,14-18,0.006,0.991,0.003
+transf,haredi,Jerusalem,01-03,0.003,0.953,0.043
+b12,general,South,01-03,0.0,0.424,0.5760000000000001
+nonhdl,haredi,Haifa,04-08,0.0,0.977,0.023
+chol,general,Dan - Petach Tikva,31-50,0.0,0.7020000000000001,0.298
+iron,general,Eilat,01-03,0.235,0.669,0.096
+chol,general,North,22-30,0.0,0.846,0.154
+iron,haredi,Dan - Petach Tikva,22-30,0.12300000000000001,0.8220000000000001,0.055
+vitaminD,general,Jerusalem,19-21,0.872,0.128,0.0
+transf,haredi,Central,31-50,0.013999999999999999,0.888,0.09699999999999999
+b12,general,South,22-30,0.013000000000000001,0.87,0.11699999999999999
+ferritin,arab,Central,04-08,0.354,0.6459999999999999,0.0
+nonhdl,general,Central,04-08,0.0,0.96,0.04
+nonhdl,arab,North,04-08,0.0,0.966,0.034
+trig,general,Eilat,66-79,0.0,0.6990000000000001,0.301
+nonhdl,general,South,14-18,0.0,0.948,0.052000000000000005
+iron,arab,South,14-18,0.314,0.644,0.043
+nonhdl,arab,South,80+,0.0,0.794,0.20600000000000002
+transf,arab,Haifa,31-50,0.051,0.905,0.044000000000000004
+hba1c,arab,North,80+,0.001,0.314,0.685
+nonhdl,general,Jerusalem,80+,0.0,0.8170000000000001,0.183
+hba1c,general,Sharon - Shomron,19-21,0.002,0.8370000000000001,0.161
+hdl,haredi,Haifa,51-65,0.267,0.733,0.0
+chol,arab,Sharon - Shomron,31-50,0.0,0.722,0.278
+albumin,general,Central,04-08,0.012,0.988,0.0
+iron,arab,Haifa,22-30,0.191,0.7709999999999999,0.038
+iron,general,Central,14-18,0.19699999999999998,0.7559999999999999,0.047
+ldl,general,Jerusalem,22-30,0.0,0.593,0.40700000000000003
+albumin,arab,North,04-08,0.024,0.976,0.0
+ldl,haredi,Central,09-13,0.0,0.8079999999999999,0.192
+ldl,arab,North,22-30,0.0,0.569,0.431
+hdl,haredi,North,14-18,0.247,0.753,0.0
+mgb,arab,South,22-30,0.034,0.961,0.004
+ldl,haredi,Haifa,22-30,0.0,0.6859999999999999,0.314
+vitaminD,arab,Jerusalem,22-30,0.9690000000000001,0.028999999999999998,0.003
+folacid,general,South,22-30,0.318,0.682,0.0
+folacid,haredi,Sharon - Shomron,31-50,0.261,0.7390000000000001,0.0
+vitaminD,haredi,Central,14-18,0.9129999999999999,0.07400000000000001,0.013000000000000001
+nonhdl,arab,Central,01-03,0.0,0.971,0.028999999999999998
+trig,arab,North,66-79,0.0,0.6679999999999999,0.332
+trig,arab,South,14-18,0.0,0.9279999999999999,0.07200000000000001
+ferritin,general,South,66-79,0.073,0.831,0.09699999999999999
+ferritin,general,South,31-50,0.14300000000000002,0.816,0.040999999999999995
+ferritin,haredi,South,04-08,0.184,0.819999999999999,0.005
+iron,general,Tel Aviv,19-21,0.165,0.767,0.067
+chol,general,Sharon - Shomron,22-30,0.0,0.828,0.172
+mgb,arab,Haifa,19-21,0.009000000000000001,0.971,0.021
+transf,haredi,Dan - Petach Tikva,31-50,0.027000000000000003,0.877,0.096
+ldl,arab,Haifa,09-13,0.0,0.83,0.17
+chol,general,Jerusalem,66-79,0.0,0.721,0.27899999999999997
+mgb,haredi,Central,19-21,0.019,0.9420000000000001,0.038
+chol,arab,South,66-79,0.0,0.763,0.237
+nonhdl,general,Dan - Petach Tikva,04-08,0.0,0.96,0.04
+chol,general,Jerusalem,31-50,0.0,0.711,0.289
+albumin,general,Eilat,19-21,0.006999999999999999,0.956,0.037000000000000005
+iron,general,North,80+,0.33799999999999997,0.653,0.009000000000000001
+iron,general,Eilat,51-65,0.11800000000000001,0.823,0.059000000000000004
+ferritin,general,Sharon - Shomron,09-13,0.233,0.7659999999999999,0.001
+nonhdl,general,Eilat,19-21,0.0,0.883,0.11699999999999999
+chol,arab,South,31-50,0.0,0.7040000000000001,0.29600000000000004
+transf,arab,Haifa,66-79,0.171,0.81,0.018000000000000002
+vitaminD,general,North,51-65,0.6609999999999999,0.317,0.022000000000000002
+nonhdl,general,Tel Aviv,01-03,0.0,0.972,0.027999999999999997
+hba1c,general,South,19-21,0.011000000000000001,0.879,0.11
+hdl,haredi,Sharon - Shomron,14-18,0.203,0.797,0.0
+ldl,general,Central,22-30,0.0,0.5820000000000001,0.418
+vitaminD,arab,Haifa,14-18,0.9420000000000001,0.057999999999999996,0.001
+nonhdl,arab,Sharon - Shomron,04-08,0.0,0.958,0.042
+transf,haredi,Dan - Petach Tikva,66-79,0.10300000000000001,0.857,0.039
+ferritin,general,Sharon - Shomron,01-03,0.27699999999999997,0.72,0.003
+ldl,haredi,Dan - Petach Tikva,09-13,0.0,0.8,0.2
+b12,general,Sharon - Shomron,22-30,0.098,0.884,0.018000000000000002
+folacid,haredi,North,31-50,0.20600000000000002,0.794,0.0
+mgb,general,Dan - Petach Tikva,09-13,0.008,0.727,0.266
+ldl,arab,Sharon - Shomron,22-30,0.0,0.545,0.455
+iron,general,South,09-13,0.254,0.669,0.077
+iron,arab,Dan - Petach Tikva,04-08,0.271,0.688,0.040999999999999995
+folacid,haredi,Central,22-30,0.276,0.7240000000000001,0.0
+vitaminD,haredi,Dan - Petach Tikva,14-18,0.919,0.079,0.002
+nonhdl,haredi,Haifa,80+,0.0,0.809,0.191
+iron,general,Dan - Petach Tikva,14-18,0.162,0.779,0.059000000000000004
+trig,arab,Haifa,31-50,0.0,0.6990000000000001,0.301
+iron,arab,Dan - Petach Tikva,19-21,0.22,0.7390000000000001,0.040999999999999995
+iron,general,Tel Aviv,66-79,0.145,0.838,0.017
+iron,general,Tel Aviv,31-50,0.106,0.83,0.064
+trig,haredi,South,51-65,0.0,0.643,0.35700000000000004
+b12,arab,Central,66-79,0.133,0.846,0.021
+folacid,arab,North,19-21,0.38299999999999995,0.617,0.0
+ldl,general,Dan - Petach Tikva,04-08,0.0,0.682,0.318
+hdl,haredi,South,22-30,0.19699999999999998,0.8029999999999999,0.0
+hba1c,arab,Haifa,14-18,0.0,0.9,0.099
+ferritin,haredi,Dan - Petach Tikva,80+,0.065,0.843,0.092
+vitaminD,arab,South,04-08,0.887,0.10800000000000001,0.005
+hdl,haredi,Central,66-79,0.207,0.7929999999999999,0.0
+hdl,general,North,51-65,0.204,0.7959999999999999,0.0
+transf,haredi,Haifa,22-30,0.016,0.799,0.185
+vitaminD,general,North,66-79,0.5870000000000001,0.376,0.036000000000000004
+b12,general,Tel Aviv,80+,0.053,0.8320000000000001,0.11599999999999999
+trig,arab,Dan - Petach Tikva,66-79,0.0,0.616,0.384
+hba1c,general,Dan - Petach Tikva,66-79,0.0,0.28300000000000003,0.7170000000000001
+chol,general,Jerusalem,19-21,0.0,0.917,0.083
+folacid,arab,Jerusalem,51-65,0.226,0.774,0.0
+hba1c,general,South,04-08,0.002,0.9209999999999999,0.077
+iron,arab,Sharon - Shomron,04-08,0.271,0.6629999999999999,0.066
+hba1c,arab,South,31-50,0.0,0.546,0.45399999999999996
+ldl,arab,South,04-08,0.0,0.764,0.23600000000000002
+chol,haredi,Dan - Petach Tikva,14-18,0.0,0.9620000000000001,0.038
+chol,arab,South,19-21,0.0,0.92,0.08
+hdl,arab,South,19-21,0.27699999999999997,0.723,0.0
+hb,arab,Dan - Petach Tikva,31-50,0.27699999999999997,0.7170000000000001,0.006
+hdl,arab,Central,22-30,0.307,0.693,0.0
+hb,general,Dan - Petach Tikva,04-08,0.061,0.938,0.001
+hdl,arab,Sharon - Shomron,19-21,0.28600000000000003,0.7140000000000001,0.0
+folacid,haredi,South,51-65,0.254,0.746,0.0
+znb,general,Haifa,80+,0.14,0.826,0.035
+iron,general,Tel Aviv,01-03,0.297,0.6409999999999999,0.062
+znb,arab,North,09-13,0.068,0.919999999999999,0.021
+ldl,arab,Haifa,01-03,0.0,0.823,0.177
+hdl,general,Dan - Petach Tikva,19-21,0.18,0.82,0.0
+chol,arab,Sharon - Shomron,80+,0.0,0.8320000000000001,0.168
+trig,general,Central,04-08,0.0,0.9640000000000001,0.036000000000000004
+folacid,haredi,Haifa,04-08,0.08199999999999999,0.9179999999999999,0.0
+folacid,arab,Sharon - Shomron,04-08,0.16899999999999998,0.831,0.0
+transf,general,Tel Aviv,51-65,0.046,0.9279999999999999,0.026000000000000002
+folacid,arab,Dan - Petach Tikva,66-79,0.32299999999999995,0.677,0.0
+b12,general,Central,04-08,0.004,0.946,0.05
+iron,arab,Jerusalem,01-03,0.41700000000000004,0.53,0.053
+hba1c,general,Jerusalem,31-50,0.002,0.78,0.218
+mgb,general,Dan - Petach Tikva,14-18,0.013999999999999999,0.848,0.138
+trig,general,Sharon - Shomron,14-18,0.0,0.9209999999999999,0.079
+znb,general,Dan - Petach Tikva,22-30,0.079,0.8909999999999999,0.031
+ldl,haredi,Central,01-03,0.0,0.696,0.304
+chol,general,Dan - Petach Tikva,80+,0.0,0.757,0.243
+chol,general,Haifa,09-13,0.0,0.951,0.049
+trig,arab,Dan - Petach Tikva,51-65,0.0,0.574,0.426
+ldl,haredi,Sharon - Shomron,31-50,0.0,0.46299999999999997,0.537
+b12,general,Eilat,19-21,0.0,0.8290000000000001,0.171
+hba1c,general,Sharon - Shomron,04-08,0.0,0.8759999999999999,0.124
+ldl,arab,Sharon - Shomron,04-08,0.0,0.7070000000000001,0.293
+vitaminD,arab,Dan - Petach Tikva,31-50,0.966,0.034,0.0
+folacid,arab,Central,51-65,0.298,0.7020000000000001,0.0
+transf,arab,Jerusalem,14-18,0.004,0.878,0.11800000000000001
+ldl,general,Central,04-08,0.0,0.705,0.295
+ferritin,haredi,Jerusalem,80+,0.044000000000000004,0.87,0.085
+folacid,general,Jerusalem,04-08,0.043,0.9570000000000001,0.0
+chol,general,Dan - Petach Tikva,19-21,0.0,0.909,0.091
+iron,haredi,Sharon - Shomron,31-50,0.153,0.809,0.038
+iron,haredi,Haifa,80+,0.32,0.667,0.013999999999999999
+folacid,general,North,14-18,0.297,0.703,0.0
+hdl,general,Sharon - Shomron,51-65,0.20800000000000002,0.792,0.0
+trig,general,Haifa,51-65,0.0,0.6659999999999999,0.33399999999999996
+hb,haredi,South,31-50,0.263,0.7340000000000001,0.004
+znb,general,North,31-50,0.08900000000000001,0.902,0.009000000000000001
+hdl,general,Eilat,31-50,0.21600000000000003,0.784,0.0
+transf,haredi,Haifa,09-13,0.009000000000000001,0.93,0.06
+chol,haredi,Haifa,19-21,0.0,0.955,0.045
+hba1c,arab,Sharon - Shomron,31-50,0.0,0.505,0.495
+ldl,general,North,22-30,0.0,0.611,0.389
+chol,haredi,Sharon - Shomron,09-13,0.0,0.983,0.017
+chol,arab,Sharon - Shomron,19-21,0.0,0.917,0.083
+hdl,arab,Dan - Petach Tikva,22-30,0.29600000000000004,0.7040000000000001,0.0
+hb,arab,Central,31-50,0.253,0.742,0.005
+mgb,arab,Jerusalem,04-08,0.005,0.45299999999999996,0.542
+vitaminD,general,Dan - Petach Tikva,04-08,0.7240000000000001,0.268,0.008
+hb,general,Central,04-08,0.066,0.9329999999999999,0.001
+trig,arab,Jerusalem,66-79,0.0,0.63,0.37
+transf,haredi,North,51-65,0.085,0.887,0.027999999999999997
+trig,arab,South,04-08,0.0,0.943,0.057
+vitaminD,general,Sharon - Shomron,66-79,0.6609999999999999,0.314,0.025
+chol,haredi,Central,14-18,0.0,0.972,0.027999999999999997
+b12,haredi,North,51-65,0.009000000000000001,0.8220000000000001,0.16899999999999998
+trig,general,Jerusalem,04-08,0.0,0.9470000000000001,0.053
+folacid,general,Central,19-21,0.39299999999999996,0.607,0.0
+folacid,arab,Jerusalem,66-79,0.23199999999999998,0.768,0.0
+hdl,general,Haifa,22-30,0.171,0.8290000000000001,0.0
+nonhdl,general,Central,66-79,0.0,0.7659999999999999,0.23399999999999999
+mgb,general,Jerusalem,14-18,0.012,0.785,0.203
+hba1c,general,Dan - Petach Tikva,31-50,0.001,0.71,0.289
+vitaminD,arab,Sharon - Shomron,04-08,0.924,0.076,0.0
+chol,general,Tel Aviv,09-13,0.0,0.945,0.055
+iron,general,Central,04-08,0.23,0.6829999999999999,0.087
+ldl,arab,Dan - Petach Tikva,31-50,0.0,0.41,0.59
+ferritin,general,North,22-30,0.142,0.845,0.013000000000000001
+folacid,general,Dan - Petach Tikva,04-08,0.10099999999999999,0.899,0.0
+hb,arab,South,04-08,0.175,0.8220000000000001,0.003
+iron,arab,Dan - Petach Tikva,01-03,0.423,0.555,0.022000000000000002
+hba1c,arab,Sharon - Shomron,66-79,0.0,0.172,0.828
+folacid,arab,Jerusalem,80+,0.309,0.691,0.0
+transf,arab,Haifa,19-21,0.027000000000000003,0.9229999999999999,0.05
+iron,arab,Central,66-79,0.22,0.775,0.005
+ferritin,general,Eilat,51-65,0.069,0.8809999999999999,0.051
+ferritin,general,South,80+,0.05,0.8340000000000001,0.11599999999999999
+folacid,arab,Sharon - Shomron,19-21,0.541,0.45899999999999996,0.0
+ldl,arab,Sharon - Shomron,14-18,0.0,0.733,0.267
+transf,general,Central,09-13,0.005,0.9179999999999999,0.077
+hdl,arab,Haifa,80+,0.282,0.718,0.0
+b12,general,Haifa,80+,0.055,0.845,0.1
+znb,general,Central,04-08,0.039,0.93,0.031
+hb,arab,Haifa,22-30,0.228,0.768,0.004
+chol,haredi,South,51-65,0.0,0.615,0.385
+folacid,haredi,Central,14-18,0.369,0.631,0.0
+hba1c,haredi,Central,04-08,0.0,0.898,0.102
+mgb,arab,Haifa,80+,0.099,0.8809999999999999,0.02
+hb,arab,Dan - Petach Tikva,19-21,0.235,0.762,0.002
+b12,general,Haifa,66-79,0.057,0.888,0.055
+hdl,arab,Haifa,66-79,0.284,0.716,0.0
+iron,arab,Central,31-50,0.26899999999999996,0.721,0.01
+chol,general,Jerusalem,80+,0.0,0.778,0.222
+chol,arab,South,80+,0.0,0.784,0.21600000000000003
+hdl,arab,North,19-21,0.23,0.77,0.0
+albumin,haredi,Haifa,01-03,0.042,0.958,0.0
+vitaminD,haredi,North,31-50,0.8340000000000001,0.15,0.016
+ferritin,general,Haifa,19-21,0.121,0.8740000000000001,0.005
+mgb,general,Jerusalem,31-50,0.006999999999999999,0.991,0.002
+hdl,general,Central,19-21,0.205,0.795,0.0
+hb,haredi,Jerusalem,22-30,0.18100000000000002,0.816,0.004
+nonhdl,haredi,Haifa,66-79,0.0,0.779,0.221
+hb,general,Dan - Petach Tikva,51-65,0.127,0.868,0.004
+b12,arab,South,04-08,0.0,0.65,0.35
+hb,general,Eilat,01-03,0.151,0.847,0.001
+chol,haredi,Haifa,04-08,0.0,0.92,0.08
+ldl,arab,Dan - Petach Tikva,19-21,0.0,0.722,0.278
+mgb,haredi,Jerusalem,66-79,0.023,0.963,0.013999999999999999
+transf,arab,North,09-13,0.009000000000000001,0.89,0.10099999999999999
+albumin,haredi,Jerusalem,80+,0.188,0.812,0.0
+hdl,haredi,Jerusalem,80+,0.21899999999999997,0.7809999999999999,0.0
+chol,general,South,14-18,0.0,0.9420000000000001,0.057999999999999996
+transf,haredi,Central,19-21,0.011000000000000001,0.934,0.055
+hb,arab,North,51-65,0.183,0.812,0.004
+b12,general,Dan - Petach Tikva,04-08,0.005,0.9570000000000001,0.038
+b12,general,South,14-18,0.006,0.851,0.14300000000000002
+trig,arab,Sharon - Shomron,22-30,0.0,0.843,0.157
+mgb,haredi,Jerusalem,80+,0.028999999999999998,0.9440000000000001,0.027000000000000003
+hdl,arab,South,31-50,0.3,0.7,0.0
+ferritin,general,Central,14-18,0.23399999999999999,0.764,0.002
+hdl,haredi,Jerusalem,66-79,0.22,0.78,0.0
+hdl,general,Jerusalem,31-50,0.23600000000000002,0.764,0.0
+hb,arab,Jerusalem,19-21,0.151,0.8340000000000001,0.015
+chol,general,Tel Aviv,51-65,0.0,0.598,0.402
+trig,haredi,North,51-65,0.0,0.68,0.32
+iron,haredi,Central,80+,0.344,0.653,0.003
+ldl,general,Tel Aviv,04-08,0.0,0.698,0.302
+hba1c,general,North,31-50,0.001,0.7709999999999999,0.228
+ldl,general,Haifa,01-03,0.0,0.799,0.201
+b12,arab,Sharon - Shomron,66-79,0.128,0.777,0.095
+vitaminD,haredi,Central,09-13,0.912,0.08199999999999999,0.006
+vitaminD,arab,Jerusalem,04-08,0.941,0.057999999999999996,0.001
+trig,haredi,Jerusalem,51-65,0.0,0.6659999999999999,0.33399999999999996
+hb,haredi,Central,66-79,0.278,0.721,0.002
+hb,haredi,Dan - Petach Tikva,31-50,0.235,0.762,0.003
+ldl,general,South,09-13,0.0,0.754,0.24600000000000002
+transf,general,South,09-13,0.004,0.91,0.086
+mgb,arab,North,04-08,0.008,0.504,0.48700000000000004
+vitaminD,haredi,Central,51-65,0.851,0.139,0.01
+hb,arab,Dan - Petach Tikva,04-08,0.122,0.875,0.002
+transf,haredi,Central,09-13,0.002,0.9259999999999999,0.071
+folacid,general,Jerusalem,14-18,0.285,0.715,0.0
+b12,general,Central,66-79,0.062,0.8759999999999999,0.061
+folacid,general,North,04-08,0.062,0.938,0.0
+hb,arab,Central,22-30,0.299,0.698,0.003
+vitaminD,general,Central,66-79,0.731,0.256,0.013000000000000001
+transf,haredi,Jerusalem,14-18,0.013000000000000001,0.897,0.09
+hdl,general,South,19-21,0.16899999999999998,0.831,0.0
+ldl,haredi,South,04-08,0.0,0.7609999999999999,0.239
+folacid,haredi,South,19-21,0.324,0.6759999999999999,0.0
+albumin,general,Haifa,01-03,0.008,0.9890000000000001,0.003
+trig,haredi,Jerusalem,09-13,0.0,0.91,0.09
+hba1c,haredi,Dan - Petach Tikva,19-21,0.003,0.9059999999999999,0.091
+znb,arab,Jerusalem,22-30,0.129,0.8540000000000001,0.017
+mgb,arab,Jerusalem,14-18,0.001,0.754,0.245
+iron,general,North,22-30,0.155,0.78,0.064
+hba1c,arab,South,04-08,0.0,0.8759999999999999,0.124
+chol,general,North,80+,0.0,0.6709999999999999,0.32899999999999996
+znb,general,Central,66-79,0.07400000000000001,0.9129999999999999,0.013000000000000001
+iron,haredi,Dan - Petach Tikva,80+,0.24600000000000002,0.745,0.009000000000000001
+transf,arab,Jerusalem,04-08,0.005,0.95,0.045
+trig,general,Central,14-18,0.0,0.927,0.073
+hb,general,Sharon - Shomron,09-13,0.20800000000000002,0.7829999999999999,0.008
+transf,haredi,Central,51-65,0.067,0.899,0.034
+trig,haredi,Dan - Petach Tikva,09-13,0.0,0.934,0.066
+folacid,arab,South,14-18,0.484,0.516,0.0
+hb,arab,Dan - Petach Tikva,22-30,0.275,0.7190000000000001,0.006
+mgb,arab,Sharon - Shomron,31-50,0.025,0.9620000000000001,0.013999999999999999
+hba1c,general,Eilat,09-13,0.0,0.903,0.09699999999999999
+chol,arab,North,19-21,0.0,0.9259999999999999,0.07400000000000001
+chol,general,Haifa,01-03,0.0,0.97,0.03
+albumin,arab,Sharon - Shomron,01-03,0.054000000000000006,0.946,0.0
+hdl,haredi,North,22-30,0.237,0.763,0.0
+albumin,general,Dan - Petach Tikva,01-03,0.027999999999999997,0.972,0.0
+ldl,general,Dan - Petach Tikva,14-18,0.0,0.76,0.24
+chol,general,Central,19-21,0.0,0.91,0.09
+folacid,arab,South,19-21,0.496,0.504,0.0
+folacid,general,Haifa,09-13,0.26,0.74,0.0
+transf,general,Dan - Petach Tikva,09-13,0.005,0.9179999999999999,0.077
+b12,arab,Dan - Petach Tikva,51-65,0.102,0.863,0.035
+ldl,arab,North,80+,0.0,0.5660000000000001,0.434
+vitaminD,general,Haifa,31-50,0.809,0.183,0.008
+trig,arab,South,09-13,0.0,0.91,0.09
+ldl,arab,South,14-18,0.0,0.78,0.22
+chol,arab,Jerusalem,51-65,0.0,0.66,0.34
+hba1c,haredi,Dan - Petach Tikva,04-08,0.0,0.9279999999999999,0.07200000000000001
+znb,general,Dan - Petach Tikva,04-08,0.062,0.9009999999999999,0.037000000000000005
+folacid,haredi,Dan - Petach Tikva,14-18,0.409,0.591,0.0
+hb,haredi,Haifa,14-18,0.332,0.648,0.02
+trig,arab,Dan - Petach Tikva,09-13,0.0,0.894,0.106
+hb,general,Jerusalem,31-50,0.13699999999999998,0.856,0.008
+iron,haredi,Haifa,66-79,0.23199999999999998,0.7609999999999999,0.006999999999999999
+chol,arab,Central,31-50,0.0,0.72,0.28
+folacid,arab,Sharon - Shomron,01-03,0.19,0.8909999999999999,0.0
+folacid,haredi,Jerusalem,66-79,0.23399999999999999,0.7659999999999999,0.0
+albumin,general,Sharon - Shomron,01-03,0.039,0.961,0.0
+znb,arab,North,51-65,0.083,0.899,0.018000000000000002
+nonhdl,haredi,Central,51-65,0.0,0.657,0.34299999999999997
+hb,arab,Dan - Petach Tikva,14-18,0.358,0.619,0.024
+vitaminD,general,Jerusalem,51-65,0.8190000000000001,0.17,0.011000000000000001
+transf,haredi,South,66-79,0.05,0.917,0.033
+ferritin,general,Jerusalem,22-30,0.106,0.882,0.011000000000000001
+nonhdl,arab,Haifa,51-65,0.0,0.669,0.331
+znb,arab,Haifa,14-18,0.006999999999999999,0.9570000000000001,0.036000000000000004
+hba1c,haredi,Central,14-18,0.0,0.927,0.073
+mgb,general,Sharon - Shomron,31-50,0.021,0.968,0.012
+hb,general,North,22-30,0.16899999999999998,0.828,0.003
+ferritin,arab,Sharon - Shomron,04-08,0.259,0.7390000000000001,0.002
+albumin,haredi,Central,51-65,0.019,0.981,0.0
+trig,general,Haifa,19-21,0.0,0.899,0.10099999999999999
+hba1c,haredi,Sharon - Shomron,31-50,0.0,0.726,0.27399999999999997
+znb,general,Tel Aviv,04-08,0.031,0.946,0.023
+hb,general,Tel Aviv,09-13,0.213,0.778,0.009000000000000001
+folacid,general,Jerusalem,01-03,0.028999999999999998,0.971,0.0
+znb,general,Dan - Petach Tikva,51-65,0.049,0.9259999999999999,0.025
+albumin,arab,Dan - Petach Tikva,31-50,0.02,0.978,0.002
+transf,arab,Central,66-79,0.19,0.861,0.028999999999999998
+vitaminD,arab,North,51-65,0.833,0.153,0.013999999999999999
+hdl,arab,Jerusalem,09-13,0.237,0.763,0.0
+ferritin,arab,Sharon - Shomron,22-30,0.23,0.753,0.017
+mgb,arab,Jerusalem,01-03,0.015,0.7759999999999999,0.209
+albumin,arab,Dan - Petach Tikva,22-30,0.037000000000000005,0.96,0.003
+b12,general,South,09-13,0.001,0.763,0.23600000000000002
+hba1c,arab,South,19-21,0.003,0.872,0.125
+nonhdl,general,South,09-13,0.0,0.9540000000000001,0.046
+nonhdl,arab,Jerusalem,22-30,0.0,0.8240000000000001,0.17600000000000002
+trig,arab,Central,09-13,0.0,0.892,0.10800000000000001
+mgb,general,North,31-50,0.012,0.978,0.011000000000000001
+hb,haredi,North,09-13,0.247,0.738,0.015
+vitaminD,haredi,Central,04-08,0.8079999999999999,0.184,0.008
+b12,arab,Dan - Petach Tikva,09-13,0.052000000000000005,0.9440000000000001,0.004
+ferritin,haredi,Central,22-30,0.17300000000000001,0.821,0.006
+chol,haredi,Haifa,22-30,0.0,0.878,0.122
+mgb,arab,Sharon - Shomron,19-21,0.037000000000000005,0.9309999999999999,0.032
+hdl,arab,North,14-18,0.24600000000000002,0.754,0.0
+hba1c,general,South,51-65,0.001,0.46299999999999997,0.536
+albumin,general,Eilat,09-13,0.004,0.988,0.008
+folacid,haredi,Jerusalem,31-50,0.24,0.76,0.0
+transf,haredi,Haifa,01-03,0.019,0.972,0.009000000000000001
+trig,arab,Sharon - Shomron,80+,0.0,0.746,0.254
+hb,haredi,Haifa,01-03,0.204,0.7959999999999999,0.0
+ferritin,haredi,Haifa,14-18,0.158,0.8420000000000001,0.0
+chol,haredi,Jerusalem,14-18,0.0,0.958,0.042
+hb,haredi,South,51-65,0.154,0.84,0.006
+b12,arab,North,01-03,0.0,0.40399999999999997,0.596
+mgb,general,Tel Aviv,80+,0.046,0.94,0.013999999999999999
+nonhdl,general,Eilat,80+,0.0,0.775,0.225
+folacid,haredi,Jerusalem,09-13,0.19699999999999998,0.8029999999999999,0.0
+chol,haredi,Central,66-79,0.0,0.7759999999999999,0.22399999999999998
+vitaminD,arab,Haifa,31-50,0.948,0.05,0.002
+b12,arab,Jerusalem,04-08,0.027999999999999997,0.963,0.009000000000000001
+mgb,arab,Haifa,14-18,0.01,0.853,0.13699999999999998
+b12,haredi,Dan - Petach Tikva,66-79,0.064,0.873,0.062
+hdl,general,Sharon - Shomron,31-50,0.222,0.778,0.0
+iron,haredi,Haifa,09-13,0.215,0.69,0.095
+ferritin,haredi,Haifa,80+,0.027999999999999997,0.875,0.09699999999999999
+albumin,general,Sharon - Shomron,66-79,0.035,0.965,0.0
+ferritin,haredi,Jerusalem,19-21,0.124,0.8740000000000001,0.001
+trig,general,South,22-30,0.0,0.838,0.162
+folacid,general,Eilat,04-08,0.134,0.866,0.0
+ldl,haredi,North,09-13,0.0,0.792,0.20800000000000002
+hb,haredi,Sharon - Shomron,01-03,0.188,0.812,0.0
+hdl,general,Tel Aviv,04-08,0.11900000000000001,0.8809999999999999,0.0
+vitaminD,general,Central,01-03,0.6609999999999999,0.336,0.004
+folacid,general,South,19-21,0.37200000000000005,0.628,0.0
+ferritin,arab,Sharon - Shomron,80+,0.102,0.759,0.139
+ldl,arab,Central,22-30,0.0,0.589,0.41100000000000003
+ldl,arab,South,31-50,0.0,0.379,0.621
+nonhdl,general,South,66-79,0.0,0.765,0.235
+ldl,general,Haifa,66-79,0.0,0.56,0.44
+b12,arab,Central,31-50,0.07,0.917,0.013000000000000001
+albumin,arab,Dan - Petach Tikva,04-08,0.016,0.9840000000000001,0.0
+mgb,haredi,Central,22-30,0.006999999999999999,0.99,0.003
+iron,general,Jerusalem,09-13,0.223,0.6779999999999999,0.099
+vitaminD,general,Central,09-13,0.8290000000000001,0.16399999999999998,0.006999999999999999
+ferritin,arab,Sharon - Shomron,31-50,0.268,0.6970000000000001,0.035
+mgb,general,Haifa,04-08,0.001,0.667,0.332
+chol,arab,Haifa,22-30,0.0,0.866,0.134
+ldl,arab,Dan - Petach Tikva,14-18,0.0,0.7879999999999999,0.212
+iron,general,Central,80+,0.267,0.725,0.008
+ferritin,arab,Haifa,19-21,0.128,0.862,0.01
+hb,arab,South,66-79,0.29,0.7040000000000001,0.006
+nonhdl,general,Central,01-03,0.0,0.97,0.03
+vitaminD,arab,South,01-03,0.87,0.13,0.0
+albumin,haredi,South,04-08,0.013999999999999999,0.983,0.003
+albumin,haredi,Dan - Petach Tikva,14-18,0.004,0.986,0.01
+trig,general,Eilat,14-18,0.0,0.902,0.098
+iron,haredi,Jerusalem,80+,0.314,0.677,0.009000000000000001
+mgb,general,North,19-21,0.016,0.96,0.024
+trig,arab,Jerusalem,22-30,0.0,0.823,0.177
+nonhdl,arab,Dan - Petach Tikva,09-13,0.0,0.961,0.039
+hb,haredi,North,22-30,0.244,0.753,0.004
+hb,general,Tel Aviv,22-30,0.135,0.863,0.002
+vitaminD,haredi,Jerusalem,09-13,0.917,0.077,0.006
+albumin,arab,Jerusalem,66-79,0.066,0.934,0.0
+chol,arab,South,14-18,0.0,0.9570000000000001,0.043
+hb,general,Jerusalem,19-21,0.141,0.85,0.009000000000000001
+hb,haredi,Central,14-18,0.297,0.679,0.024
+transf,haredi,South,22-30,0.021,0.8170000000000001,0.161
+chol,general,Jerusalem,14-18,0.0,0.938,0.062
+chol,general,Haifa,19-21,0.0,0.92,0.08
+folacid,haredi,Jerusalem,04-08,0.046,0.9540000000000001,0.0
+trig,general,North,09-13,0.0,0.934,0.066
+ldl,general,Jerusalem,19-21,0.0,0.722,0.278
+znb,general,Central,14-18,0.05,0.917,0.034
+znb,general,Eilat,31-50,0.133,0.855,0.012
+trig,haredi,Central,51-65,0.0,0.688,0.312
+chol,haredi,Dan - Petach Tikva,01-03,0.0,0.976,0.024
+mgb,general,Tel Aviv,66-79,0.04,0.9520000000000001,0.006999999999999999
+folacid,arab,Sharon - Shomron,66-79,0.308,0.6920000000000001,0.0
+nonhdl,general,South,31-50,0.0,0.677,0.32299999999999995
+ldl,arab,Jerusalem,51-65,0.0,0.42700000000000005,0.573
+b12,general,Central,14-18,0.054000000000000006,0.935,0.011000000000000001
+hba1c,general,Haifa,66-79,0.0,0.284,0.715
+chol,general,South,04-08,0.0,0.938,0.062
+folacid,arab,Haifa,80+,0.319,0.6809999999999999,0.0
+hdl,arab,Jerusalem,31-50,0.327,0.6729999999999999,0.0
+transf,general,North,51-65,0.049,0.9179999999999999,0.033
+hb,arab,Sharon - Shomron,19-21,0.207,0.789,0.004
+ldl,arab,Dan - Petach Tikva,01-03,0.0,0.768,0.23199999999999998
+ldl,general,Haifa,80+,0.0,0.583,0.41700000000000004
+iron,arab,South,31-50,0.331,0.643,0.026000000000000002
+albumin,general,Haifa,80+,0.107,0.893,0.0
+folacid,arab,Jerusalem,19-21,0.305,0.695,0.0
+albumin,arab,Central,09-13,0.003,0.997,0.0
+folacid,general,Central,09-13,0.297,0.703,0.0
+albumin,arab,South,09-13,0.034,0.965,0.001
+albumin,arab,Haifa,31-50,0.006,0.991,0.003
+trig,haredi,Haifa,51-65,0.0,0.6920000000000001,0.308
+trig,general,Dan - Petach Tikva,01-03,0.0,0.9640000000000001,0.036000000000000004
+chol,general,Jerusalem,09-13,0.0,0.95,0.05
+ferritin,arab,Dan - Petach Tikva,22-30,0.239,0.741,0.02
+b12,haredi,North,04-08,0.0,0.583,0.41700000000000004
+znb,general,Haifa,14-18,0.016,0.953,0.031
+nonhdl,haredi,North,51-65,0.0,0.5920000000000001,0.408
+iron,general,Sharon - Shomron,31-50,0.13,0.823,0.048
+znb,general,Dan - Petach Tikva,66-79,0.063,0.922,0.015
+ferritin,general,South,04-08,0.11900000000000001,0.877,0.004
+ferritin,arab,Jerusalem,09-13,0.16399999999999998,0.835,0.001
+znb,general,Haifa,09-13,0.02,0.97,0.01
+albumin,arab,Sharon - Shomron,22-30,0.067,0.9309999999999999,0.002
+hb,general,Eilat,22-30,0.127,0.86,0.013000000000000001
+hba1c,haredi,Central,66-79,0.0,0.284,0.716
+iron,general,Eilat,22-30,0.133,0.78,0.086
+vitaminD,general,North,31-50,0.6859999999999999,0.294,0.02
+albumin,arab,North,80+,0.226,0.774,0.0
+transf,general,Dan - Petach Tikva,66-79,0.107,0.865,0.027999999999999997
+albumin,general,Central,80+,0.17800000000000002,0.8220000000000001,0.0
+hba1c,haredi,Central,80+,0.0,0.38,0.62
+nonhdl,general,Haifa,51-65,0.0,0.634,0.366
+hba1c,haredi,North,51-65,0.0,0.431,0.569
+hba1c,general,Dan - Petach Tikva,22-30,0.0,0.892,0.10800000000000001
+hba1c,general,Jerusalem,14-18,0.001,0.932,0.067
+hba1c,general,Jerusalem,01-03,0.0,0.905,0.095
+vitaminD,arab,Dan - Petach Tikva,51-65,0.9390000000000001,0.054000000000000006,0.006999999999999999
+vitaminD,general,Haifa,04-08,0.6759999999999999,0.313,0.011000000000000001
+albumin,general,Dan - Petach Tikva,22-30,0.03,0.965,0.004
+hba1c,haredi,Dan - Petach Tikva,31-50,0.0,0.684,0.316
+nonhdl,arab,South,09-13,0.0,0.955,0.045
+hb,general,South,31-50,0.165,0.8290000000000001,0.005
+znb,arab,Dan - Petach Tikva,14-18,0.12,0.852,0.027999999999999997
+trig,haredi,Dan - Petach Tikva,66-79,0.0,0.723,0.27699999999999997
+hdl,general,Dan - Petach Tikva,09-13,0.14800000000000002,0.852,0.0
+albumin,general,Jerusalem,09-13,0.005,0.993,0.002
+hdl,arab,Sharon - Shomron,09-13,0.255,0.745,0.0
+albumin,haredi,Dan - Petach Tikva,04-08,0.013999999999999999,0.986,0.0
+ldl,arab,Sharon - Shomron,66-79,0.0,0.63,0.37
+folacid,general,Tel Aviv,01-03,0.055999999999999994,0.9440000000000001,0.0
+mgb,arab,Haifa,01-03,0.018000000000000002,0.8959999999999999,0.086
+ferritin,arab,Sharon - Shomron,51-65,0.115,0.821,0.065
+albumin,arab,South,14-18,0.048,0.95,0.002
+nonhdl,haredi,Dan - Petach Tikva,22-30,0.0,0.873,0.127
+albumin,general,Jerusalem,14-18,0.003,0.991,0.006
+trig,arab,North,22-30,0.0,0.856,0.14400000000000002
+folacid,arab,Dan - Petach Tikva,09-13,0.301,0.6990000000000001,0.0
+trig,general,Central,22-30,0.0,0.855,0.145
+vitaminD,general,Haifa,01-03,0.602,0.384,0.013999999999999999
+nonhdl,haredi,Dan - Petach Tikva,04-08,0.0,0.97,0.03
+albumin,arab,Haifa,22-30,0.01,0.9790000000000001,0.011000000000000001
+trig,arab,South,80+,0.0,0.72,0.28
+hba1c,general,Tel Aviv,22-30,0.001,0.925,0.07400000000000001
+vitaminD,general,Sharon - Shomron,19-21,0.787,0.19399999999999998,0.019
+mgb,general,Eilat,66-79,0.057,0.914,0.028999999999999998
+hdl,general,North,01-03,0.21600000000000003,0.784,0.0
+mgb,general,North,51-65,0.023,0.9670000000000001,0.01
+transf,general,Dan - Petach Tikva,80+,0.255,0.7290000000000001,0.016
+ldl,haredi,Dan - Petach Tikva,22-30,0.0,0.63,0.37
+hb,arab,North,01-03,0.18100000000000002,0.818,0.001
+ferritin,arab,Central,19-21,0.363,0.631,0.006
+trig,haredi,North,31-50,0.0,0.753,0.247
+transf,general,Jerusalem,01-03,0.009000000000000001,0.963,0.027000000000000003
+ferritin,general,Eilat,09-13,0.204,0.792,0.005
+transf,general,North,19-21,0.011000000000000001,0.885,0.10300000000000001
+b12,general,Haifa,01-03,0.003,0.8909999999999999,0.106
+albumin,haredi,Haifa,31-50,0.017,0.9790000000000001,0.004
+hdl,arab,Sharon - Shomron,14-18,0.297,0.703,0.0
+ferritin,haredi,Dan - Petach Tikva,22-30,0.14300000000000002,0.8490000000000001,0.006999999999999999
+chol,general,Haifa,51-65,0.0,0.593,0.40700000000000003
+nonhdl,arab,Jerusalem,19-21,0.0,0.91,0.09
+hdl,haredi,Dan - Petach Tikva,09-13,0.201,0.799,0.0
+hb,general,Central,80+,0.465,0.531,0.003
+albumin,arab,Dan - Petach Tikva,19-21,0.03,0.9620000000000001,0.009000000000000001
+mgb,general,South,80+,0.067,0.919999999999999,0.022000000000000002
+hdl,general,Dan - Petach Tikva,14-18,0.20800000000000002,0.792,0.0
+hb,general,Jerusalem,01-03,0.19,0.8909999999999999,0.001
+iron,haredi,Sharon - Shomron,09-13,0.213,0.677,0.11
+b12,haredi,Dan - Petach Tikva,31-50,0.079,0.907,0.013999999999999999
+b12,haredi,South,09-13,0.0,0.813,0.187
+transf,arab,North,80+,0.321,0.6579999999999999,0.021
+albumin,haredi,Central,22-30,0.063,0.935,0.002
+b12,general,North,04-08,0.0,0.501,0.499
+ferritin,general,North,66-79,0.085,0.862,0.053
+transf,haredi,Dan - Petach Tikva,51-65,0.053,0.917,0.03
+chol,general,Sharon - Shomron,80+,0.0,0.752,0.248
+trig,haredi,Central,09-13,0.0,0.9520000000000001,0.048
+vitaminD,arab,North,66-79,0.77,0.2,0.03
+hb,general,North,09-13,0.235,0.757,0.006999999999999999
+hba1c,arab,Sharon - Shomron,04-08,0.001,0.861,0.138
+vitaminD,general,Jerusalem,31-50,0.857,0.13699999999999998,0.006999999999999999
+hba1c,arab,Dan - Petach Tikva,66-79,0.0,0.131,0.8690000000000001
+mgb,haredi,South,14-18,0.051,0.78,0.16899999999999998
+iron,haredi,Jerusalem,66-79,0.209,0.774,0.017
+chol,arab,Haifa,04-08,0.0,0.9640000000000001,0.036000000000000004
+trig,arab,Haifa,09-13,0.0,0.922,0.078
+hba1c,arab,Haifa,19-21,0.0,0.893,0.107
+ldl,haredi,Jerusalem,14-18,0.0,0.812,0.188
+ferritin,general,Haifa,80+,0.036000000000000004,0.872,0.09300000000000001
+b12,general,Jerusalem,66-79,0.079,0.873,0.049
+trig,general,Dan - Petach Tikva,14-18,0.0,0.924,0.076
+znb,general,Sharon - Shomron,09-13,0.032,0.9059999999999999,0.062
+hb,arab,Jerusalem,22-30,0.183,0.802,0.013999999999999999
+hdl,haredi,North,66-79,0.226,0.774,0.0
+hb,haredi,Jerusalem,66-79,0.196,0.7959999999999999,0.008
+hb,haredi,South,04-08,0.11900000000000001,0.8809999999999999,0.0
+chol,haredi,Dan - Petach Tikva,04-08,0.0,0.958,0.042
+folacid,general,Central,14-18,0.418,0.5820000000000001,0.0
+transf,arab,Haifa,51-65,0.096,0.884,0.02
+ferritin,general,North,01-03,0.3,0.6970000000000001,0.003
+hba1c,general,South,31-50,0.001,0.737,0.262
+znb,general,Dan - Petach Tikva,31-50,0.069,0.91,0.02
+hdl,haredi,North,31-50,0.22899999999999998,0.7709999999999999,0.0
+folacid,general,South,04-08,0.12,0.88,0.0
+b12,haredi,Jerusalem,80+,0.071,0.843,0.087
+ldl,arab,Jerusalem,04-08,0.0,0.718,0.282
+vitaminD,general,Dan - Petach Tikva,66-79,0.715,0.273,0.013000000000000001
+vitaminD,arab,Sharon - Shomron,31-50,0.951,0.044000000000000004,0.005
+ldl,haredi,Dan - Petach Tikva,31-50,0.0,0.439,0.561
+chol,arab,Dan - Petach Tikva,19-21,0.0,0.9329999999999999,0.067
+hba1c,general,Jerusalem,04-08,0.0,0.9179999999999999,0.08199999999999999
+hdl,arab,North,22-30,0.245,0.755,0.0
+vitaminD,haredi,Jerusalem,51-65,0.835,0.153,0.012
+vitaminD,haredi,Haifa,31-50,0.862,0.138,0.0
+b12,haredi,Central,51-65,0.064,0.9,0.037000000000000005
+iron,arab,North,22-30,0.24600000000000002,0.7170000000000001,0.036000000000000004
+hdl,arab,Dan - Petach Tikva,51-65,0.36700000000000005,0.633,0.0
+iron,general,South,66-79,0.23600000000000002,0.753,0.011000000000000001
+hba1c,arab,North,22-30,0.003,0.898,0.099
+mgb,general,Central,51-65,0.027999999999999997,0.966,0.005
+ldl,haredi,Sharon - Shomron,14-18,0.0,0.77,0.23
+albumin,haredi,Central,31-50,0.05,0.95,0.001
+nonhdl,haredi,Dan - Petach Tikva,80+,0.0,0.784,0.21600000000000003
+hba1c,arab,Sharon - Shomron,14-18,0.0,0.887,0.113
+folacid,general,Tel Aviv,22-30,0.298,0.7020000000000001,0.0
+nonhdl,general,Haifa,04-08,0.0,0.9670000000000001,0.033
+ferritin,haredi,North,09-13,0.322,0.6779999999999999,0.0
+ferritin,general,Central,66-79,0.08800000000000001,0.857,0.055
+chol,general,Jerusalem,01-03,0.0,0.9620000000000001,0.038
+iron,arab,Sharon - Shomron,09-13,0.3,0.643,0.057
+albumin,haredi,Central,66-79,0.057,0.943,0.0
+ldl,haredi,North,22-30,0.0,0.631,0.369
+b12,general,South,80+,0.006999999999999999,0.688,0.306
+mgb,haredi,Jerusalem,09-13,0.0,0.711,0.289
+albumin,general,Haifa,51-65,0.009000000000000001,0.9890000000000001,0.002
+chol,arab,South,01-03,0.0,0.97,0.03
+mgb,arab,Haifa,22-30,0.009000000000000001,0.9790000000000001,0.012
+trig,arab,Sharon - Shomron,19-21,0.0,0.9079999999999999,0.092
+iron,general,Jerusalem,22-30,0.133,0.787,0.08
+nonhdl,general,Tel Aviv,51-65,0.0,0.623,0.377
+ldl,haredi,Jerusalem,04-08,0.0,0.6940000000000001,0.306
+hb,arab,North,09-13,0.297,0.695,0.008
+folacid,haredi,Central,19-21,0.287,0.713,0.0
+hb,haredi,Haifa,22-30,0.253,0.746,0.001
+chol,arab,Haifa,80+,0.0,0.8220000000000001,0.17800000000000002
+ferritin,general,Central,80+,0.07,0.848,0.08199999999999999
+ldl,general,North,51-65,0.0,0.32799999999999996,0.672
+hdl,haredi,Central,31-50,0.251,0.7490000000000001,0.0
+b12,general,Central,09-13,0.027000000000000003,0.956,0.017
+hdl,general,Eilat,66-79,0.184,0.816,0.0
+mgb,arab,Haifa,09-13,0.011000000000000001,0.759,0.23
+hb,general,Sharon - Shomron,31-50,0.157,0.84,0.003
+nonhdl,arab,Jerusalem,51-65,0.0,0.647,0.353
+mgb,haredi,Jerusalem,14-18,0.006999999999999999,0.813,0.18
+ldl,haredi,Central,19-21,0.0,0.7759999999999999,0.22399999999999998
+nonhdl,haredi,Dan - Petach Tikva,66-79,0.0,0.759,0.24100000000000002
+b12,arab,Sharon - Shomron,09-13,0.053,0.9309999999999999,0.016
+hba1c,arab,Jerusalem,04-08,0.0,0.9470000000000001,0.053
+nonhdl,haredi,Dan - Petach Tikva,31-50,0.0,0.7240000000000001,0.276
+nonhdl,general,North,51-65,0.0,0.609,0.391
+vitaminD,general,Central,19-21,0.867,0.12,0.013000000000000001
+chol,general,Central,66-79,0.0,0.742,0.258
+iron,arab,Sharon - Shomron,51-65,0.266,0.723,0.012
+hdl,arab,Central,09-13,0.235,0.765,0.0
+nonhdl,haredi,North,09-13,0.0,0.94,0.06
+albumin,haredi,South,22-30,0.077,0.9229999999999999,0.0
+ldl,haredi,Jerusalem,09-13,0.0,0.759,0.24100000000000002
+b12,haredi,Central,01-03,0.004,0.871,0.124
+hba1c,arab,South,80+,0.0,0.27699999999999997,0.723
+chol,general,South,22-30,0.0,0.831,0.16899999999999998
+ferritin,haredi,Dan - Petach Tikva,66-79,0.09300000000000001,0.856,0.052000000000000005
+hba1c,general,North,19-21,0.006,0.888,0.106
+ferritin,haredi,Central,31-50,0.166,0.818,0.016
+chol,arab,North,66-79,0.0,0.8029999999999999,0.19699999999999998
+nonhdl,arab,North,80+,0.0,0.7809999999999999,0.21899999999999997
+folacid,arab,Central,31-50,0.415,0.585,0.0
+albumin,general,Jerusalem,19-21,0.019,0.9790000000000001,0.002
+hba1c,arab,Central,09-13,0.0,0.815,0.185
+hba1c,haredi,Dan - Petach Tikva,22-30,0.001,0.897,0.102
+ferritin,haredi,Sharon - Shomron,51-65,0.05,0.9059999999999999,0.043
+b12,haredi,Dan - Petach Tikva,09-13,0.036000000000000004,0.9540000000000001,0.009000000000000001
+hdl,haredi,South,14-18,0.23800000000000002,0.762,0.0
+albumin,general,Tel Aviv,22-30,0.013999999999999999,0.9840000000000001,0.002
+ferritin,arab,Haifa,01-03,0.19,0.805,0.004
+vitaminD,general,Sharon - Shomron,14-18,0.726,0.257,0.017
+transf,general,South,31-50,0.027999999999999997,0.8859999999999999,0.086
+iron,general,Jerusalem,51-65,0.13,0.8390000000000001,0.031
+folacid,general,Sharon - Shomron,22-30,0.294,0.706,0.0
+mgb,general,Central,09-13,0.01,0.747,0.243
+nonhdl,haredi,Haifa,19-21,0.0,0.966,0.034
+albumin,general,North,51-65,0.013999999999999999,0.986,0.0
+folacid,haredi,Jerusalem,01-03,0.028999999999999998,0.971,0.0
+chol,haredi,Central,22-30,0.0,0.863,0.13699999999999998
+nonhdl,arab,Central,22-30,0.0,0.845,0.155
+nonhdl,haredi,South,22-30,0.0,0.88,0.12
+hdl,arab,Central,14-18,0.331,0.669,0.0
+mgb,arab,North,22-30,0.017,0.972,0.011000000000000001
+folacid,haredi,South,31-50,0.305,0.695,0.0
+hdl,haredi,South,09-13,0.165,0.835,0.0
+ferritin,arab,Jerusalem,14-18,0.193,0.805,0.003
+ferritin,haredi,Jerusalem,01-03,0.21,0.79,0.0
+albumin,arab,South,19-21,0.126,0.872,0.002
+b12,general,Tel Aviv,31-50,0.07,0.915,0.016
+ferritin,haredi,North,04-08,0.16699999999999998,0.833,0.0
+vitaminD,general,Dan - Petach Tikva,19-21,0.866,0.13,0.004
+mgb,general,Sharon - Shomron,19-21,0.031,0.934,0.035
+transf,general,Eilat,80+,0.235,0.71,0.055
+hba1c,general,Eilat,31-50,0.001,0.747,0.252
+vitaminD,general,Haifa,09-13,0.7979999999999999,0.19399999999999998,0.008
+b12,general,Jerusalem,04-08,0.006999999999999999,0.953,0.04
+mgb,general,Dan - Petach Tikva,31-50,0.026000000000000002,0.963,0.011000000000000001
+hdl,arab,Haifa,04-08,0.11900000000000001,0.8809999999999999,0.0
+vitaminD,haredi,Sharon - Shomron,31-50,0.888,0.11199999999999999,0.0
+nonhdl,general,Central,31-50,0.0,0.698,0.302
+b12,arab,Central,51-65,0.091,0.882,0.027000000000000003
+trig,haredi,Central,19-21,0.0,0.912,0.08800000000000001
+znb,arab,Sharon - Shomron,04-08,0.046,0.9309999999999999,0.023
+b12,general,Sharon - Shomron,14-18,0.052000000000000005,0.9309999999999999,0.017
+chol,general,Dan - Petach Tikva,04-08,0.0,0.9390000000000001,0.061
+ldl,arab,North,09-13,0.0,0.7709999999999999,0.22899999999999998
+transf,arab,Dan - Petach Tikva,31-50,0.068,0.809,0.12300000000000001
+transf,arab,Jerusalem,66-79,0.131,0.841,0.027999999999999997
+hb,general,Haifa,66-79,0.223,0.773,0.004
+trig,haredi,Sharon - Shomron,14-18,0.0,0.9570000000000001,0.043
+hdl,arab,Sharon - Shomron,04-08,0.172,0.828,0.0
+b12,haredi,Sharon - Shomron,22-30,0.08,0.9059999999999999,0.013999999999999999
+iron,general,Haifa,80+,0.28600000000000003,0.708,0.006
+trig,haredi,South,09-13,0.0,0.946,0.054000000000000006
+b12,haredi,Central,19-21,0.054000000000000006,0.9129999999999999,0.033
+trig,general,Tel Aviv,22-30,0.0,0.873,0.127
+ldl,general,Jerusalem,09-13,0.0,0.7609999999999999,0.239
+hb,general,Haifa,80+,0.455,0.5429999999999999,0.002
+vitaminD,arab,Dan - Petach Tikva,14-18,0.966,0.031,0.003
+transf,arab,Sharon - Shomron,19-21,0.03,0.856,0.114
+hdl,haredi,Dan - Petach Tikva,01-03,0.281,0.7190000000000001,0.0
+nonhdl,arab,Jerusalem,14-18,0.0,0.945,0.055
+folacid,haredi,Jerusalem,14-18,0.247,0.753,0.0
+trig,arab,South,66-79,0.0,0.653,0.34700000000000003
+hb,general,Dan - Petach Tikva,31-50,0.155,0.8420000000000001,0.003
+hba1c,arab,Dan - Petach Tikva,80+,0.0,0.18600000000000003,0.8140000000000001
+iron,arab,Jerusalem,22-30,0.254,0.71,0.036000000000000004
+nonhdl,haredi,Jerusalem,09-13,0.0,0.9490000000000001,0.051
+chol,haredi,Dan - Petach Tikva,09-13,0.0,0.9670000000000001,0.033
+nonhdl,haredi,Jerusalem,51-65,0.0,0.642,0.358
+chol,haredi,North,14-18,0.0,1.0,0.0
+mgb,general,Eilat,80+,0.069,0.8959999999999999,0.035
+albumin,haredi,Dan - Petach Tikva,09-13,0.005,0.993,0.001
+hdl,arab,Haifa,22-30,0.235,0.765,0.0
+mgb,haredi,Central,31-50,0.005,0.9940000000000001,0.001
+folacid,general,Central,51-65,0.22399999999999998,0.7759999999999999,0.0
+iron,general,Tel Aviv,22-30,0.091,0.819999999999999,0.098
+chol,haredi,North,31-50,0.0,0.7170000000000001,0.28300000000000003
+mgb,general,Haifa,09-13,0.008,0.778,0.214
+vitaminD,arab,Haifa,22-30,0.943,0.054000000000000006,0.004
+ldl,general,Eilat,22-30,0.0,0.578,0.42200000000000004
+b12,general,Jerusalem,80+,0.075,0.8370000000000001,0.08900000000000001
+chol,general,Eilat,04-08,0.0,0.929,0.071
+hb,arab,Central,09-13,0.33299999999999996,0.657,0.01
+transf,haredi,Central,22-30,0.009000000000000001,0.882,0.19
+b12,general,Eilat,31-50,0.003,0.83,0.166
+ferritin,general,Central,22-30,0.155,0.8340000000000001,0.011000000000000001
+ferritin,general,Haifa,66-79,0.051,0.889,0.059000000000000004
+albumin,haredi,Jerusalem,51-65,0.013000000000000001,0.987,0.0
+iron,arab,South,66-79,0.36,0.633,0.006999999999999999
+nonhdl,haredi,Sharon - Shomron,31-50,0.0,0.7390000000000001,0.261
+chol,general,Haifa,80+,0.0,0.7440000000000001,0.256
+hb,general,South,22-30,0.185,0.81,0.005
+mgb,arab,Central,51-65,0.021,0.976,0.003
+b12,general,North,09-13,0.001,0.703,0.29600000000000004
+hdl,arab,South,51-65,0.28300000000000003,0.7170000000000001,0.0
+nonhdl,arab,Jerusalem,01-03,0.0,0.97,0.03
+ferritin,general,North,80+,0.062,0.85,0.08800000000000001
+iron,general,Central,66-79,0.182,0.805,0.013999999999999999
+ferritin,general,Eilat,04-08,0.21899999999999997,0.78,0.001
+ferritin,haredi,Jerusalem,09-13,0.145,0.8540000000000001,0.001
+hb,general,North,04-08,0.057,0.9420000000000001,0.002
+folacid,arab,Jerusalem,04-08,0.063,0.937,0.0
+ferritin,arab,Central,66-79,0.084,0.838,0.078
+chol,arab,Jerusalem,31-50,0.0,0.659,0.341
+iron,haredi,North,22-30,0.214,0.75,0.036000000000000004
+hb,haredi,Sharon - Shomron,09-13,0.239,0.7559999999999999,0.005
+vitaminD,general,Central,51-65,0.812,0.18100000000000002,0.006
+znb,haredi,Dan - Petach Tikva,22-30,0.095,0.8959999999999999,0.01
+hdl,general,Haifa,80+,0.203,0.797,0.0
+hdl,general,Sharon - Shomron,66-79,0.204,0.7959999999999999,0.0
+transf,general,North,22-30,0.019,0.868,0.113
+hba1c,general,Haifa,80+,0.0,0.287,0.713
+trig,general,Haifa,80+,0.0,0.773,0.22699999999999998
+hba1c,general,Jerusalem,19-21,0.0,0.907,0.09300000000000001
+mgb,arab,Central,19-21,0.012,0.976,0.012
+b12,general,Sharon - Shomron,19-21,0.077,0.904,0.019
+albumin,general,Tel Aviv,31-50,0.013000000000000001,0.986,0.001
+vitaminD,haredi,Dan - Petach Tikva,04-08,0.86,0.135,0.005
+albumin,haredi,Sharon - Shomron,31-50,0.036000000000000004,0.9640000000000001,0.0
+trig,arab,Jerusalem,51-65,0.0,0.573,0.42700000000000005
+chol,arab,Jerusalem,80+,0.0,0.8270000000000001,0.17300000000000001
+mgb,general,Haifa,19-21,0.008,0.961,0.031
+hdl,general,South,22-30,0.179,0.821,0.0
+iron,general,North,51-65,0.156,0.8190000000000001,0.025
+znb,haredi,Dan - Petach Tikva,14-18,0.067,0.8909999999999999,0.042
+trig,arab,Jerusalem,01-03,0.0,0.9670000000000001,0.033
+folacid,arab,Haifa,66-79,0.254,0.746,0.0
+hba1c,arab,Sharon - Shomron,19-21,0.001,0.88,0.11900000000000001
+ferritin,arab,South,22-30,0.257,0.727,0.016
+hba1c,general,South,22-30,0.004,0.9129999999999999,0.08199999999999999
+hdl,haredi,Dan - Petach Tikva,14-18,0.223,0.777,0.0
+ferritin,general,Central,04-08,0.252,0.746,0.001
+nonhdl,general,Tel Aviv,31-50,0.0,0.7120000000000001,0.28800000000000003
+hdl,haredi,Central,22-30,0.207,0.7929999999999999,0.0
+vitaminD,arab,South,51-65,0.941,0.055,0.004
+hdl,general,Tel Aviv,80+,0.195,0.805,0.0
+albumin,general,North,09-13,0.006999999999999999,0.993,0.001
+nonhdl,arab,Central,31-50,0.0,0.677,0.32299999999999995
+transf,general,Tel Aviv,66-79,0.08199999999999999,0.8909999999999999,0.027000000000000003
+folacid,haredi,Dan - Petach Tikva,66-79,0.253,0.747,0.0
+hb,haredi,South,09-13,0.19,0.805,0.005
+vitaminD,haredi,Haifa,51-65,0.782,0.20600000000000002,0.012
+b12,haredi,Sharon - Shomron,51-65,0.086,0.8859999999999999,0.027000000000000003
+nonhdl,general,Eilat,31-50,0.0,0.6629999999999999,0.337
+chol,arab,North,80+,0.0,0.77,0.23
+albumin,general,Central,66-79,0.037000000000000005,0.963,0.0
+ldl,general,Tel Aviv,31-50,0.0,0.397,0.603
+b12,general,Tel Aviv,51-65,0.057,0.907,0.036000000000000004
+hdl,general,Tel Aviv,22-30,0.153,0.847,0.0
+folacid,general,Tel Aviv,51-65,0.237,0.763,0.0
+mgb,general,North,01-03,0.003,0.812,0.18600000000000003
+chol,arab,Central,09-13,0.0,0.97,0.03
+mgb,haredi,Haifa,31-50,0.018000000000000002,0.973,0.009000000000000001
+ldl,arab,Central,31-50,0.0,0.39399999999999996,0.606
+hba1c,general,Central,31-50,0.0,0.693,0.307
+mgb,arab,Sharon - Shomron,14-18,0.035,0.83,0.135
+albumin,general,Sharon - Shomron,80+,0.16699999999999998,0.8320000000000001,0.0
+transf,haredi,Dan - Petach Tikva,19-21,0.013999999999999999,0.885,0.10099999999999999
+transf,general,Jerusalem,22-30,0.019,0.858,0.12300000000000001
+albumin,general,Eilat,31-50,0.027999999999999997,0.966,0.006
+hb,general,Tel Aviv,31-50,0.151,0.846,0.002
+hb,arab,Sharon - Shomron,04-08,0.10400000000000001,0.895,0.001
+nonhdl,arab,North,66-79,0.0,0.807,0.193
+chol,general,Central,80+,0.0,0.755,0.245
+iron,arab,Dan - Petach Tikva,66-79,0.35700000000000004,0.637,0.006999999999999999
+hba1c,haredi,Jerusalem,14-18,0.0,0.9229999999999999,0.077
+b12,haredi,Haifa,22-30,0.078,0.907,0.015
+vitaminD,arab,Central,31-50,0.914,0.085,0.002
+hba1c,arab,South,66-79,0.0,0.222,0.777
+iron,general,Dan - Petach Tikva,04-08,0.193,0.7170000000000001,0.091
+albumin,arab,North,66-79,0.076,0.924,0.0
+ldl,general,Jerusalem,04-08,0.0,0.6920000000000001,0.308
+ferritin,haredi,Central,80+,0.067,0.821,0.111
+ldl,haredi,Jerusalem,01-03,0.0,0.773,0.22699999999999998
+hba1c,general,North,04-08,0.002,0.955,0.043
+ferritin,general,Eilat,14-18,0.187,0.809,0.004
+transf,haredi,South,14-18,0.006,0.912,0.08199999999999999
+znb,general,Central,09-13,0.039,0.9359999999999999,0.025
+b12,arab,Dan - Petach Tikva,80+,0.161,0.797,0.042
+transf,arab,Central,14-18,0.008,0.865,0.127
+trig,arab,North,04-08,0.0,0.9620000000000001,0.038
+trig,haredi,Sharon - Shomron,51-65,0.0,0.665,0.335
+iron,general,Haifa,31-50,0.145,0.805,0.051
+hba1c,general,Sharon - Shomron,80+,0.0,0.284,0.716
+hb,haredi,North,31-50,0.22899999999999998,0.77,0.001
+trig,arab,Central,66-79,0.0,0.639,0.361
+ldl,general,South,22-30,0.0,0.5820000000000001,0.418
+iron,haredi,Dan - Petach Tikva,19-21,0.14800000000000002,0.794,0.057999999999999996
+folacid,haredi,North,51-65,0.168,0.8320000000000001,0.0
+mgb,general,Sharon - Shomron,09-13,0.005,0.763,0.23199999999999998
+transf,haredi,Sharon - Shomron,31-50,0.019,0.857,0.124
+trig,haredi,North,66-79,0.0,0.741,0.259
+nonhdl,general,Central,14-18,0.0,0.951,0.049
+nonhdl,arab,North,14-18,0.0,0.955,0.045
+vitaminD,arab,South,22-30,0.977,0.021,0.001
+iron,general,Haifa,51-65,0.128,0.846,0.025
+chol,arab,Dan - Petach Tikva,09-13,0.0,0.968,0.032
+iron,arab,Central,14-18,0.263,0.708,0.028999999999999998
+vitaminD,general,Tel Aviv,14-18,0.774,0.21600000000000003,0.01
+trig,general,Tel Aviv,66-79,0.0,0.7120000000000001,0.28800000000000003
+vitaminD,general,South,19-21,0.894,0.099,0.006999999999999999
+vitaminD,general,Central,22-30,0.809,0.184,0.006999999999999999
+ferritin,general,Jerusalem,09-13,0.141,0.856,0.003
+iron,arab,Haifa,19-21,0.195,0.764,0.040999999999999995
+folacid,arab,Haifa,31-50,0.309,0.691,0.0
+nonhdl,general,Haifa,19-21,0.0,0.9309999999999999,0.069
+trig,arab,Dan - Petach Tikva,31-50,0.0,0.637,0.363
+ferritin,general,Dan - Petach Tikva,01-03,0.309,0.69,0.001
+chol,general,South,31-50,0.0,0.672,0.32799999999999996
+iron,general,Jerusalem,04-08,0.23,0.6679999999999999,0.10099999999999999
+albumin,general,Haifa,19-21,0.009000000000000001,0.9690000000000001,0.022000000000000002
+trig,general,Tel Aviv,31-50,0.0,0.78,0.22
+ferritin,arab,South,66-79,0.07400000000000001,0.8190000000000001,0.107
+iron,haredi,Haifa,22-30,0.171,0.789,0.040999999999999995
+folacid,haredi,Central,31-50,0.289,0.711,0.0
+b12,general,Jerusalem,22-30,0.114,0.8740000000000001,0.011000000000000001
+hb,general,Dan - Petach Tikva,80+,0.445,0.552,0.002
+hba1c,haredi,Central,51-65,0.0,0.36,0.64
+ferritin,haredi,Haifa,66-79,0.066,0.868,0.066
+ferritin,arab,Sharon - Shomron,09-13,0.264,0.733,0.003
+znb,arab,North,22-30,0.1,0.889,0.011000000000000001
+vitaminD,general,Central,04-08,0.7170000000000001,0.276,0.008
+ldl,haredi,Haifa,09-13,0.0,0.828,0.172
+folacid,haredi,Sharon - Shomron,51-65,0.264,0.736,0.0
+ldl,general,Central,66-79,0.0,0.54,0.46
+chol,general,Haifa,66-79,0.0,0.723,0.27699999999999997
+ferritin,haredi,Dan - Petach Tikva,04-08,0.287,0.7120000000000001,0.001
+chol,haredi,North,51-65,0.0,0.573,0.42700000000000005
+hdl,general,South,04-08,0.115,0.885,0.0
+folacid,arab,Jerusalem,09-13,0.145,0.855,0.0
+transf,haredi,Haifa,66-79,0.133,0.8420000000000001,0.025
+nonhdl,haredi,Jerusalem,22-30,0.0,0.867,0.133
+chol,general,Jerusalem,22-30,0.0,0.8420000000000001,0.158
+transf,arab,South,01-03,0.019,0.9009999999999999,0.081
+trig,general,North,19-21,0.0,0.919999999999999,0.08900000000000001
+ferritin,arab,North,51-65,0.107,0.83,0.063
+ldl,arab,South,66-79,0.0,0.5539999999999999,0.446
+nonhdl,arab,North,09-13,0.0,0.96,0.04
+mgb,haredi,South,22-30,0.018000000000000002,0.982,0.0
+albumin,arab,Haifa,04-08,0.005,0.9940000000000001,0.001
+nonhdl,general,Central,09-13,0.0,0.951,0.049
+hba1c,general,South,80+,0.001,0.345,0.654
+hb,arab,Sharon - Shomron,01-03,0.187,0.812,0.001
+b12,general,Haifa,09-13,0.023,0.958,0.019
+ferritin,general,Jerusalem,14-18,0.154,0.8440000000000001,0.003
+ferritin,arab,Jerusalem,19-21,0.18899999999999997,0.802,0.009000000000000001
+hba1c,haredi,North,22-30,0.009000000000000001,0.919999999999999,0.08
+hba1c,haredi,Dan - Petach Tikva,14-18,0.0,0.8640000000000001,0.136
+trig,arab,Sharon - Shomron,04-08,0.0,0.953,0.047
+b12,haredi,South,66-79,0.0,0.794,0.20600000000000002
+ldl,arab,North,04-08,0.0,0.758,0.242
+transf,arab,Dan - Petach Tikva,14-18,0.022000000000000002,0.875,0.10300000000000001
+znb,arab,Haifa,19-21,0.04,0.9279999999999999,0.032
+hba1c,haredi,Haifa,66-79,0.001,0.302,0.6970000000000001
+b12,arab,Jerusalem,80+,0.19699999999999998,0.75,0.053
+znb,general,Dan - Petach Tikva,09-13,0.043,0.904,0.053
+ldl,haredi,Dan - Petach Tikva,01-03,0.0,0.7559999999999999,0.244
+hdl,haredi,Haifa,19-21,0.121,0.879,0.0
+iron,haredi,South,31-50,0.24100000000000002,0.726,0.033
+trig,general,Tel Aviv,51-65,0.0,0.682,0.318
+b12,arab,Jerusalem,66-79,0.151,0.809,0.04
+iron,haredi,South,66-79,0.233,0.74,0.027000000000000003
+chol,arab,Haifa,14-18,0.0,0.9620000000000001,0.038
+hb,haredi,Haifa,51-65,0.14800000000000002,0.848,0.005
+hdl,general,South,51-65,0.19899999999999998,0.8009999999999999,0.0
+znb,general,Sharon - Shomron,31-50,0.07,0.9009999999999999,0.028999999999999998
+transf,arab,South,22-30,0.026000000000000002,0.799,0.174
+folacid,general,Sharon - Shomron,14-18,0.396,0.604,0.0
+mgb,arab,North,14-18,0.015,0.845,0.14
+folacid,arab,North,04-08,0.107,0.893,0.0
+hb,haredi,Sharon - Shomron,31-50,0.23,0.77,0.0
+vitaminD,general,Jerusalem,04-08,0.698,0.297,0.004
+znb,general,Haifa,66-79,0.046,0.934,0.02
+hba1c,arab,North,31-50,0.001,0.6559999999999999,0.344
+hba1c,general,Jerusalem,66-79,0.0,0.413,0.5870000000000001
+transf,general,Tel Aviv,14-18,0.006,0.915,0.08
+transf,haredi,Sharon - Shomron,51-65,0.063,0.92,0.018000000000000002
+ferritin,arab,Haifa,80+,0.055,0.857,0.08800000000000001
+vitaminD,general,South,66-79,0.757,0.231,0.012
+chol,haredi,South,09-13,0.0,0.963,0.037000000000000005
+albumin,general,Eilat,01-03,0.035,0.965,0.0
+b12,arab,Haifa,31-50,0.087,0.902,0.011000000000000001
+iron,arab,Jerusalem,51-65,0.205,0.785,0.01
+transf,arab,Sharon - Shomron,80+,0.35700000000000004,0.627,0.016
+hdl,general,Sharon - Shomron,04-08,0.10400000000000001,0.8959999999999999,0.0
+hdl,general,Central,14-18,0.218,0.782,0.0
+nonhdl,arab,Haifa,04-08,0.0,0.9740000000000001,0.026000000000000002
+ferritin,haredi,Central,04-08,0.245,0.755,0.0
+albumin,arab,Sharon - Shomron,51-65,0.045,0.955,0.0
+nonhdl,general,Jerusalem,51-65,0.0,0.611,0.389
+b12,haredi,Central,31-50,0.084,0.878,0.038
+chol,haredi,Sharon - Shomron,51-65,0.0,0.657,0.34299999999999997
+znb,arab,Jerusalem,14-18,0.08900000000000001,0.892,0.019
+ldl,arab,North,66-79,0.0,0.609,0.391
+nonhdl,arab,South,51-65,0.0,0.657,0.34299999999999997
+ldl,general,Jerusalem,66-79,0.0,0.517,0.483
+hb,general,Dan - Petach Tikva,01-03,0.13,0.8690000000000001,0.001
+albumin,general,Dan - Petach Tikva,51-65,0.012,0.988,0.001
+mgb,haredi,Jerusalem,31-50,0.001,0.993,0.006
+iron,haredi,Central,01-03,0.337,0.591,0.073
+albumin,haredi,Jerusalem,19-21,0.022000000000000002,0.972,0.006
+iron,general,North,19-21,0.195,0.7440000000000001,0.061
+iron,haredi,Dan - Petach Tikva,51-65,0.139,0.84,0.021
+ldl,haredi,Central,31-50,0.0,0.46399999999999997,0.536
+trig,general,Central,31-50,0.0,0.757,0.243
+hb,general,Sharon - Shomron,19-21,0.163,0.8340000000000001,0.003
+ferritin,arab,Dan - Petach Tikva,66-79,0.11,0.78,0.11
+ferritin,arab,Dan - Petach Tikva,31-50,0.266,0.695,0.039
+chol,arab,Dan - Petach Tikva,14-18,0.0,0.9540000000000001,0.046
+b12,haredi,Dan - Petach Tikva,19-21,0.067,0.9159999999999999,0.017
+hb,haredi,Dan - Petach Tikva,51-65,0.162,0.8340000000000001,0.003
+b12,arab,Dan - Petach Tikva,22-30,0.087,0.899,0.013999999999999999
+ldl,haredi,Dan - Petach Tikva,80+,0.0,0.529,0.47100000000000003
+mgb,haredi,Central,04-08,0.003,0.71,0.287
+ldl,haredi,Haifa,51-65,0.0,0.396,0.604
+iron,general,Tel Aviv,80+,0.22899999999999998,0.763,0.009000000000000001
+mgb,general,Dan - Petach Tikva,80+,0.057999999999999996,0.9229999999999999,0.019
+chol,arab,Central,22-30,0.0,0.857,0.14300000000000002
+ferritin,arab,Jerusalem,80+,0.076,0.792,0.132
+chol,general,South,51-65,0.0,0.5870000000000001,0.413
+ldl,general,Eilat,09-13,0.0,0.7340000000000001,0.266
+mgb,arab,Sharon - Shomron,66-79,0.09,0.879,0.03
+vitaminD,general,Haifa,80+,0.6609999999999999,0.317,0.021
+znb,arab,North,19-21,0.092,0.8959999999999999,0.012
+chol,haredi,Central,19-21,0.0,0.9359999999999999,0.064
+chol,arab,Haifa,19-21,0.0,0.932,0.068
+ldl,haredi,Jerusalem,66-79,0.0,0.518,0.48200000000000004
+chol,arab,Jerusalem,14-18,0.0,0.951,0.049
+b12,haredi,Haifa,66-79,0.044000000000000004,0.9079999999999999,0.048
+chol,haredi,South,14-18,0.0,0.956,0.044000000000000004
+albumin,haredi,Sharon - Shomron,14-18,0.022000000000000002,0.9640000000000001,0.013999999999999999
+b12,general,Tel Aviv,22-30,0.083,0.904,0.013000000000000001
+b12,arab,North,31-50,0.003,0.84,0.157
+chol,haredi,North,66-79,0.0,0.711,0.289
+mgb,arab,Sharon - Shomron,80+,0.09,0.889,0.022000000000000002
+vitaminD,general,Haifa,66-79,0.665,0.32,0.016
+hdl,haredi,Central,19-21,0.17600000000000002,0.8240000000000001,0.0
+hb,haredi,Jerusalem,01-03,0.133,0.866,0.001
+folacid,general,Eilat,22-30,0.34700000000000003,0.653,0.0
+transf,haredi,Jerusalem,22-30,0.009000000000000001,0.83,0.16
+ferritin,haredi,Dan - Petach Tikva,14-18,0.23399999999999999,0.762,0.003
+nonhdl,haredi,Dan - Petach Tikva,19-21,0.0,0.945,0.055
+trig,arab,North,31-50,0.0,0.706,0.294
+iron,general,Dan - Petach Tikva,19-21,0.162,0.768,0.07
+hb,general,Tel Aviv,51-65,0.133,0.863,0.005
+hdl,general,Tel Aviv,19-21,0.2,0.8,0.0
+ldl,haredi,South,09-13,0.0,0.777,0.223
+ferritin,haredi,Central,19-21,0.161,0.83,0.009000000000000001
+folacid,general,Central,80+,0.285,0.715,0.0
+hb,arab,Dan - Petach Tikva,51-65,0.23600000000000002,0.759,0.005
+ldl,arab,Jerusalem,22-30,0.0,0.526,0.474
+ferritin,general,Dan - Petach Tikva,80+,0.064,0.852,0.085
+folacid,arab,Haifa,09-13,0.309,0.691,0.0
+ferritin,general,Haifa,14-18,0.11800000000000001,0.878,0.004
+b12,arab,Jerusalem,31-50,0.129,0.865,0.006
+hb,general,Jerusalem,66-79,0.184,0.809,0.006999999999999999
+albumin,general,Tel Aviv,04-08,0.012,0.988,0.001
+mgb,general,Eilat,51-65,0.03,0.9640000000000001,0.006
+chol,general,Dan - Petach Tikva,51-65,0.0,0.594,0.406
+chol,arab,Sharon - Shomron,51-65,0.0,0.726,0.27399999999999997
+hb,haredi,Haifa,66-79,0.258,0.737,0.005
+chol,general,Dan - Petach Tikva,01-03,0.0,0.966,0.034
+iron,general,Sharon - Shomron,14-18,0.165,0.782,0.053
+iron,arab,North,19-21,0.255,0.706,0.039
+b12,arab,Haifa,66-79,0.127,0.813,0.06
+hdl,haredi,South,19-21,0.17800000000000002,0.8220000000000001,0.0
+chol,haredi,Jerusalem,22-30,0.0,0.86,0.14
+ldl,general,Sharon - Shomron,01-03,0.0,0.747,0.253
+b12,general,Jerusalem,51-65,0.091,0.885,0.023
+trig,general,Haifa,04-08,0.0,0.961,0.039
+mgb,general,North,66-79,0.045,0.94,0.015
+transf,arab,Jerusalem,51-65,0.06,0.902,0.038
+ferritin,arab,Dan - Petach Tikva,14-18,0.26,0.735,0.005
+folacid,arab,North,80+,0.31,0.69,0.0
+vitaminD,arab,Sharon - Shomron,09-13,0.977,0.023,0.0
+folacid,haredi,Dan - Petach Tikva,09-13,0.366,0.634,0.0
+hdl,arab,Jerusalem,01-03,0.23399999999999999,0.7659999999999999,0.0
+hba1c,general,Haifa,04-08,0.0,0.91,0.09
+transf,general,Eilat,14-18,0.004,0.8759999999999999,0.11900000000000001
+iron,arab,Sharon - Shomron,80+,0.479,0.52,0.001
+trig,general,North,31-50,0.0,0.762,0.23800000000000002
+vitaminD,haredi,Jerusalem,31-50,0.894,0.09699999999999999,0.009000000000000001
+chol,arab,Jerusalem,04-08,0.0,0.9540000000000001,0.046
+trig,haredi,Sharon - Shomron,22-30,0.0,0.87,0.13
+hb,general,Tel Aviv,66-79,0.233,0.764,0.003
+hdl,arab,South,04-08,0.226,0.774,0.0
+albumin,arab,Dan - Petach Tikva,14-18,0.003,0.987,0.01
+chol,haredi,Dan - Petach Tikva,51-65,0.0,0.625,0.375
+transf,arab,Jerusalem,31-50,0.025,0.888,0.087
+trig,haredi,Sharon - Shomron,09-13,0.0,0.95,0.05
+b12,haredi,North,22-30,0.003,0.847,0.15
+trig,haredi,South,14-18,0.0,0.9159999999999999,0.084
+vitaminD,arab,Jerusalem,14-18,0.972,0.027000000000000003,0.001
+hb,general,Tel Aviv,80+,0.45,0.5489999999999999,0.002
+chol,general,North,09-13,0.0,0.953,0.047
+vitaminD,arab,Dan - Petach Tikva,66-79,0.92,0.068,0.012
+transf,arab,South,04-08,0.019,0.919,0.062
+hb,general,Haifa,14-18,0.289,0.674,0.036000000000000004
+trig,arab,Central,22-30,0.0,0.802,0.198
+trig,general,Sharon - Shomron,51-65,0.0,0.6809999999999999,0.319
+albumin,general,North,22-30,0.044000000000000004,0.9540000000000001,0.002
+nonhdl,general,Sharon - Shomron,22-30,0.0,0.855,0.145
+vitaminD,arab,Haifa,19-21,0.96,0.04,0.0
+mgb,arab,Jerusalem,19-21,0.004,0.965,0.031
+chol,arab,Haifa,51-65,0.0,0.674,0.326
+transf,general,Eilat,01-03,0.004,0.941,0.054000000000000006
+iron,general,Haifa,14-18,0.16899999999999998,0.777,0.054000000000000006
+transf,general,Dan - Petach Tikva,19-21,0.016,0.892,0.092
+hb,haredi,Jerusalem,04-08,0.048,0.95,0.002
+znb,general,North,66-79,0.09,0.8959999999999999,0.013000000000000001
+hba1c,general,Sharon - Shomron,09-13,0.0,0.86,0.14
+ferritin,general,Central,01-03,0.308,0.69,0.002
+vitaminD,haredi,Dan - Petach Tikva,19-21,0.929,0.067,0.004
+folacid,general,South,31-50,0.307,0.693,0.0
+trig,general,Jerusalem,09-13,0.0,0.912,0.08800000000000001
+ldl,arab,Jerusalem,19-21,0.0,0.654,0.34600000000000003
+ferritin,general,Sharon - Shomron,22-30,0.13,0.857,0.013000000000000001
+nonhdl,arab,North,31-50,0.0,0.6779999999999999,0.322
+b12,arab,North,19-21,0.005,0.7859999999999999,0.209
+vitaminD,arab,Dan - Petach Tikva,09-13,0.963,0.037000000000000005,0.0
+albumin,arab,South,01-03,0.07200000000000001,0.9279999999999999,0.0
+hb,arab,Sharon - Shomron,51-65,0.204,0.79,0.006
+ferritin,general,Dan - Petach Tikva,14-18,0.205,0.7929999999999999,0.002
+znb,general,Haifa,51-65,0.021,0.9490000000000001,0.03
+iron,arab,Dan - Petach Tikva,31-50,0.27899999999999997,0.701,0.02
+folacid,haredi,South,66-79,0.226,0.774,0.0
+transf,arab,Sharon - Shomron,09-13,0.012,0.888,0.1
+chol,haredi,Haifa,80+,0.0,0.767,0.233
+albumin,arab,Sharon - Shomron,31-50,0.031,0.968,0.0
+hb,arab,Jerusalem,31-50,0.184,0.8029999999999999,0.013000000000000001
+transf,arab,Haifa,04-08,0.013000000000000001,0.9670000000000001,0.02
+hdl,haredi,Central,04-08,0.133,0.867,0.0
+hb,general,Jerusalem,14-18,0.217,0.72,0.062
+chol,arab,Dan - Petach Tikva,01-03,0.0,0.9790000000000001,0.021
+vitaminD,haredi,Haifa,80+,0.637,0.325,0.037000000000000005
+b12,haredi,Haifa,04-08,0.004,0.9540000000000001,0.042
+chol,arab,Dan - Petach Tikva,51-65,0.0,0.738,0.262
+albumin,general,Dan - Petach Tikva,31-50,0.021,0.977,0.002
+znb,general,Sharon - Shomron,14-18,0.057999999999999996,0.915,0.027999999999999997
+mgb,arab,North,31-50,0.011000000000000001,0.982,0.006999999999999999
+albumin,general,Jerusalem,01-03,0.023,0.977,0.0
+hba1c,arab,Haifa,04-08,0.0,0.9129999999999999,0.087
+iron,general,Eilat,04-08,0.174,0.7120000000000001,0.114
+transf,arab,Sharon - Shomron,22-30,0.034,0.8420000000000001,0.124
+ldl,general,Jerusalem,14-18,0.0,0.753,0.247
+hba1c,general,Central,66-79,0.0,0.27699999999999997,0.722
+nonhdl,general,Sharon - Shomron,01-03,0.0,0.9790000000000001,0.021
+hb,arab,Dan - Petach Tikva,66-79,0.436,0.563,0.001
+folacid,general,Tel Aviv,04-08,0.09,0.91,0.0
+transf,arab,North,04-08,0.011000000000000001,0.9520000000000001,0.037000000000000005
+transf,arab,Sharon - Shomron,51-65,0.121,0.8320000000000001,0.047
+transf,arab,Sharon - Shomron,01-03,0.012,0.945,0.043
+chol,general,North,51-65,0.0,0.578,0.42200000000000004
+chol,general,North,01-03,0.0,0.9670000000000001,0.033
+iron,arab,Dan - Petach Tikva,80+,0.455,0.527,0.018000000000000002
+hb,general,North,19-21,0.192,0.8059999999999999,0.002
+hdl,haredi,Jerusalem,19-21,0.201,0.799,0.0
+ldl,haredi,Central,66-79,0.0,0.555,0.445
+ferritin,haredi,Sharon - Shomron,31-50,0.135,0.858,0.006999999999999999
+iron,general,South,04-08,0.242,0.669,0.08900000000000001
+transf,arab,Haifa,22-30,0.04,0.897,0.062
+chol,haredi,South,22-30,0.0,0.863,0.13699999999999998
+hb,arab,Dan - Petach Tikva,80+,0.535,0.465,0.0
+iron,haredi,Dan - Petach Tikva,01-03,0.354,0.573,0.073
+b12,general,Dan - Petach Tikva,31-50,0.075,0.909,0.016
+ldl,arab,Haifa,80+,0.0,0.642,0.358
+trig,haredi,Central,04-08,0.0,0.968,0.032
+vitaminD,general,Sharon - Shomron,09-13,0.777,0.215,0.008
+hdl,general,Eilat,04-08,0.094,0.9059999999999999,0.0
+b12,arab,South,31-50,0.002,0.868,0.13
+nonhdl,haredi,Central,19-21,0.0,0.943,0.057
+ldl,arab,Haifa,66-79,0.0,0.6409999999999999,0.359
+ldl,general,Jerusalem,01-03,0.0,0.715,0.285
+vitaminD,general,North,22-30,0.6940000000000001,0.27899999999999997,0.026000000000000002
+ferritin,general,Haifa,31-50,0.094,0.8740000000000001,0.032
+b12,general,South,51-65,0.003,0.826,0.172
+ldl,haredi,Central,80+,0.0,0.629,0.371
+ldl,general,Jerusalem,51-65,0.0,0.341,0.659
+chol,general,Tel Aviv,22-30,0.0,0.8320000000000001,0.168
+ldl,general,South,31-50,0.0,0.379,0.621
+iron,general,Sharon - Shomron,19-21,0.183,0.754,0.063
+iron,arab,Haifa,51-65,0.156,0.828,0.015
+hb,haredi,Central,01-03,0.177,0.823,0.001
+hba1c,haredi,Jerusalem,09-13,0.0,0.9279999999999999,0.07200000000000001
+hb,haredi,Central,04-08,0.076,0.924,0.0
+vitaminD,general,Sharon - Shomron,01-03,0.615,0.374,0.01
+transf,haredi,Dan - Petach Tikva,09-13,0.003,0.898,0.098
+transf,arab,Haifa,09-13,0.009000000000000001,0.9420000000000001,0.049
+chol,arab,Central,14-18,0.0,0.9590000000000001,0.040999999999999995
+b12,arab,Haifa,19-21,0.07200000000000001,0.917,0.011000000000000001
+hb,arab,Haifa,51-65,0.16399999999999998,0.83,0.006
+iron,haredi,Central,51-65,0.147,0.833,0.02
+hdl,haredi,Jerusalem,01-03,0.32299999999999995,0.677,0.0
+hb,arab,Haifa,19-21,0.187,0.8079999999999999,0.005
+ferritin,general,South,14-18,0.16899999999999998,0.825,0.006
+folacid,haredi,Central,80+,0.33299999999999996,0.667,0.0
+folacid,haredi,Central,66-79,0.258,0.742,0.0
+ldl,general,Sharon - Shomron,66-79,0.0,0.527,0.473
+ldl,general,Sharon - Shomron,80+,0.0,0.5539999999999999,0.446
+ferritin,arab,Sharon - Shomron,19-21,0.221,0.769,0.01
+vitaminD,arab,Jerusalem,66-79,0.873,0.19,0.018000000000000002
+folacid,general,Central,01-03,0.08199999999999999,0.9179999999999999,0.0
+b12,haredi,Sharon - Shomron,14-18,0.051,0.943,0.006
+znb,general,Tel Aviv,31-50,0.071,0.909,0.02
+vitaminD,arab,Jerusalem,80+,0.85,0.135,0.015
+transf,general,Sharon - Shomron,14-18,0.008,0.914,0.077
+folacid,general,North,31-50,0.20800000000000002,0.792,0.0
+hb,haredi,Sharon - Shomron,14-18,0.32299999999999995,0.657,0.02
+iron,haredi,Sharon - Shomron,14-18,0.145,0.812,0.043
+albumin,arab,Jerusalem,80+,0.18600000000000003,0.8140000000000001,0.0
+hdl,arab,Jerusalem,80+,0.307,0.693,0.0
+hba1c,arab,Haifa,51-65,0.0,0.273,0.726
+transf,general,Jerusalem,04-08,0.005,0.963,0.032
+hb,haredi,Central,19-21,0.22699999999999998,0.7709999999999999,0.001
+hdl,arab,Jerusalem,66-79,0.327,0.6729999999999999,0.0
+albumin,haredi,Jerusalem,01-03,0.028999999999999998,0.971,0.0
+iron,general,North,01-03,0.308,0.617,0.075
+trig,haredi,North,22-30,0.0,0.836,0.16399999999999998
+hdl,general,Dan - Petach Tikva,04-08,0.19,0.8909999999999999,0.0
+ferritin,general,Jerusalem,19-21,0.142,0.8490000000000001,0.009000000000000001
+nonhdl,general,North,09-13,0.0,0.961,0.039
+nonhdl,haredi,Sharon - Shomron,09-13,0.0,0.983,0.017
+albumin,general,Sharon - Shomron,51-65,0.019,0.981,0.0
+mgb,arab,Sharon - Shomron,22-30,0.037000000000000005,0.9279999999999999,0.035
+hdl,arab,Dan - Petach Tikva,14-18,0.301,0.6990000000000001,0.0
+ldl,general,North,14-18,0.0,0.777,0.223
+iron,haredi,Dan - Petach Tikva,09-13,0.245,0.675,0.08
+hdl,general,Central,01-03,0.244,0.7559999999999999,0.0
+hdl,general,Haifa,09-13,0.131,0.8690000000000001,0.0
+albumin,haredi,Sharon - Shomron,09-13,0.0,1.0,0.0
+hdl,haredi,Sharon - Shomron,22-30,0.203,0.797,0.0
+b12,arab,Dan - Petach Tikva,66-79,0.154,0.728,0.11800000000000001
+hb,general,Jerusalem,51-65,0.099,0.887,0.013999999999999999
+hb,general,Jerusalem,04-08,0.046,0.951,0.003
+folacid,arab,Dan - Petach Tikva,51-65,0.27399999999999997,0.726,0.0
+folacid,general,South,14-18,0.435,0.565,0.0
+transf,haredi,South,51-65,0.015,0.9520000000000001,0.033
+znb,general,Tel Aviv,66-79,0.085,0.89,0.025
+iron,arab,North,04-08,0.289,0.65,0.061
+znb,arab,Sharon - Shomron,22-30,0.083,0.91,0.006999999999999999
+transf,general,Jerusalem,09-13,0.004,0.915,0.081
+mgb,arab,Central,04-08,0.0,0.6459999999999999,0.354
+ldl,general,Haifa,31-50,0.0,0.431,0.569
+hdl,general,Jerusalem,19-21,0.19,0.81,0.0
+b12,general,Haifa,51-65,0.062,0.9079999999999999,0.03
+albumin,general,South,80+,0.16699999999999998,0.833,0.0
+trig,general,Dan - Petach Tikva,04-08,0.0,0.9640000000000001,0.036000000000000004
+chol,haredi,North,09-13,0.0,0.9470000000000001,0.053
+transf,general,Haifa,51-65,0.069,0.9059999999999999,0.024
+mgb,general,Sharon - Shomron,01-03,0.002,0.91,0.08800000000000001
+b12,arab,North,04-08,0.0,0.593,0.40700000000000003
+folacid,arab,South,04-08,0.155,0.845,0.0
+mgb,arab,South,14-18,0.040999999999999995,0.8170000000000001,0.142
+transf,haredi,Jerusalem,19-21,0.013000000000000001,0.852,0.135
+albumin,general,Eilat,66-79,0.042,0.958,0.0
+znb,arab,Sharon - Shomron,09-13,0.038,0.904,0.057999999999999996
+folacid,general,Central,04-08,0.11800000000000001,0.882,0.0
+hb,general,Haifa,31-50,0.152,0.8440000000000001,0.004
+trig,arab,Central,51-65,0.0,0.613,0.387
+nonhdl,general,Dan - Petach Tikva,66-79,0.0,0.758,0.242
+hdl,general,South,66-79,0.191,0.809,0.0
+nonhdl,arab,Sharon - Shomron,66-79,0.0,0.8290000000000001,0.171
+hb,arab,South,51-65,0.17800000000000002,0.8140000000000001,0.008
+mgb,general,Central,14-18,0.015,0.856,0.13
+iron,arab,Jerusalem,66-79,0.28600000000000003,0.706,0.008
+iron,haredi,North,31-50,0.218,0.755,0.027000000000000003
+hdl,haredi,Central,80+,0.23600000000000002,0.764,0.0
+transf,arab,South,09-13,0.01,0.852,0.138
+hb,arab,North,04-08,0.098,0.9009999999999999,0.001
+ldl,haredi,South,31-50,0.0,0.44799999999999995,0.552
+znb,general,Tel Aviv,80+,0.127,0.853,0.02
+b12,haredi,South,51-65,0.002,0.858,0.141
+trig,general,North,14-18,0.0,0.925,0.075
+znb,general,Jerusalem,22-30,0.14300000000000002,0.828,0.028999999999999998
+mgb,haredi,Jerusalem,51-65,0.011000000000000001,0.98,0.009000000000000001
+b12,general,Tel Aviv,66-79,0.054000000000000006,0.882,0.063
+hdl,general,South,80+,0.18899999999999997,0.819999999999999,0.0
+vitaminD,arab,Jerusalem,31-50,0.96,0.036000000000000004,0.003
+hba1c,general,Tel Aviv,80+,0.001,0.32899999999999996,0.67
+trig,general,Tel Aviv,80+,0.0,0.774,0.226
+folacid,general,Dan - Petach Tikva,01-03,0.069,0.9309999999999999,0.0
+vitaminD,general,Dan - Petach Tikva,51-65,0.805,0.18600000000000003,0.008
+znb,arab,Haifa,22-30,0.032,0.937,0.03
+albumin,general,Haifa,31-50,0.009000000000000001,0.985,0.006
+iron,haredi,Sharon - Shomron,22-30,0.19699999999999998,0.773,0.03
+folacid,haredi,Haifa,51-65,0.203,0.797,0.0
+mgb,general,South,31-50,0.019,0.978,0.004
+hba1c,general,North,09-13,0.003,0.94,0.057
+ferritin,general,Dan - Petach Tikva,22-30,0.11900000000000001,0.867,0.013999999999999999
+albumin,haredi,South,31-50,0.048,0.9520000000000001,0.0
+vitaminD,haredi,Jerusalem,04-08,0.858,0.142,0.0
+b12,haredi,Central,09-13,0.038,0.938,0.023
+trig,haredi,South,19-21,0.0,0.9,0.1
+mgb,general,Tel Aviv,19-21,0.025,0.9690000000000001,0.006
+ferritin,haredi,North,51-65,0.102,0.843,0.054000000000000006
+ferritin,arab,North,04-08,0.205,0.7929999999999999,0.002
+nonhdl,haredi,South,31-50,0.0,0.7340000000000001,0.266
+hb,arab,South,31-50,0.298,0.6920000000000001,0.009000000000000001
+b12,general,Eilat,80+,0.013999999999999999,0.6709999999999999,0.315
+znb,general,Central,51-65,0.047,0.9329999999999999,0.02
+chol,general,North,19-21,0.0,0.91,0.09
+hdl,arab,Dan - Petach Tikva,09-13,0.24,0.76,0.0
+vitaminD,haredi,Jerusalem,22-30,0.905,0.09,0.005
+nonhdl,general,North,19-21,0.0,0.93,0.07
+transf,arab,Dan - Petach Tikva,66-79,0.268,0.703,0.027999999999999997
+znb,general,Central,01-03,0.065,0.9279999999999999,0.006999999999999999
+ferritin,general,Dan - Petach Tikva,04-08,0.249,0.7509999999999999,0.001
+nonhdl,arab,Dan - Petach Tikva,22-30,0.0,0.8490000000000001,0.151
+trig,arab,Jerusalem,09-13,0.0,0.899,0.10099999999999999
+nonhdl,general,Sharon - Shomron,09-13,0.0,0.956,0.044000000000000004
+albumin,arab,Central,22-30,0.027999999999999997,0.971,0.001
+hba1c,general,Haifa,31-50,0.001,0.684,0.316
+ferritin,general,Jerusalem,04-08,0.12300000000000001,0.875,0.002
+nonhdl,arab,Dan - Petach Tikva,31-50,0.0,0.68,0.32
+albumin,general,Sharon - Shomron,09-13,0.008,0.991,0.002
+transf,general,Haifa,66-79,0.12300000000000001,0.853,0.024
+nonhdl,general,Tel Aviv,80+,0.0,0.77,0.23
+nonhdl,haredi,North,14-18,0.0,0.995,0.005
+vitaminD,haredi,Dan - Petach Tikva,22-30,0.894,0.09699999999999999,0.009000000000000001
+nonhdl,general,Sharon - Shomron,19-21,0.0,0.9279999999999999,0.07200000000000001
+hdl,general,Jerusalem,51-65,0.223,0.777,0.0
+folacid,haredi,Dan - Petach Tikva,22-30,0.331,0.669,0.0
+mgb,haredi,South,51-65,0.035,0.965,0.0
+chol,general,Haifa,31-50,0.0,0.7020000000000001,0.298
+hba1c,general,Tel Aviv,31-50,0.001,0.772,0.228
+albumin,general,North,19-21,0.024,0.975,0.002
+hba1c,arab,Jerusalem,80+,0.0,0.384,0.616
+hb,general,Central,31-50,0.16,0.8370000000000001,0.003
+chol,haredi,Jerusalem,09-13,0.0,0.955,0.045
+ldl,general,Haifa,19-21,0.0,0.753,0.247
+hdl,haredi,Haifa,31-50,0.247,0.753,0.0
+mgb,arab,Central,09-13,0.005,0.7959999999999999,0.19899999999999998
+vitaminD,general,Eilat,51-65,0.752,0.233,0.015
+trig,arab,Central,19-21,0.0,0.8590000000000001,0.141
+vitaminD,arab,Jerusalem,09-13,0.9740000000000001,0.024,0.002
+albumin,haredi,Jerusalem,09-13,0.006999999999999999,0.993,0.0
+albumin,haredi,North,14-18,0.0,0.9890000000000001,0.011000000000000001
+chol,haredi,Sharon - Shomron,31-50,0.0,0.727,0.273
+folacid,general,Dan - Petach Tikva,51-65,0.243,0.757,0.0
+znb,general,Haifa,04-08,0.0,0.953,0.047
+albumin,general,North,01-03,0.054000000000000006,0.946,0.0
+b12,arab,South,80+,0.009000000000000001,0.743,0.248
+ferritin,general,Tel Aviv,66-79,0.076,0.865,0.059000000000000004
+b12,general,Dan - Petach Tikva,80+,0.059000000000000004,0.8340000000000001,0.107
+hba1c,haredi,South,31-50,0.001,0.7929999999999999,0.20600000000000002
+trig,arab,South,31-50,0.0,0.674,0.326
+chol,general,Tel Aviv,80+,0.0,0.736,0.264
+hba1c,arab,Dan - Petach Tikva,31-50,0.0,0.499,0.501
+mgb,arab,Dan - Petach Tikva,51-65,0.038,0.943,0.019
+ferritin,general,Eilat,22-30,0.14800000000000002,0.8320000000000001,0.02
+ferritin,arab,Haifa,09-13,0.127,0.871,0.002
+nonhdl,general,Haifa,14-18,0.0,0.9540000000000001,0.046
+ldl,arab,North,14-18,0.0,0.7659999999999999,0.23399999999999999
+iron,general,North,09-13,0.226,0.6829999999999999,0.09
+hba1c,general,North,14-18,0.002,0.951,0.047
+iron,general,Dan - Petach Tikva,66-79,0.162,0.821,0.017
+nonhdl,haredi,Sharon - Shomron,14-18,0.0,0.9540000000000001,0.046
+hdl,haredi,Jerusalem,14-18,0.24100000000000002,0.759,0.0
+nonhdl,haredi,Jerusalem,01-03,0.0,1.0,0.0
+ferritin,haredi,Jerusalem,04-08,0.139,0.858,0.003
+iron,general,Tel Aviv,51-65,0.107,0.863,0.031
+nonhdl,general,Dan - Petach Tikva,14-18,0.0,0.9490000000000001,0.051
+iron,arab,Dan - Petach Tikva,14-18,0.226,0.732,0.042
+hba1c,haredi,Haifa,31-50,0.0,0.688,0.312
+nonhdl,arab,Sharon - Shomron,14-18,0.0,0.9440000000000001,0.055999999999999994
+chol,arab,Jerusalem,09-13,0.0,0.951,0.049
+albumin,arab,North,14-18,0.004,0.9940000000000001,0.002
+ferritin,general,Dan - Petach Tikva,66-79,0.079,0.863,0.057999999999999996
+iron,haredi,North,51-65,0.17,0.802,0.027000000000000003
+vitaminD,arab,North,04-08,0.735,0.235,0.03
+albumin,general,Tel Aviv,19-21,0.016,0.982,0.002
+vitaminD,general,Dan - Petach Tikva,22-30,0.8029999999999999,0.19,0.008
+hdl,general,South,01-03,0.225,0.775,0.0
+albumin,general,South,04-08,0.015,0.9840000000000001,0.001
+ferritin,haredi,Haifa,01-03,0.162,0.838,0.0
+nonhdl,arab,Central,19-21,0.0,0.91,0.09
+hb,haredi,Haifa,80+,0.469,0.526,0.005
+b12,general,Dan - Petach Tikva,22-30,0.08900000000000001,0.895,0.016
+nonhdl,general,Sharon - Shomron,04-08,0.0,0.961,0.039
+trig,haredi,South,31-50,0.0,0.7509999999999999,0.249
+hba1c,general,Sharon - Shomron,01-03,0.0,0.91,0.09
+folacid,haredi,Haifa,22-30,0.275,0.725,0.0
+hdl,general,Sharon - Shomron,09-13,0.149,0.851,0.0
+iron,arab,South,04-08,0.313,0.613,0.07400000000000001
+hb,general,Jerusalem,80+,0.377,0.619,0.004
+nonhdl,general,Eilat,51-65,0.0,0.561,0.439
+b12,arab,South,22-30,0.004,0.863,0.133
+ferritin,haredi,Haifa,09-13,0.153,0.843,0.004
+hdl,general,North,04-08,0.111,0.889,0.0
+nonhdl,haredi,Dan - Petach Tikva,01-03,0.0,0.977,0.023
+albumin,general,Central,14-18,0.005,0.992,0.004
+mgb,general,South,01-03,0.009000000000000001,0.748,0.243
+ferritin,arab,South,09-13,0.264,0.718,0.018000000000000002
+mgb,general,North,80+,0.048,0.927,0.025
+albumin,haredi,South,19-21,0.045,0.945,0.01
+hdl,haredi,Central,01-03,0.348,0.652,0.0
+transf,haredi,South,31-50,0.021,0.83,0.149
+ferritin,arab,South,01-03,0.309,0.679,0.012
+mgb,arab,Haifa,51-65,0.026000000000000002,0.943,0.031
+mgb,general,South,09-13,0.012,0.654,0.33399999999999996
+transf,general,Haifa,31-50,0.039,0.9059999999999999,0.055
+hb,general,Eilat,80+,0.457,0.537,0.006
+chol,general,Tel Aviv,66-79,0.0,0.727,0.273
+mgb,general,North,09-13,0.012,0.725,0.262
+iron,arab,Central,51-65,0.212,0.78,0.009000000000000001
+mgb,general,Eilat,31-50,0.026000000000000002,0.958,0.016
+hdl,haredi,Jerusalem,51-65,0.239,0.7609999999999999,0.0
+nonhdl,arab,North,51-65,0.0,0.6659999999999999,0.33399999999999996
+trig,general,Eilat,22-30,0.0,0.875,0.125
+albumin,haredi,Dan - Petach Tikva,22-30,0.028999999999999998,0.965,0.006
+iron,arab,Central,09-13,0.276,0.657,0.067
+trig,general,Sharon - Shomron,19-21,0.0,0.907,0.09300000000000001
+chol,arab,South,22-30,0.0,0.8490000000000001,0.151
+transf,arab,South,66-79,0.158,0.7979999999999999,0.044000000000000004
+ferritin,arab,Haifa,04-08,0.107,0.8909999999999999,0.002
+folacid,arab,North,22-30,0.29100000000000004,0.7090000000000001,0.0
+hb,arab,North,80+,0.515,0.48200000000000004,0.003
+trig,general,Dan - Petach Tikva,80+,0.0,0.763,0.237
+vitaminD,general,Eilat,22-30,0.732,0.251,0.017
+mgb,general,Dan - Petach Tikva,19-21,0.037000000000000005,0.927,0.037000000000000005
+mgb,general,Haifa,22-30,0.009000000000000001,0.973,0.018000000000000002
+chol,arab,Central,66-79,0.0,0.784,0.21600000000000003
+trig,haredi,Haifa,80+,0.0,0.7859999999999999,0.214
+hba1c,haredi,Central,01-03,0.0,0.9640000000000001,0.036000000000000004
+iron,general,Haifa,09-13,0.201,0.7040000000000001,0.094
+mgb,general,South,51-65,0.031,0.963,0.006
+nonhdl,haredi,Central,04-08,0.0,0.972,0.027999999999999997
+hb,arab,South,01-03,0.266,0.731,0.002
+chol,general,Eilat,19-21,0.0,0.86,0.14
+ldl,haredi,Jerusalem,22-30,0.0,0.613,0.387
+mgb,general,Sharon - Shomron,51-65,0.025,0.965,0.01
+nonhdl,haredi,Haifa,14-18,0.0,0.9740000000000001,0.026000000000000002
+transf,general,Central,80+,0.223,0.76,0.017
+nonhdl,haredi,Jerusalem,04-08,0.0,0.9690000000000001,0.031
+folacid,general,Central,22-30,0.284,0.716,0.0
+transf,general,Sharon - Shomron,19-21,0.028999999999999998,0.8540000000000001,0.11699999999999999
+ldl,arab,North,51-65,0.0,0.419,0.581
+mgb,arab,Central,22-30,0.004,0.9940000000000001,0.002
+mgb,arab,South,19-21,0.043,0.94,0.017
+hba1c,general,North,51-65,0.001,0.501,0.498
+hdl,arab,South,14-18,0.297,0.703,0.0
+b12,arab,Central,09-13,0.051,0.9420000000000001,0.006
+ferritin,haredi,Jerusalem,22-30,0.129,0.863,0.008
+nonhdl,arab,Dan - Petach Tikva,19-21,0.0,0.9229999999999999,0.077
+ferritin,general,Dan - Petach Tikva,51-65,0.064,0.885,0.051
+hba1c,arab,Haifa,01-03,0.0,0.927,0.073
+hdl,general,Jerusalem,14-18,0.21899999999999997,0.7809999999999999,0.0
+hdl,haredi,Jerusalem,09-13,0.218,0.782,0.0
+albumin,arab,Jerusalem,19-21,0.006,0.992,0.002
+mgb,haredi,Central,80+,0.057999999999999996,0.9309999999999999,0.012
+iron,haredi,South,09-13,0.3,0.618,0.08199999999999999
+b12,haredi,Sharon - Shomron,09-13,0.049,0.9420000000000001,0.01
+b12,haredi,Jerusalem,31-50,0.10800000000000001,0.879,0.012
+nonhdl,general,Central,51-65,0.0,0.627,0.373
+chol,arab,Haifa,31-50,0.0,0.71,0.29
+mgb,arab,South,51-65,0.057,0.9359999999999999,0.006999999999999999
+hba1c,general,Haifa,19-21,0.003,0.88,0.11599999999999999
+vitaminD,general,Tel Aviv,51-65,0.7859999999999999,0.204,0.01
+mgb,haredi,Dan - Petach Tikva,22-30,0.035,0.9470000000000001,0.018000000000000002
+chol,arab,Haifa,66-79,0.0,0.819999999999999,0.18899999999999997
+hb,general,Jerusalem,22-30,0.135,0.858,0.006999999999999999
+trig,general,Jerusalem,19-21,0.0,0.914,0.086
+albumin,arab,Haifa,66-79,0.033,0.966,0.0
+nonhdl,haredi,South,51-65,0.0,0.627,0.373
+hdl,arab,Haifa,31-50,0.309,0.691,0.0
+nonhdl,haredi,Jerusalem,80+,0.0,0.825,0.175
+hdl,arab,Jerusalem,51-65,0.322,0.6779999999999999,0.0
+mgb,general,Dan - Petach Tikva,51-65,0.03,0.961,0.009000000000000001
+nonhdl,general,Tel Aviv,04-08,0.0,0.9620000000000001,0.038
+hb,general,Dan - Petach Tikva,09-13,0.212,0.78,0.008
+hdl,general,Eilat,80+,0.177,0.823,0.0
+ldl,haredi,South,14-18,0.0,0.787,0.213
+folacid,haredi,Sharon - Shomron,22-30,0.32799999999999996,0.672,0.0
+chol,general,Haifa,04-08,0.0,0.943,0.057
+chol,haredi,Jerusalem,66-79,0.0,0.725,0.275
+folacid,arab,Haifa,19-21,0.44799999999999995,0.552,0.0
+albumin,haredi,Dan - Petach Tikva,66-79,0.031,0.9670000000000001,0.001
+hb,general,North,31-50,0.171,0.825,0.004
+ferritin,haredi,Sharon - Shomron,09-13,0.308,0.6920000000000001,0.0
+chol,haredi,Dan - Petach Tikva,31-50,0.0,0.732,0.268
+hb,haredi,North,51-65,0.145,0.85,0.005
+nonhdl,arab,South,01-03,0.0,0.972,0.027999999999999997
+albumin,haredi,North,04-08,0.021,0.9790000000000001,0.0
+folacid,haredi,South,14-18,0.336,0.664,0.0
+ldl,haredi,Sharon - Shomron,22-30,0.0,0.652,0.348
+trig,arab,Jerusalem,31-50,0.0,0.647,0.353
+vitaminD,general,South,31-50,0.835,0.16,0.005
+albumin,general,Tel Aviv,51-65,0.013000000000000001,0.986,0.0
+transf,haredi,North,22-30,0.013999999999999999,0.821,0.166
+b12,general,Sharon - Shomron,80+,0.06,0.8190000000000001,0.121
+chol,haredi,Dan - Petach Tikva,80+,0.0,0.7509999999999999,0.249
+ferritin,general,Eilat,66-79,0.099,0.823,0.078
+b12,general,North,31-50,0.005,0.846,0.149
+b12,general,Eilat,01-03,0.0,0.287,0.713
+ferritin,arab,North,80+,0.11599999999999999,0.7609999999999999,0.12300000000000001
+ldl,general,Haifa,14-18,0.0,0.8079999999999999,0.192
+b12,general,Sharon - Shomron,66-79,0.065,0.868,0.067
+hb,arab,Sharon - Shomron,22-30,0.24600000000000002,0.7490000000000001,0.004
+ferritin,general,Eilat,31-50,0.133,0.84,0.027000000000000003
+iron,arab,Sharon - Shomron,22-30,0.231,0.7340000000000001,0.035
+iron,general,South,22-30,0.172,0.77,0.059000000000000004
+folacid,haredi,Jerusalem,51-65,0.215,0.785,0.0
+albumin,general,Haifa,66-79,0.023,0.976,0.001
+folacid,general,Jerusalem,66-79,0.21,0.79,0.0
+trig,arab,North,14-18,0.0,0.935,0.065
+hdl,general,Central,22-30,0.184,0.816,0.0
+ldl,general,North,09-13,0.0,0.763,0.237
+iron,general,Central,31-50,0.134,0.818,0.048
+folacid,general,Tel Aviv,19-21,0.429,0.5710000000000001,0.0
+hb,haredi,Central,51-65,0.151,0.8440000000000001,0.005
+hdl,general,Haifa,31-50,0.242,0.758,0.0
+nonhdl,general,Tel Aviv,66-79,0.0,0.762,0.23800000000000002
+mgb,arab,Central,14-18,0.01,0.893,0.09699999999999999
+b12,general,Sharon - Shomron,04-08,0.006,0.9520000000000001,0.042
+mgb,general,Jerusalem,04-08,0.008,0.456,0.536
+trig,arab,Haifa,51-65,0.0,0.621,0.379
+transf,haredi,Jerusalem,51-65,0.053,0.9,0.047
+iron,general,North,04-08,0.22399999999999998,0.685,0.09
+ldl,haredi,Haifa,19-21,0.0,0.838,0.162
+nonhdl,arab,Central,66-79,0.0,0.774,0.226
+hb,haredi,Dan - Petach Tikva,14-18,0.29600000000000004,0.6809999999999999,0.023
+hba1c,arab,North,04-08,0.003,0.915,0.081
+znb,arab,North,31-50,0.114,0.873,0.013000000000000001
+mgb,arab,Jerusalem,66-79,0.039,0.9470000000000001,0.013000000000000001
+folacid,arab,North,14-18,0.353,0.647,0.0
+b12,haredi,Dan - Petach Tikva,51-65,0.069,0.897,0.033
+vitaminD,general,Dan - Petach Tikva,31-50,0.836,0.158,0.006
+b12,general,Dan - Petach Tikva,66-79,0.065,0.872,0.063
+hba1c,arab,Jerusalem,66-79,0.001,0.29600000000000004,0.7040000000000001
+trig,general,South,04-08,0.0,0.955,0.045
+vitaminD,arab,Sharon - Shomron,66-79,0.843,0.128,0.028999999999999998
+ldl,arab,Sharon - Shomron,80+,0.0,0.637,0.363
+folacid,arab,Sharon - Shomron,31-50,0.384,0.616,0.0
+hb,haredi,South,19-21,0.265,0.727,0.008
+transf,arab,South,14-18,0.017,0.809,0.174
+vitaminD,general,Tel Aviv,19-21,0.848,0.138,0.013999999999999999
+mgb,general,South,66-79,0.062,0.929,0.01
+ldl,arab,Jerusalem,09-13,0.0,0.743,0.257
+albumin,haredi,Haifa,80+,0.147,0.853,0.0
+vitaminD,general,Dan - Petach Tikva,80+,0.6859999999999999,0.297,0.017
+iron,haredi,Sharon - Shomron,04-08,0.289,0.649,0.061
+ferritin,haredi,North,22-30,0.228,0.772,0.0
+iron,general,Central,09-13,0.218,0.691,0.092
+folacid,general,North,51-65,0.18600000000000003,0.8140000000000001,0.0
+mgb,general,Haifa,31-50,0.01,0.978,0.012
+trig,arab,South,19-21,0.0,0.904,0.096
+folacid,haredi,Dan - Petach Tikva,19-21,0.301,0.6990000000000001,0.0
+hba1c,general,Central,14-18,0.001,0.8959999999999999,0.10300000000000001
+ferritin,general,Eilat,80+,0.10099999999999999,0.809,0.09
+trig,general,South,66-79,0.0,0.695,0.305
+ferritin,arab,North,66-79,0.13699999999999998,0.777,0.085
+b12,general,Dan - Petach Tikva,09-13,0.022000000000000002,0.963,0.015
+ldl,haredi,Dan - Petach Tikva,19-21,0.0,0.76,0.24
+hdl,haredi,Dan - Petach Tikva,31-50,0.25,0.75,0.0
+ldl,general,Sharon - Shomron,51-65,0.0,0.349,0.6509999999999999
+trig,general,Central,19-21,0.0,0.91,0.09
+nonhdl,haredi,Jerusalem,66-79,0.0,0.758,0.242
+hba1c,arab,Dan - Petach Tikva,04-08,0.0,0.895,0.105
+albumin,haredi,Sharon - Shomron,51-65,0.02,0.98,0.0
+ferritin,general,Haifa,09-13,0.124,0.875,0.001
+nonhdl,general,Jerusalem,01-03,0.0,0.972,0.027999999999999997
+mgb,haredi,Jerusalem,22-30,0.004,0.992,0.004
+trig,general,South,80+,0.0,0.7609999999999999,0.239
+nonhdl,general,Eilat,14-18,0.0,0.9329999999999999,0.067
+ldl,arab,Haifa,19-21,0.0,0.747,0.253
+hba1c,general,Tel Aviv,19-21,0.002,0.9129999999999999,0.085
+albumin,haredi,Jerusalem,66-79,0.03,0.97,0.0
+mgb,general,Jerusalem,51-65,0.008,0.982,0.01
+hb,arab,South,22-30,0.355,0.638,0.006999999999999999
+chol,general,Tel Aviv,04-08,0.0,0.9390000000000001,0.061
+iron,general,North,66-79,0.226,0.762,0.013000000000000001
+trig,general,Central,01-03,0.0,0.9670000000000001,0.033
+ferritin,haredi,South,09-13,0.212,0.7879999999999999,0.0
+ferritin,arab,Central,22-30,0.295,0.696,0.01
+transf,arab,Jerusalem,01-03,0.006999999999999999,0.9440000000000001,0.049
+nonhdl,arab,Sharon - Shomron,01-03,0.0,0.9590000000000001,0.040999999999999995
+ldl,haredi,South,22-30,0.0,0.654,0.34600000000000003
+folacid,haredi,South,22-30,0.29600000000000004,0.7040000000000001,0.0
+hdl,general,Tel Aviv,51-65,0.20800000000000002,0.792,0.0
+iron,general,North,31-50,0.17,0.7859999999999999,0.044000000000000004
+chol,haredi,Dan - Petach Tikva,66-79,0.0,0.723,0.27699999999999997
+vitaminD,general,Sharon - Shomron,31-50,0.797,0.193,0.01
+ferritin,haredi,Sharon - Shomron,22-30,0.20199999999999999,0.792,0.006
+iron,haredi,Central,09-13,0.21899999999999997,0.684,0.09699999999999999
+hb,arab,Haifa,09-13,0.27,0.723,0.006999999999999999
+b12,general,North,01-03,0.0,0.39399999999999996,0.606
+ferritin,general,North,31-50,0.138,0.8320000000000001,0.031
+transf,haredi,Dan - Petach Tikva,01-03,0.03,0.907,0.064
+vitaminD,haredi,South,22-30,0.904,0.092,0.004
+ldl,general,Eilat,31-50,0.0,0.37200000000000005,0.628
+hdl,general,Jerusalem,01-03,0.231,0.769,0.0
+folacid,general,Eilat,51-65,0.26,0.74,0.0
+transf,haredi,Jerusalem,31-50,0.022000000000000002,0.8540000000000001,0.124
+nonhdl,general,North,14-18,0.0,0.953,0.047
+vitaminD,general,North,04-08,0.564,0.42200000000000004,0.013999999999999999
+iron,general,Haifa,19-21,0.184,0.759,0.057
+hdl,arab,South,01-03,0.309,0.691,0.0
+hb,general,Sharon - Shomron,66-79,0.214,0.7829999999999999,0.003
+trig,haredi,Haifa,14-18,0.0,0.958,0.042
+albumin,arab,South,04-08,0.061,0.9390000000000001,0.0
+mgb,haredi,Dan - Petach Tikva,19-21,0.03,0.934,0.036000000000000004
+trig,haredi,Jerusalem,31-50,0.0,0.741,0.259
+mgb,arab,South,09-13,0.012,0.654,0.33399999999999996
+ldl,haredi,North,51-65,0.0,0.304,0.696
+vitaminD,general,Sharon - Shomron,51-65,0.737,0.242,0.021
+hb,general,Eilat,31-50,0.122,0.865,0.012
+iron,arab,North,14-18,0.26,0.708,0.032
+iron,general,Sharon - Shomron,80+,0.282,0.711,0.006999999999999999
+hb,general,Sharon - Shomron,80+,0.43799999999999994,0.56,0.002
+ferritin,arab,Dan - Petach Tikva,04-08,0.244,0.753,0.003
+ferritin,general,South,09-13,0.14300000000000002,0.855,0.002
+hba1c,general,Jerusalem,51-65,0.001,0.527,0.47200000000000003
+znb,general,North,22-30,0.10400000000000001,0.8909999999999999,0.005
+hba1c,general,Central,80+,0.0,0.28300000000000003,0.7170000000000001
+transf,arab,Haifa,01-03,0.015,0.966,0.019
+iron,arab,Central,19-21,0.306,0.6579999999999999,0.036000000000000004
+folacid,general,South,01-03,0.08,0.92,0.0
+transf,haredi,Jerusalem,66-79,0.09699999999999999,0.862,0.040999999999999995
+nonhdl,general,Jerusalem,04-08,0.0,0.946,0.054000000000000006
+vitaminD,arab,South,19-21,0.975,0.025,0.0
+nonhdl,general,Central,19-21,0.0,0.9229999999999999,0.077
+b12,general,North,22-30,0.021,0.8490000000000001,0.13
+albumin,general,Jerusalem,04-08,0.009000000000000001,0.991,0.0
+ldl,general,Dan - Petach Tikva,22-30,0.0,0.5820000000000001,0.418
+ferritin,general,Tel Aviv,04-08,0.23,0.769,0.001
+vitaminD,haredi,Haifa,66-79,0.6459999999999999,0.34299999999999997,0.011000000000000001
+nonhdl,arab,South,04-08,0.0,0.9620000000000001,0.038
+nonhdl,arab,North,19-21,0.0,0.9279999999999999,0.07200000000000001
+nonhdl,general,Haifa,01-03,0.0,0.978,0.022000000000000002
+iron,arab,Jerusalem,04-08,0.314,0.622,0.064
+b12,arab,Central,19-21,0.094,0.878,0.027999999999999997
+transf,general,South,66-79,0.102,0.861,0.037000000000000005
+ldl,arab,Jerusalem,01-03,0.0,0.7509999999999999,0.249
+folacid,haredi,Haifa,14-18,0.324,0.6759999999999999,0.0
+b12,arab,North,14-18,0.001,0.7879999999999999,0.21100000000000002
+ldl,general,Tel Aviv,80+,0.0,0.537,0.46299999999999997
+vitaminD,arab,North,31-50,0.861,0.133,0.006
+albumin,general,Tel Aviv,80+,0.159,0.841,0.0
+hb,arab,South,19-21,0.3,0.6940000000000001,0.006
+transf,general,Sharon - Shomron,51-65,0.071,0.903,0.026000000000000002
+hdl,general,Tel Aviv,66-79,0.19899999999999998,0.8009999999999999,0.0
+albumin,arab,Dan - Petach Tikva,09-13,0.012,0.986,0.002
+hb,general,North,01-03,0.145,0.8540000000000001,0.001
+hdl,general,Tel Aviv,31-50,0.20600000000000002,0.794,0.0
+transf,haredi,Dan - Petach Tikva,14-18,0.013999999999999999,0.889,0.09699999999999999
+transf,arab,Central,04-08,0.0,0.961,0.039
+folacid,general,Eilat,09-13,0.368,0.632,0.0
+b12,general,Tel Aviv,19-21,0.07,0.919999999999999,0.019
+transf,general,Sharon - Shomron,01-03,0.01,0.96,0.03
+vitaminD,arab,Haifa,80+,0.87,0.113,0.017
+albumin,general,Sharon - Shomron,31-50,0.021,0.978,0.001
+transf,arab,South,19-21,0.025,0.809,0.165
+mgb,general,Tel Aviv,31-50,0.009000000000000001,0.986,0.005
+vitaminD,general,Central,31-50,0.843,0.152,0.005
+hb,general,Central,19-21,0.19699999999999998,0.799,0.004
+hba1c,haredi,North,66-79,0.0,0.298,0.7020000000000001
+b12,general,South,04-08,0.001,0.579,0.42
+chol,general,Central,14-18,0.0,0.945,0.055
+folacid,haredi,Jerusalem,80+,0.26899999999999996,0.731,0.0
+nonhdl,arab,Dan - Petach Tikva,66-79,0.0,0.865,0.135
+albumin,arab,Central,66-79,0.064,0.9359999999999999,0.0
+trig,general,South,09-13,0.0,0.9229999999999999,0.077
+chol,arab,North,14-18,0.0,0.958,0.042
+chol,arab,Haifa,01-03,0.0,0.976,0.024
+hb,haredi,North,04-08,0.08800000000000001,0.912,0.0
+ldl,general,Central,19-21,0.0,0.71,0.29
+hdl,haredi,South,66-79,0.163,0.8370000000000001,0.0
+folacid,arab,Haifa,04-08,0.106,0.894,0.0
+ferritin,haredi,Jerusalem,31-50,0.136,0.843,0.021
+b12,general,Eilat,09-13,0.0,0.6859999999999999,0.314
+trig,general,Sharon - Shomron,01-03,0.0,0.975,0.025
+hba1c,haredi,South,09-13,0.0,0.865,0.135
+nonhdl,general,North,31-50,0.0,0.701,0.299
+ldl,general,Haifa,22-30,0.0,0.626,0.374
+b12,general,North,80+,0.004,0.708,0.28800000000000003
+mgb,haredi,Central,09-13,0.001,0.775,0.22399999999999998
+ferritin,general,Sharon - Shomron,51-65,0.063,0.885,0.052000000000000005
+chol,haredi,Jerusalem,80+,0.0,0.799,0.201
+iron,arab,South,22-30,0.308,0.653,0.038
+ldl,general,Tel Aviv,14-18,0.0,0.765,0.235
+vitaminD,haredi,Haifa,22-30,0.857,0.135,0.008
+b12,general,North,66-79,0.003,0.7829999999999999,0.214
+folacid,general,Sharon - Shomron,51-65,0.225,0.775,0.0
+hba1c,general,Central,22-30,0.001,0.8909999999999999,0.10800000000000001
+nonhdl,haredi,South,04-08,0.0,0.968,0.032
+mgb,arab,North,51-65,0.028999999999999998,0.9540000000000001,0.017
+vitaminD,general,Jerusalem,09-13,0.85,0.15,0.0
+iron,general,Dan - Petach Tikva,09-13,0.19699999999999998,0.703,0.099
+iron,general,Central,22-30,0.13699999999999998,0.7909999999999999,0.07200000000000001
+ldl,arab,Central,14-18,0.0,0.76,0.24
+hba1c,general,Dan - Petach Tikva,14-18,0.0,0.883,0.11699999999999999
+nonhdl,arab,Central,51-65,0.0,0.675,0.325
+albumin,arab,Central,51-65,0.034,0.966,0.0
+folacid,haredi,Jerusalem,19-21,0.23199999999999998,0.768,0.0
+hb,arab,South,09-13,0.284,0.713,0.004
+albumin,haredi,South,51-65,0.011000000000000001,0.9890000000000001,0.0
+hba1c,haredi,Jerusalem,31-50,0.001,0.7859999999999999,0.213
+trig,general,Dan - Petach Tikva,19-21,0.0,0.9229999999999999,0.077
+nonhdl,general,Dan - Petach Tikva,01-03,0.0,0.973,0.027000000000000003
+ferritin,general,Haifa,22-30,0.09,0.8959999999999999,0.013000000000000001
+hdl,haredi,South,51-65,0.235,0.765,0.0
+albumin,general,Haifa,04-08,0.003,0.992,0.004
+hb,general,Central,09-13,0.228,0.764,0.008
+albumin,general,Eilat,14-18,0.003,0.97,0.027000000000000003
+vitaminD,haredi,South,51-65,0.866,0.126,0.008
+ferritin,general,Tel Aviv,09-13,0.221,0.777,0.002
+vitaminD,general,Haifa,51-65,0.77,0.21899999999999997,0.01
+folacid,arab,Central,14-18,0.529,0.47100000000000003,0.0
+chol,general,Eilat,14-18,0.0,0.925,0.075
+folacid,general,Haifa,51-65,0.20800000000000002,0.792,0.0
+iron,arab,Jerusalem,14-18,0.268,0.696,0.035
+hdl,haredi,Central,51-65,0.23399999999999999,0.7659999999999999,0.0
+albumin,general,Sharon - Shomron,22-30,0.027999999999999997,0.97,0.002
+hb,arab,Sharon - Shomron,80+,0.5820000000000001,0.415,0.003
+iron,general,Haifa,01-03,0.26899999999999996,0.6579999999999999,0.073
+trig,haredi,South,66-79,0.0,0.716,0.284
+ferritin,general,Jerusalem,66-79,0.069,0.868,0.063
+nonhdl,general,Jerusalem,14-18,0.0,0.9420000000000001,0.057999999999999996
+albumin,arab,Sharon - Shomron,14-18,0.011000000000000001,0.986,0.003
+nonhdl,haredi,Central,22-30,0.0,0.861,0.139
+nonhdl,haredi,South,19-21,0.0,0.924,0.076
+vitaminD,haredi,South,14-18,0.919999999999999,0.08900000000000001,0.0
+chol,arab,North,22-30,0.0,0.858,0.142
+albumin,general,Dan - Petach Tikva,14-18,0.003,0.986,0.01
+iron,haredi,Sharon - Shomron,51-65,0.14400000000000002,0.846,0.01
+albumin,general,Sharon - Shomron,04-08,0.013000000000000001,0.986,0.0
+nonhdl,general,South,22-30,0.0,0.85,0.15
+ldl,general,Eilat,51-65,0.0,0.304,0.696
+nonhdl,arab,Haifa,01-03,0.0,0.977,0.023
+znb,general,Central,22-30,0.076,0.9,0.025
+hdl,arab,Haifa,51-65,0.315,0.685,0.0
+hba1c,general,Eilat,14-18,0.003,0.9279999999999999,0.068
+trig,haredi,Sharon - Shomron,31-50,0.0,0.722,0.278
+b12,general,Sharon - Shomron,31-50,0.079,0.904,0.017
+vitaminD,haredi,Central,19-21,0.941,0.052000000000000005,0.006999999999999999
+chol,general,North,31-50,0.0,0.693,0.307
+nonhdl,general,South,04-08,0.0,0.9570000000000001,0.043
+b12,arab,Sharon - Shomron,22-30,0.08199999999999999,0.903,0.015
+ldl,haredi,North,31-50,0.0,0.42700000000000005,0.573
+folacid,general,Jerusalem,22-30,0.215,0.785,0.0
+hdl,general,South,09-13,0.172,0.828,0.0
+albumin,general,Eilat,51-65,0.017,0.981,0.002
+ferritin,general,Tel Aviv,80+,0.057999999999999996,0.852,0.09
+hdl,haredi,Sharon - Shomron,31-50,0.23,0.77,0.0
+b12,arab,Haifa,51-65,0.102,0.875,0.023
+hb,arab,Jerusalem,04-08,0.055999999999999994,0.943,0.002
+trig,haredi,Dan - Petach Tikva,51-65,0.0,0.66,0.34
+albumin,haredi,South,66-79,0.034,0.966,0.0
+trig,general,North,01-03,0.0,0.9640000000000001,0.036000000000000004
+hba1c,general,Sharon - Shomron,31-50,0.001,0.705,0.295
+vitaminD,general,South,09-13,0.8220000000000001,0.174,0.004
+b12,arab,South,66-79,0.005,0.784,0.21100000000000002
+folacid,arab,South,66-79,0.361,0.639,0.0
+folacid,general,Sharon - Shomron,04-08,0.09699999999999999,0.903,0.0
+hb,arab,Haifa,14-18,0.32,0.649,0.031
+iron,general,Eilat,31-50,0.12300000000000001,0.7909999999999999,0.086
+nonhdl,haredi,South,66-79,0.0,0.737,0.263
+vitaminD,arab,Central,66-79,0.9,0.1,0.0
+ldl,general,South,80+,0.0,0.5529999999999999,0.447
+ferritin,arab,North,01-03,0.315,0.684,0.001
+transf,arab,Sharon - Shomron,04-08,0.01,0.937,0.053
+nonhdl,general,North,22-30,0.0,0.8690000000000001,0.131
+iron,haredi,Central,04-08,0.22,0.687,0.094
+ldl,general,South,66-79,0.0,0.547,0.45299999999999996
+trig,general,North,51-65,0.0,0.6829999999999999,0.317
+ferritin,arab,North,19-21,0.20600000000000002,0.779,0.015
+hb,arab,Central,14-18,0.39799999999999996,0.5870000000000001,0.015
+transf,general,Central,19-21,0.013000000000000001,0.873,0.114
+iron,haredi,South,14-18,0.261,0.7090000000000001,0.031
+b12,haredi,Central,04-08,0.01,0.9390000000000001,0.052000000000000005
+hb,haredi,North,66-79,0.28600000000000003,0.7140000000000001,0.0
+mgb,arab,Dan - Petach Tikva,19-21,0.037000000000000005,0.898,0.065
+vitaminD,haredi,South,66-79,0.75,0.25,0.0
+ferritin,general,Eilat,01-03,0.26899999999999996,0.731,0.0
+hb,haredi,South,14-18,0.29600000000000004,0.6679999999999999,0.035
+transf,general,North,14-18,0.006,0.903,0.092
+iron,arab,Haifa,04-08,0.248,0.693,0.057999999999999996
+b12,general,South,19-21,0.009000000000000001,0.861,0.13
+vitaminD,haredi,Jerusalem,19-21,0.903,0.09699999999999999,0.0
+hdl,general,North,14-18,0.19899999999999998,0.8009999999999999,0.0
+mgb,haredi,Haifa,66-79,0.062,0.915,0.023
+albumin,haredi,Dan - Petach Tikva,01-03,0.045,0.955,0.0
+hb,haredi,Dan - Petach Tikva,19-21,0.20600000000000002,0.7929999999999999,0.001
+hdl,general,North,09-13,0.168,0.8320000000000001,0.0
+hba1c,general,North,01-03,0.0,0.9740000000000001,0.026000000000000002
+iron,haredi,Central,19-21,0.16,0.779,0.061
+ldl,general,Sharon - Shomron,31-50,0.0,0.39399999999999996,0.606
+transf,general,South,80+,0.21899999999999997,0.757,0.024
+mgb,general,Haifa,01-03,0.005,0.912,0.083
+hdl,general,Jerusalem,04-08,0.132,0.868,0.0
+b12,arab,Haifa,04-08,0.013999999999999999,0.968,0.019
+folacid,haredi,Haifa,09-13,0.15,0.85,0.0
+folacid,general,Dan - Petach Tikva,09-13,0.309,0.691,0.0
+b12,haredi,South,14-18,0.006999999999999999,0.868,0.125
+ferritin,general,Dan - Petach Tikva,19-21,0.192,0.8029999999999999,0.005
+mgb,haredi,Haifa,80+,0.06,0.899,0.04
+folacid,arab,North,01-03,0.057999999999999996,0.9420000000000001,0.0
+b12,general,Haifa,14-18,0.05,0.9359999999999999,0.013000000000000001
+nonhdl,arab,North,01-03,0.0,0.97,0.03
+transf,arab,Central,51-65,0.085,0.884,0.031
+hdl,haredi,South,04-08,0.11900000000000001,0.8809999999999999,0.0
+b12,general,Central,51-65,0.065,0.903,0.032
+nonhdl,haredi,Central,66-79,0.0,0.799,0.201
+ldl,haredi,South,66-79,0.0,0.46,0.54
+iron,arab,South,80+,0.45299999999999996,0.5379999999999999,0.009000000000000001
+vitaminD,haredi,Central,31-50,0.8809999999999999,0.111,0.008
+nonhdl,haredi,Jerusalem,14-18,0.0,0.9590000000000001,0.040999999999999995
+mgb,haredi,Dan - Petach Tikva,14-18,0.011000000000000001,0.8320000000000001,0.157
+b12,arab,Sharon - Shomron,51-65,0.098,0.855,0.047
+vitaminD,haredi,Dan - Petach Tikva,31-50,0.917,0.08,0.003
+trig,general,Sharon - Shomron,31-50,0.0,0.767,0.233
+znb,haredi,Central,31-50,0.10300000000000001,0.8909999999999999,0.006
+folacid,haredi,North,22-30,0.24100000000000002,0.759,0.0
+vitaminD,haredi,Dan - Petach Tikva,66-79,0.741,0.248,0.012
+folacid,haredi,Sharon - Shomron,14-18,0.331,0.669,0.0
+b12,arab,Sharon - Shomron,01-03,0.006,0.902,0.092
+hdl,general,South,31-50,0.217,0.7829999999999999,0.0
+b12,general,Central,01-03,0.004,0.91,0.086
+hdl,arab,Central,19-21,0.32899999999999996,0.6709999999999999,0.0
+chol,general,Eilat,80+,0.0,0.722,0.278
+ferritin,general,Central,31-50,0.138,0.835,0.026000000000000002
+ferritin,arab,South,80+,0.024,0.8540000000000001,0.12300000000000001
+albumin,general,South,66-79,0.048,0.9520000000000001,0.0
+vitaminD,general,Dan - Petach Tikva,01-03,0.69,0.306,0.004
+transf,general,Haifa,09-13,0.005,0.9420000000000001,0.054000000000000006
+hb,haredi,South,01-03,0.184,0.816,0.0
+hb,general,Haifa,51-65,0.121,0.873,0.006
+transf,general,Haifa,01-03,0.008,0.971,0.021
+transf,haredi,South,09-13,0.009000000000000001,0.836,0.155
+nonhdl,arab,Dan - Petach Tikva,04-08,0.0,0.976,0.024
+ldl,haredi,Sharon - Shomron,09-13,0.0,0.812,0.188
+b12,haredi,Jerusalem,22-30,0.09699999999999999,0.889,0.013999999999999999
+iron,general,Dan - Petach Tikva,80+,0.265,0.726,0.009000000000000001
+chol,general,South,66-79,0.0,0.725,0.275
+vitaminD,arab,Jerusalem,19-21,0.97,0.027999999999999997,0.002
+trig,haredi,Central,14-18,0.0,0.9359999999999999,0.064
+ldl,arab,Dan - Petach Tikva,22-30,0.0,0.598,0.402
+hb,arab,Central,51-65,0.213,0.785,0.002
+hb,general,Dan - Petach Tikva,66-79,0.21899999999999997,0.777,0.003
+trig,arab,Sharon - Shomron,09-13,0.0,0.917,0.083
+chol,arab,Sharon - Shomron,04-08,0.0,0.95,0.05
+albumin,arab,South,51-65,0.053,0.9470000000000001,0.0
+ferritin,arab,North,14-18,0.22699999999999998,0.765,0.006999999999999999
+transf,haredi,Central,04-08,0.004,0.973,0.023
+hba1c,haredi,Jerusalem,04-08,0.0,0.914,0.086
+transf,general,Haifa,14-18,0.009000000000000001,0.9309999999999999,0.06
+albumin,haredi,Haifa,66-79,0.032,0.968,0.0
+albumin,general,Jerusalem,51-65,0.011000000000000001,0.9890000000000001,0.0
+folacid,general,Tel Aviv,09-13,0.304,0.696,0.0
+hb,general,Eilat,04-08,0.066,0.9329999999999999,0.001
+albumin,general,Dan - Petach Tikva,66-79,0.027000000000000003,0.973,0.0
+trig,general,Central,80+,0.0,0.769,0.231
+transf,haredi,Dan - Petach Tikva,04-08,0.009000000000000001,0.958,0.033
+chol,general,North,14-18,0.0,0.9470000000000001,0.053
+transf,general,Dan - Petach Tikva,22-30,0.024,0.871,0.105
+trig,general,Dan - Petach Tikva,22-30,0.0,0.851,0.149
+ferritin,general,South,22-30,0.136,0.845,0.019
+vitaminD,general,Tel Aviv,01-03,0.605,0.389,0.006
+nonhdl,general,Dan - Petach Tikva,31-50,0.0,0.701,0.299
+trig,haredi,Haifa,22-30,0.0,0.872,0.128
+folacid,general,Dan - Petach Tikva,19-21,0.38299999999999995,0.617,0.0
+mgb,general,Central,31-50,0.013000000000000001,0.977,0.01
+ldl,general,Eilat,04-08,0.0,0.653,0.34700000000000003
+trig,haredi,Dan - Petach Tikva,19-21,0.0,0.919,0.081
+vitaminD,haredi,South,31-50,0.894,0.102,0.005
+b12,general,North,14-18,0.005,0.7959999999999999,0.19899999999999998
+hba1c,arab,North,09-13,0.001,0.915,0.084
+b12,arab,Sharon - Shomron,19-21,0.076,0.9059999999999999,0.018000000000000002
+albumin,haredi,Central,80+,0.212,0.7879999999999999,0.0
+nonhdl,arab,Sharon - Shomron,31-50,0.0,0.6859999999999999,0.314
+folacid,general,Haifa,80+,0.266,0.7340000000000001,0.0
+iron,arab,Jerusalem,31-50,0.271,0.7090000000000001,0.02
+trig,haredi,Haifa,09-13,0.0,0.935,0.065
+albumin,arab,Sharon - Shomron,66-79,0.125,0.875,0.0
+znb,general,Tel Aviv,51-65,0.07,0.919999999999999,0.019
+trig,general,Dan - Petach Tikva,09-13,0.0,0.935,0.065
+folacid,general,Haifa,66-79,0.20199999999999999,0.7979999999999999,0.0
+hdl,arab,North,31-50,0.284,0.716,0.0
+albumin,arab,North,31-50,0.017,0.983,0.0
+b12,arab,Sharon - Shomron,14-18,0.069,0.919,0.012
+mgb,arab,Jerusalem,31-50,0.003,0.9940000000000001,0.003
+vitaminD,haredi,Central,80+,0.8170000000000001,0.17300000000000001,0.01
+b12,haredi,Haifa,14-18,0.039,0.951,0.011000000000000001
+hdl,general,Haifa,66-79,0.207,0.7929999999999999,0.0
+znb,general,North,04-08,0.025,0.966,0.01
+chol,haredi,Jerusalem,51-65,0.0,0.627,0.373
+znb,haredi,Dan - Petach Tikva,51-65,0.087,0.905,0.008
+transf,general,North,09-13,0.002,0.919,0.079
+albumin,arab,Central,01-03,0.009000000000000001,0.991,0.0
+hb,general,North,51-65,0.126,0.8690000000000001,0.005
+transf,general,North,01-03,0.006999999999999999,0.953,0.04
+b12,general,Haifa,19-21,0.059000000000000004,0.9229999999999999,0.018000000000000002
+hdl,general,Eilat,22-30,0.153,0.847,0.0
+hba1c,haredi,South,66-79,0.0,0.406,0.594
+hdl,general,North,19-21,0.17800000000000002,0.8220000000000001,0.0
+znb,arab,Sharon - Shomron,14-18,0.055,0.925,0.02
+hb,haredi,Sharon - Shomron,22-30,0.324,0.67,0.006
+nonhdl,arab,Jerusalem,09-13,0.0,0.946,0.054000000000000006
+trig,arab,Dan - Petach Tikva,22-30,0.0,0.807,0.193
+chol,general,Eilat,66-79,0.0,0.6779999999999999,0.322
+folacid,haredi,Dan - Petach Tikva,80+,0.307,0.693,0.0
+folacid,arab,North,09-13,0.252,0.748,0.0
+b12,haredi,South,19-21,0.015,0.873,0.113
+znb,general,Sharon - Shomron,04-08,0.048,0.915,0.038
+chol,general,South,80+,0.0,0.7290000000000001,0.271
+ferritin,general,North,14-18,0.205,0.7929999999999999,0.002
+vitaminD,haredi,Dan - Petach Tikva,80+,0.74,0.245,0.015
+ferritin,haredi,Dan - Petach Tikva,31-50,0.16,0.821,0.019
+transf,arab,Haifa,14-18,0.013999999999999999,0.934,0.052000000000000005
+mgb,arab,Dan - Petach Tikva,31-50,0.040999999999999995,0.948,0.011000000000000001
+chol,haredi,Central,80+,0.0,0.813,0.187
+chol,haredi,Jerusalem,01-03,0.0,0.986,0.013999999999999999
+ldl,arab,North,19-21,0.0,0.691,0.309
+hb,haredi,Sharon - Shomron,04-08,0.153,0.847,0.0
+znb,haredi,Dan - Petach Tikva,09-13,0.057,0.9059999999999999,0.038
+hba1c,general,Tel Aviv,66-79,0.0,0.32299999999999995,0.677
+b12,haredi,Dan - Petach Tikva,80+,0.064,0.8390000000000001,0.09699999999999999
+b12,general,Eilat,66-79,0.001,0.76,0.24
+albumin,arab,Dan - Petach Tikva,01-03,0.032,0.968,0.0
+transf,general,Sharon - Shomron,09-13,0.006,0.929,0.065
+hba1c,arab,Haifa,09-13,0.0,0.8740000000000001,0.126
+folacid,general,North,80+,0.281,0.7190000000000001,0.0
+albumin,arab,Central,14-18,0.013999999999999999,0.986,0.0
+ferritin,arab,Central,31-50,0.24600000000000002,0.725,0.028999999999999998
+mgb,general,Central,80+,0.065,0.9209999999999999,0.013000000000000001
+hb,arab,Haifa,01-03,0.154,0.846,0.0
+hb,arab,Haifa,04-08,0.08800000000000001,0.919999999999999,0.001
+iron,arab,Haifa,01-03,0.335,0.611,0.054000000000000006
+nonhdl,arab,Dan - Petach Tikva,14-18,0.0,0.9490000000000001,0.051
+b12,arab,Jerusalem,22-30,0.11,0.884,0.006
+folacid,general,North,66-79,0.2,0.8,0.0
+b12,arab,Central,14-18,0.064,0.9259999999999999,0.01
+mgb,haredi,Dan - Petach Tikva,04-08,0.013999999999999999,0.6859999999999999,0.3
+ferritin,haredi,South,31-50,0.171,0.792,0.037000000000000005
+mgb,arab,Haifa,04-08,0.006999999999999999,0.589,0.405
+albumin,haredi,Jerusalem,04-08,0.018000000000000002,0.982,0.0
+hb,arab,Jerusalem,66-79,0.33399999999999996,0.66,0.006
+mgb,arab,North,66-79,0.076,0.902,0.022000000000000002
+ldl,haredi,Dan - Petach Tikva,66-79,0.0,0.505,0.495
+hdl,haredi,Dan - Petach Tikva,19-21,0.196,0.804,0.0
+transf,arab,South,51-65,0.075,0.868,0.057
+mgb,general,Haifa,14-18,0.013000000000000001,0.848,0.139
+folacid,general,Haifa,04-08,0.08,0.92,0.0
+hb,arab,Jerusalem,80+,0.493,0.503,0.004
+iron,arab,Jerusalem,80+,0.386,0.61,0.004
+nonhdl,general,North,01-03,0.0,0.981,0.019
+chol,haredi,Jerusalem,19-21,0.0,0.9309999999999999,0.069
+b12,general,Jerusalem,31-50,0.10800000000000001,0.879,0.012
+ferritin,arab,Haifa,14-18,0.135,0.86,0.006
+nonhdl,haredi,Jerusalem,19-21,0.0,0.945,0.055
+folacid,general,Eilat,14-18,0.484,0.516,0.0
+folacid,general,Eilat,01-03,0.061,0.9390000000000001,0.0
+hba1c,general,Eilat,04-08,0.0,0.88,0.12
+mgb,arab,North,80+,0.10300000000000001,0.8740000000000001,0.023
+ferritin,haredi,Jerusalem,14-18,0.13,0.867,0.002
+transf,general,Central,51-65,0.05,0.9229999999999999,0.027000000000000003
+b12,general,Tel Aviv,01-03,0.004,0.9079999999999999,0.08800000000000001
+znb,general,Central,19-21,0.062,0.938,0.0
+b12,arab,Jerusalem,14-18,0.11599999999999999,0.88,0.004
+vitaminD,general,Sharon - Shomron,22-30,0.7709999999999999,0.22,0.009000000000000001
+ldl,arab,North,01-03,0.0,0.754,0.24600000000000002
+mgb,general,Dan - Petach Tikva,66-79,0.053,0.934,0.013000000000000001
+b12,general,Sharon - Shomron,51-65,0.068,0.893,0.039
+vitaminD,general,South,01-03,0.6559999999999999,0.32799999999999996,0.017
+hb,haredi,Dan - Petach Tikva,01-03,0.21,0.789,0.001
+znb,general,Sharon - Shomron,51-65,0.071,0.897,0.032
+transf,arab,North,66-79,0.162,0.804,0.033
+trig,haredi,Dan - Petach Tikva,80+,0.0,0.789,0.21100000000000002
+trig,general,Jerusalem,51-65,0.0,0.6629999999999999,0.337
+ferritin,arab,Jerusalem,22-30,0.17800000000000002,0.807,0.015
+nonhdl,haredi,Sharon - Shomron,51-65,0.0,0.649,0.35100000000000003
+iron,general,South,31-50,0.193,0.7659999999999999,0.040999999999999995
+hba1c,general,Haifa,51-65,0.0,0.375,0.624
+nonhdl,general,Jerusalem,22-30,0.0,0.86,0.14
+folacid,arab,Jerusalem,14-18,0.311,0.6890000000000001,0.0
+trig,general,Jerusalem,01-03,0.0,0.943,0.057
+transf,general,Eilat,31-50,0.036000000000000004,0.887,0.077
+ferritin,arab,Dan - Petach Tikva,19-21,0.22399999999999998,0.7659999999999999,0.01
+nonhdl,general,North,80+,0.0,0.7,0.3
+nonhdl,general,Eilat,09-13,0.0,0.943,0.057
+ferritin,arab,Haifa,22-30,0.129,0.848,0.023
+b12,general,Tel Aviv,09-13,0.025,0.958,0.018000000000000002
+ldl,general,Central,51-65,0.0,0.354,0.6459999999999999
+mgb,arab,Dan - Petach Tikva,22-30,0.086,0.868,0.046
+albumin,general,Central,51-65,0.016,0.9840000000000001,0.0
+folacid,general,Dan - Petach Tikva,22-30,0.307,0.693,0.0
+vitaminD,general,Eilat,04-08,0.764,0.22699999999999998,0.009000000000000001
+ldl,arab,Sharon - Shomron,51-65,0.0,0.474,0.526
+hba1c,general,Sharon - Shomron,51-65,0.0,0.38299999999999995,0.616
+ferritin,general,Central,51-65,0.069,0.883,0.047
+folacid,general,Dan - Petach Tikva,14-18,0.434,0.5660000000000001,0.0
+transf,arab,Jerusalem,22-30,0.013999999999999999,0.884,0.102
+hba1c,general,Dan - Petach Tikva,04-08,0.0,0.8859999999999999,0.114
+vitaminD,general,Jerusalem,66-79,0.7340000000000001,0.249,0.016
+ldl,arab,Dan - Petach Tikva,04-08,0.0,0.789,0.21100000000000002
+znb,general,North,09-13,0.026000000000000002,0.9520000000000001,0.022000000000000002
+hdl,arab,Sharon - Shomron,22-30,0.289,0.711,0.0
+mgb,arab,Sharon - Shomron,04-08,0.004,0.579,0.41700000000000004
+hdl,general,Dan - Petach Tikva,22-30,0.16899999999999998,0.831,0.0
+trig,arab,Sharon - Shomron,14-18,0.0,0.927,0.073
+albumin,general,Tel Aviv,66-79,0.03,0.97,0.0
+hdl,haredi,Haifa,80+,0.195,0.805,0.0
+ldl,arab,Haifa,31-50,0.0,0.41100000000000003,0.589
+hba1c,haredi,Central,19-21,0.0,0.899,0.10099999999999999
+mgb,arab,Dan - Petach Tikva,14-18,0.019,0.8640000000000001,0.11699999999999999
+hb,haredi,Jerusalem,31-50,0.182,0.813,0.005
+hba1c,arab,Central,14-18,0.0,0.8590000000000001,0.141
+hba1c,arab,Dan - Petach Tikva,14-18,0.0,0.863,0.13699999999999998
+chol,arab,North,09-13,0.0,0.9620000000000001,0.038
+chol,general,South,01-03,0.0,0.955,0.045
+iron,general,Sharon - Shomron,04-08,0.203,0.706,0.091
+chol,general,Central,09-13,0.0,0.9470000000000001,0.053
+mgb,general,Dan - Petach Tikva,04-08,0.004,0.649,0.34700000000000003
+hb,haredi,Jerusalem,14-18,0.20800000000000002,0.748,0.044000000000000004
+mgb,general,Tel Aviv,14-18,0.008,0.835,0.157
+b12,haredi,Jerusalem,51-65,0.095,0.882,0.023
+hb,arab,Haifa,31-50,0.212,0.7809999999999999,0.006999999999999999
+hb,general,Tel Aviv,04-08,0.06,0.9390000000000001,0.001
+vitaminD,haredi,Jerusalem,80+,0.7020000000000001,0.276,0.022000000000000002
+hba1c,haredi,South,14-18,0.006,0.91,0.084
+folacid,arab,Sharon - Shomron,14-18,0.569,0.431,0.0
+znb,arab,Sharon - Shomron,31-50,0.069,0.9129999999999999,0.018000000000000002
+ldl,arab,Haifa,14-18,0.0,0.8170000000000001,0.183
+albumin,haredi,South,01-03,0.048,0.9520000000000001,0.0
+hba1c,general,Haifa,14-18,0.001,0.9129999999999999,0.086
+vitaminD,arab,South,66-79,0.929,0.066,0.005
+iron,arab,North,31-50,0.289,0.687,0.024
+hba1c,general,Central,04-08,0.0,0.894,0.106
+hb,general,South,09-13,0.177,0.815,0.008
+vitaminD,arab,Haifa,51-65,0.925,0.071,0.004
+ldl,arab,Central,04-08,0.0,0.743,0.257
+chol,haredi,Jerusalem,04-08,0.0,0.9640000000000001,0.036000000000000004
+trig,general,Sharon - Shomron,04-08,0.0,0.9670000000000001,0.033
+ldl,haredi,Central,14-18,0.0,0.831,0.16899999999999998
+b12,haredi,Central,14-18,0.05,0.929,0.02
+hba1c,general,Sharon - Shomron,66-79,0.0,0.28300000000000003,0.7170000000000001
+hb,arab,North,14-18,0.32899999999999996,0.644,0.027000000000000003
+hdl,arab,Dan - Petach Tikva,01-03,0.22699999999999998,0.773,0.0
+nonhdl,arab,Sharon - Shomron,22-30,0.0,0.835,0.165
+trig,general,Dan - Petach Tikva,51-65,0.0,0.6609999999999999,0.33899999999999997
+hb,haredi,Jerusalem,80+,0.414,0.5820000000000001,0.004
+hba1c,arab,North,01-03,0.009000000000000001,0.9359999999999999,0.055
+b12,arab,Haifa,14-18,0.065,0.927,0.008
+hdl,arab,Dan - Petach Tikva,19-21,0.295,0.705,0.0
+iron,haredi,Central,14-18,0.191,0.7609999999999999,0.047
+vitaminD,arab,South,14-18,0.978,0.021,0.001
+iron,arab,South,19-21,0.303,0.652,0.045
+ferritin,haredi,North,14-18,0.3,0.7,0.0
+hba1c,arab,Sharon - Shomron,09-13,0.0,0.835,0.165
+hba1c,general,Jerusalem,09-13,0.003,0.919999999999999,0.085
+ldl,general,Central,31-50,0.0,0.387,0.613
+transf,general,Central,31-50,0.027000000000000003,0.9009999999999999,0.071
+vitaminD,arab,Dan - Petach Tikva,19-21,0.9890000000000001,0.011000000000000001,0.0
+chol,general,Sharon - Shomron,66-79,0.0,0.7290000000000001,0.271
+vitaminD,arab,North,80+,0.8190000000000001,0.141,0.039
+iron,arab,Sharon - Shomron,01-03,0.358,0.595,0.048
+vitaminD,general,Central,14-18,0.802,0.19,0.008
+folacid,general,South,09-13,0.32299999999999995,0.677,0.0
+iron,haredi,Jerusalem,31-50,0.19399999999999998,0.768,0.038
+trig,arab,North,51-65,0.0,0.636,0.364
+ferritin,arab,Haifa,51-65,0.047,0.894,0.057999999999999996
+hb,general,Central,66-79,0.23399999999999999,0.762,0.004
+b12,haredi,Central,22-30,0.073,0.8909999999999999,0.036000000000000004
+trig,haredi,Jerusalem,22-30,0.0,0.848,0.152
+ferritin,general,North,19-21,0.196,0.7979999999999999,0.005
+mgb,general,North,14-18,0.02,0.8270000000000001,0.154
+ferritin,haredi,Haifa,31-50,0.145,0.838,0.017
+mgb,arab,Sharon - Shomron,01-03,0.006,0.813,0.18100000000000002
+transf,arab,Central,19-21,0.008,0.84,0.153
+b12,haredi,Dan - Petach Tikva,04-08,0.009000000000000001,0.94,0.051
+ferritin,haredi,Haifa,04-08,0.156,0.8440000000000001,0.0
+iron,general,South,01-03,0.33799999999999997,0.604,0.059000000000000004
+ldl,general,North,31-50,0.0,0.384,0.616
+trig,arab,Central,14-18,0.0,0.9079999999999999,0.092
+hdl,general,Sharon - Shomron,14-18,0.195,0.805,0.0
+vitaminD,haredi,Dan - Petach Tikva,01-03,0.8320000000000001,0.14800000000000002,0.019
+mgb,general,Jerusalem,66-79,0.022000000000000002,0.968,0.01
+folacid,general,Jerusalem,09-13,0.2,0.8,0.0
+trig,general,Eilat,31-50,0.0,0.745,0.255
+mgb,general,Tel Aviv,01-03,0.005,0.9309999999999999,0.064
+iron,general,South,19-21,0.23399999999999999,0.716,0.05
+chol,haredi,Central,51-65,0.0,0.653,0.34700000000000003
+b12,arab,North,66-79,0.006999999999999999,0.7959999999999999,0.196
+hdl,general,Jerusalem,80+,0.22,0.78,0.0
+iron,haredi,Jerusalem,01-03,0.33899999999999997,0.5920000000000001,0.069
+ldl,haredi,Dan - Petach Tikva,14-18,0.0,0.823,0.177
+hba1c,general,Tel Aviv,14-18,0.001,0.919,0.08
+ldl,general,Tel Aviv,01-03,0.0,0.735,0.265
+mgb,general,Central,04-08,0.003,0.632,0.365
+albumin,haredi,North,66-79,0.065,0.935,0.0
+hb,haredi,Dan - Petach Tikva,66-79,0.27,0.727,0.003
+trig,general,North,04-08,0.0,0.9570000000000001,0.043
+chol,haredi,Central,04-08,0.0,0.96,0.04
+chol,haredi,Central,01-03,0.0,0.965,0.035
+iron,arab,Haifa,80+,0.354,0.638,0.008
+znb,general,Central,31-50,0.062,0.9159999999999999,0.022000000000000002
+hb,arab,Central,04-08,0.107,0.89,0.003
+chol,arab,Jerusalem,19-21,0.0,0.915,0.085
+ldl,general,Sharon - Shomron,09-13,0.0,0.748,0.252
+hdl,arab,South,80+,0.299,0.701,0.0
+vitaminD,haredi,Dan - Petach Tikva,51-65,0.826,0.161,0.013000000000000001
+ldl,haredi,Jerusalem,31-50,0.0,0.43700000000000006,0.563
+mgb,arab,South,04-08,0.011000000000000001,0.507,0.483
+chol,haredi,Haifa,14-18,0.0,0.971,0.028999999999999998
+iron,general,Eilat,14-18,0.172,0.753,0.07400000000000001
+hb,arab,Haifa,66-79,0.332,0.6659999999999999,0.002
+albumin,general,Tel Aviv,01-03,0.037000000000000005,0.963,0.0
+hba1c,haredi,Jerusalem,19-21,0.0,0.955,0.045
+znb,arab,Dan - Petach Tikva,22-30,0.076,0.9129999999999999,0.012
+folacid,general,Haifa,19-21,0.408,0.5920000000000001,0.0
+folacid,haredi,Haifa,66-79,0.252,0.748,0.0
+iron,general,Sharon - Shomron,22-30,0.12300000000000001,0.8,0.078
+vitaminD,arab,South,31-50,0.975,0.023,0.002
+b12,general,Eilat,14-18,0.004,0.8059999999999999,0.19
+hdl,general,Sharon - Shomron,19-21,0.185,0.815,0.0
+nonhdl,general,Haifa,66-79,0.0,0.77,0.23
+hb,general,South,51-65,0.122,0.871,0.006999999999999999
+albumin,general,South,09-13,0.006999999999999999,0.992,0.001
+nonhdl,arab,Jerusalem,80+,0.0,0.828,0.172
+folacid,arab,South,01-03,0.142,0.858,0.0
+nonhdl,arab,Jerusalem,31-50,0.0,0.623,0.377
+hdl,arab,Haifa,14-18,0.20800000000000002,0.792,0.0
+albumin,general,North,80+,0.179,0.821,0.0
+hdl,general,Eilat,51-65,0.214,0.7859999999999999,0.0
+ldl,haredi,Haifa,04-08,0.0,0.78,0.22
+hba1c,general,Eilat,51-65,0.001,0.483,0.516
+chol,arab,Dan - Petach Tikva,31-50,0.0,0.721,0.27899999999999997
+albumin,general,South,51-65,0.023,0.976,0.0
+mgb,arab,Jerusalem,09-13,0.005,0.6,0.395
+ldl,general,North,80+,0.0,0.434,0.5660000000000001
+albumin,arab,Central,31-50,0.024,0.976,0.0
+nonhdl,haredi,Dan - Petach Tikva,51-65,0.0,0.637,0.363
+hba1c,general,Dan - Petach Tikva,19-21,0.005,0.82,0.175
+hdl,general,North,66-79,0.196,0.804,0.0
+b12,general,North,19-21,0.013000000000000001,0.82,0.16699999999999998
+transf,general,Sharon - Shomron,22-30,0.023,0.865,0.111
+znb,general,Sharon - Shomron,66-79,0.08,0.889,0.031
+hb,haredi,Haifa,31-50,0.23,0.77,0.0
+hdl,arab,Dan - Petach Tikva,80+,0.318,0.682,0.0
+b12,general,Eilat,04-08,0.0,0.505,0.495
+hb,arab,Jerusalem,14-18,0.257,0.682,0.062
+iron,general,Haifa,22-30,0.124,0.8029999999999999,0.073
+albumin,general,South,01-03,0.043,0.9570000000000001,0.0
+ferritin,arab,South,04-08,0.166,0.8140000000000001,0.02
+trig,general,Tel Aviv,19-21,0.0,0.917,0.083
+ldl,general,Eilat,14-18,0.0,0.752,0.248
+hba1c,haredi,North,31-50,0.0,0.698,0.302
+hb,general,Haifa,09-13,0.217,0.775,0.008
+trig,arab,Dan - Petach Tikva,01-03,0.0,0.978,0.022000000000000002
+chol,general,South,09-13,0.0,0.9470000000000001,0.053
+hba1c,general,Sharon - Shomron,22-30,0.001,0.878,0.121
+hdl,haredi,Central,14-18,0.24600000000000002,0.754,0.0
+vitaminD,arab,Sharon - Shomron,51-65,0.89,0.092,0.019
+vitaminD,arab,Haifa,04-08,0.8540000000000001,0.14400000000000002,0.002
+hba1c,arab,Jerusalem,01-03,0.0,0.9570000000000001,0.043
+albumin,arab,Jerusalem,22-30,0.012,0.986,0.002
+hba1c,general,South,14-18,0.003,0.92,0.077
+chol,general,Sharon - Shomron,19-21,0.0,0.919999999999999,0.08900000000000001
+ferritin,haredi,Haifa,22-30,0.149,0.846,0.005
+mgb,haredi,Central,01-03,0.0,0.9259999999999999,0.07400000000000001
+vitaminD,arab,North,22-30,0.882,0.11,0.008
+mgb,arab,Jerusalem,22-30,0.003,0.996,0.001
+b12,general,Central,22-30,0.085,0.898,0.017
+hba1c,arab,Dan - Petach Tikva,22-30,0.0,0.8029999999999999,0.19699999999999998
+iron,haredi,Jerusalem,19-21,0.179,0.7509999999999999,0.07
+ferritin,arab,South,51-65,0.092,0.828,0.081
+hba1c,haredi,Dan - Petach Tikva,51-65,0.0,0.364,0.636
+trig,general,Tel Aviv,09-13,0.0,0.934,0.066
+hb,general,Sharon - Shomron,01-03,0.129,0.871,0.001
+hdl,general,North,22-30,0.174,0.826,0.0
+transf,general,Sharon - Shomron,80+,0.23,0.754,0.015
+hdl,arab,Haifa,01-03,0.205,0.795,0.0
+trig,haredi,Jerusalem,04-08,0.0,0.937,0.063
+iron,haredi,Dan - Petach Tikva,04-08,0.262,0.655,0.083
+ldl,general,Dan - Petach Tikva,09-13,0.0,0.7490000000000001,0.251
+albumin,arab,Jerusalem,14-18,0.003,0.9940000000000001,0.003
+chol,general,Sharon - Shomron,09-13,0.0,0.9440000000000001,0.055999999999999994
+ferritin,arab,Jerusalem,31-50,0.19699999999999998,0.772,0.031
+mgb,general,South,04-08,0.006999999999999999,0.461,0.5329999999999999
+ferritin,general,Central,19-21,0.215,0.779,0.006
+trig,haredi,South,22-30,0.0,0.8390000000000001,0.161
+folacid,arab,Sharon - Shomron,09-13,0.419,0.581,0.0
+ldl,arab,South,09-13,0.0,0.774,0.226
+albumin,haredi,Central,01-03,0.048,0.9520000000000001,0.0
+trig,haredi,North,09-13,0.0,0.914,0.086
+mgb,general,Jerusalem,80+,0.027000000000000003,0.948,0.025
+trig,general,Haifa,14-18,0.0,0.9179999999999999,0.08199999999999999
+hb,haredi,Jerusalem,19-21,0.134,0.863,0.003
+folacid,general,South,66-79,0.275,0.725,0.0
+vitaminD,general,Tel Aviv,80+,0.6809999999999999,0.29600000000000004,0.023
+hb,general,Tel Aviv,14-18,0.285,0.6829999999999999,0.033
+b12,general,Haifa,22-30,0.07400000000000001,0.909,0.017
+mgb,general,Sharon - Shomron,04-08,0.005,0.618,0.37799999999999995
+ferritin,arab,South,19-21,0.249,0.735,0.016
+albumin,arab,Haifa,01-03,0.008,0.991,0.001
+hdl,haredi,Haifa,04-08,0.125,0.875,0.0
+b12,arab,Jerusalem,01-03,0.021,0.946,0.033
+znb,general,Haifa,31-50,0.037000000000000005,0.943,0.019
+iron,general,Tel Aviv,14-18,0.159,0.782,0.059000000000000004
+b12,haredi,North,14-18,0.006,0.82,0.174
+vitaminD,arab,Haifa,01-03,0.8270000000000001,0.17300000000000001,0.0
+mgb,arab,South,80+,0.094,0.89,0.017
+folacid,general,Sharon - Shomron,31-50,0.256,0.7440000000000001,0.0
+iron,haredi,North,14-18,0.243,0.716,0.040999999999999995
+albumin,arab,Dan - Petach Tikva,80+,0.213,0.787,0.0
+hba1c,general,South,09-13,0.001,0.9209999999999999,0.078
+b12,haredi,Jerusalem,04-08,0.006,0.968,0.025
+transf,general,South,14-18,0.008,0.888,0.10400000000000001
+vitaminD,general,Tel Aviv,66-79,0.6940000000000001,0.29,0.017
+hdl,general,South,14-18,0.207,0.7929999999999999,0.0
+mgb,arab,South,66-79,0.1,0.89,0.011000000000000001
+b12,general,Jerusalem,01-03,0.006,0.925,0.069
+hb,general,Tel Aviv,01-03,0.122,0.877,0.001
+hb,haredi,Sharon - Shomron,51-65,0.182,0.8059999999999999,0.012
+folacid,general,Haifa,14-18,0.39799999999999996,0.602,0.0
+hb,arab,Sharon - Shomron,66-79,0.382,0.615,0.003
+iron,general,South,14-18,0.231,0.725,0.044000000000000004
+hb,haredi,North,01-03,0.162,0.838,0.0
+hdl,general,Haifa,04-08,0.091,0.909,0.0
+ferritin,haredi,Dan - Petach Tikva,19-21,0.16899999999999998,0.83,0.002
+ferritin,haredi,Sharon - Shomron,14-18,0.261,0.7390000000000001,0.0
+mgb,general,Haifa,80+,0.053,0.919,0.027000000000000003
+ldl,general,Haifa,09-13,0.0,0.8190000000000001,0.18100000000000002
+hdl,general,North,31-50,0.214,0.7859999999999999,0.0
+nonhdl,arab,Central,04-08,0.0,0.948,0.052000000000000005
+folacid,general,Sharon - Shomron,19-21,0.405,0.595,0.0
+iron,general,Central,19-21,0.20199999999999999,0.735,0.063
+b12,arab,Dan - Petach Tikva,04-08,0.01,0.975,0.015
+trig,general,Sharon - Shomron,22-30,0.0,0.855,0.145
+hdl,general,Haifa,19-21,0.161,0.8390000000000001,0.0
+folacid,general,Dan - Petach Tikva,80+,0.28600000000000003,0.7140000000000001,0.0
+trig,general,North,66-79,0.0,0.715,0.285
+albumin,arab,Jerusalem,04-08,0.008,0.991,0.0
+b12,arab,South,51-65,0.004,0.831,0.165
+trig,general,South,14-18,0.0,0.919999999999999,0.08900000000000001
+b12,haredi,Haifa,51-65,0.044000000000000004,0.927,0.028999999999999998
+iron,general,Jerusalem,80+,0.27,0.7190000000000001,0.011000000000000001
+mgb,general,South,22-30,0.031,0.9640000000000001,0.005
+mgb,general,Tel Aviv,04-08,0.006,0.6709999999999999,0.32299999999999995
+albumin,arab,Haifa,14-18,0.001,0.9690000000000001,0.028999999999999998
+ferritin,arab,North,31-50,0.261,0.698,0.040999999999999995
+ferritin,general,Tel Aviv,14-18,0.185,0.812,0.002
+ldl,haredi,Jerusalem,19-21,0.0,0.74,0.26
+chol,arab,North,01-03,0.0,0.97,0.03
+trig,general,Eilat,51-65,0.0,0.657,0.34299999999999997
+chol,arab,North,51-65,0.0,0.669,0.331
+hb,general,Eilat,14-18,0.256,0.687,0.057
+nonhdl,general,Eilat,22-30,0.0,0.8390000000000001,0.161
+ldl,general,South,51-65,0.0,0.358,0.642
+b12,general,Dan - Petach Tikva,51-65,0.073,0.894,0.033
+chol,general,Central,51-65,0.0,0.61,0.39
+vitaminD,arab,Sharon - Shomron,01-03,0.882,0.11800000000000001,0.0
+mgb,general,Tel Aviv,51-65,0.019,0.977,0.004
+albumin,general,Sharon - Shomron,19-21,0.019,0.975,0.006
+albumin,general,Eilat,04-08,0.006,0.991,0.003
+chol,general,Tel Aviv,31-50,0.0,0.708,0.292
+ferritin,arab,North,22-30,0.21100000000000002,0.768,0.021
+hdl,haredi,Dan - Petach Tikva,22-30,0.20199999999999999,0.7979999999999999,0.0
+folacid,arab,North,51-65,0.223,0.777,0.0
+nonhdl,arab,Dan - Petach Tikva,01-03,0.0,0.991,0.009000000000000001
+b12,general,Sharon - Shomron,09-13,0.026000000000000002,0.956,0.018000000000000002
+folacid,haredi,Jerusalem,22-30,0.204,0.7959999999999999,0.0
+transf,haredi,Jerusalem,80+,0.22699999999999998,0.7490000000000001,0.024
+transf,general,Eilat,09-13,0.002,0.893,0.105
+ldl,general,Tel Aviv,19-21,0.0,0.7070000000000001,0.293
+nonhdl,haredi,Central,09-13,0.0,0.975,0.025
+chol,haredi,North,22-30,0.0,0.8390000000000001,0.161
+nonhdl,arab,Dan - Petach Tikva,80+,0.0,0.83,0.17
+vitaminD,general,South,04-08,0.716,0.27399999999999997,0.01
+hba1c,general,Central,19-21,0.0,0.8640000000000001,0.136
+iron,arab,Central,22-30,0.314,0.662,0.024
+iron,general,Jerusalem,66-79,0.191,0.79,0.019
+trig,arab,Central,01-03,0.0,0.9420000000000001,0.057999999999999996
+iron,arab,North,66-79,0.364,0.627,0.009000000000000001
+transf,general,Eilat,51-65,0.063,0.89,0.047
+trig,arab,Dan - Petach Tikva,19-21,0.0,0.902,0.098
+hb,arab,Jerusalem,09-13,0.19,0.799,0.011000000000000001
+folacid,general,Jerusalem,51-65,0.205,0.795,0.0
+trig,general,Dan - Petach Tikva,66-79,0.0,0.706,0.294
+b12,arab,Sharon - Shomron,80+,0.16399999999999998,0.74,0.095
+transf,general,South,22-30,0.018000000000000002,0.857,0.124
+chol,haredi,South,31-50,0.0,0.7340000000000001,0.266
+ldl,haredi,South,19-21,0.0,0.747,0.253
+iron,haredi,South,22-30,0.20199999999999999,0.743,0.055
+iron,general,Sharon - Shomron,51-65,0.138,0.841,0.021
+trig,haredi,Haifa,66-79,0.0,0.745,0.255
+b12,general,Central,80+,0.064,0.8320000000000001,0.10400000000000001
+hba1c,arab,Central,31-50,0.0,0.496,0.504
+mgb,arab,Jerusalem,51-65,0.017,0.977,0.006
+chol,general,Haifa,14-18,0.0,0.9470000000000001,0.053
+hb,arab,Sharon - Shomron,31-50,0.251,0.7440000000000001,0.005
+nonhdl,arab,Haifa,09-13,0.0,0.9670000000000001,0.033
+iron,general,Sharon - Shomron,01-03,0.294,0.64,0.067
+hdl,general,Sharon - Shomron,22-30,0.171,0.8290000000000001,0.0
+vitaminD,haredi,Central,01-03,0.73,0.254,0.017
+mgb,haredi,Central,51-65,0.02,0.977,0.002
+mgb,general,Sharon - Shomron,80+,0.055,0.927,0.018000000000000002
+ferritin,general,Central,09-13,0.257,0.741,0.002
+hdl,general,North,80+,0.191,0.809,0.0
+nonhdl,haredi,Central,01-03,0.0,0.965,0.035
+ldl,general,Sharon - Shomron,22-30,0.0,0.585,0.415
+hba1c,general,North,80+,0.001,0.342,0.657
+iron,haredi,North,09-13,0.297,0.6409999999999999,0.062
+hdl,arab,Jerusalem,22-30,0.287,0.713,0.0
+hba1c,general,South,01-03,0.003,0.9490000000000001,0.048
+hdl,general,Eilat,14-18,0.136,0.8640000000000001,0.0
+chol,general,Central,22-30,0.0,0.8320000000000001,0.168
+transf,general,Haifa,04-08,0.006,0.972,0.023
+mgb,haredi,South,66-79,0.066,0.92,0.015
+b12,haredi,Jerusalem,01-03,0.005,0.915,0.08
+folacid,haredi,Central,04-08,0.127,0.873,0.0
+hb,haredi,South,22-30,0.271,0.726,0.003
+ldl,arab,Sharon - Shomron,19-21,0.0,0.669,0.331
+hdl,haredi,South,31-50,0.235,0.765,0.0
+albumin,arab,Jerusalem,51-65,0.019,0.981,0.0
+transf,arab,Dan - Petach Tikva,22-30,0.063,0.795,0.142
+znb,arab,Haifa,09-13,0.0,0.985,0.015
+albumin,arab,Jerusalem,01-03,0.028999999999999998,0.971,0.0
+b12,arab,Dan - Petach Tikva,19-21,0.09,0.9009999999999999,0.009000000000000001
+transf,general,Sharon - Shomron,66-79,0.107,0.866,0.027000000000000003
+chol,arab,Central,19-21,0.0,0.93,0.07
+b12,general,Jerusalem,14-18,0.066,0.92,0.013000000000000001
+hdl,arab,Central,66-79,0.3,0.7,0.0
+folacid,general,Central,66-79,0.23800000000000002,0.762,0.0
+b12,haredi,Central,80+,0.067,0.855,0.078
+hdl,arab,Central,31-50,0.34600000000000003,0.654,0.0
+albumin,arab,Jerusalem,09-13,0.006,0.993,0.0
+mgb,arab,Central,66-79,0.044000000000000004,0.938,0.018000000000000002
+transf,general,South,51-65,0.055999999999999994,0.909,0.035
+iron,general,Dan - Petach Tikva,31-50,0.11800000000000001,0.828,0.054000000000000006
+transf,general,Tel Aviv,22-30,0.021,0.9,0.079
+iron,haredi,Haifa,31-50,0.193,0.77,0.037000000000000005
+hb,general,Sharon - Shomron,51-65,0.122,0.873,0.005
+znb,general,Sharon - Shomron,80+,0.18600000000000003,0.8140000000000001,0.0
+znb,arab,North,14-18,0.083,0.897,0.02
+hba1c,general,Haifa,09-13,0.0,0.89,0.11
+vitaminD,general,Eilat,31-50,0.7440000000000001,0.24100000000000002,0.015
+b12,arab,Haifa,80+,0.16,0.764,0.076
+albumin,general,North,31-50,0.024,0.976,0.0
+hb,general,Haifa,22-30,0.152,0.8440000000000001,0.004
+chol,general,Dan - Petach Tikva,14-18,0.0,0.9420000000000001,0.057999999999999996
+chol,arab,Sharon - Shomron,14-18,0.0,0.95,0.05
+hb,general,Dan - Petach Tikva,19-21,0.16699999999999998,0.83,0.003
+hba1c,arab,Jerusalem,14-18,0.001,0.961,0.038
+mgb,general,Eilat,22-30,0.024,0.9470000000000001,0.028999999999999998
+ldl,general,North,66-79,0.0,0.485,0.515
+hba1c,arab,Central,66-79,0.0,0.16,0.84
+albumin,arab,Dan - Petach Tikva,66-79,0.055,0.945,0.0
+vitaminD,arab,Haifa,66-79,0.871,0.11900000000000001,0.01
+ldl,haredi,Central,51-65,0.0,0.373,0.627
+b12,arab,Dan - Petach Tikva,31-50,0.09300000000000001,0.8909999999999999,0.016
+ldl,general,Tel Aviv,66-79,0.0,0.527,0.473
+transf,arab,Central,09-13,0.0,0.897,0.10300000000000001
+ldl,arab,Jerusalem,14-18,0.0,0.736,0.264
+vitaminD,general,Dan - Petach Tikva,09-13,0.809,0.188,0.003
+iron,arab,Sharon - Shomron,19-21,0.245,0.721,0.034
+iron,general,North,14-18,0.203,0.743,0.054000000000000006
+albumin,haredi,Jerusalem,14-18,0.004,0.992,0.004
+chol,arab,South,51-65,0.0,0.6679999999999999,0.332
+albumin,arab,Central,04-08,0.023,0.977,0.0
+b12,arab,North,51-65,0.004,0.843,0.153
+transf,general,North,04-08,0.006999999999999999,0.9590000000000001,0.034
+ldl,general,North,01-03,0.0,0.758,0.242
+transf,arab,Dan - Petach Tikva,51-65,0.185,0.784,0.031
+chol,general,Jerusalem,51-65,0.0,0.5870000000000001,0.413
+hb,haredi,Haifa,04-08,0.107,0.893,0.0
+chol,haredi,Dan - Petach Tikva,22-30,0.0,0.8590000000000001,0.141
+iron,arab,North,80+,0.47700000000000004,0.517,0.006
+ldl,haredi,North,66-79,0.0,0.47100000000000003,0.529
+znb,arab,Jerusalem,19-21,0.081,0.884,0.035
+folacid,general,Eilat,31-50,0.342,0.6579999999999999,0.0
+ferritin,arab,Central,14-18,0.307,0.693,0.0
+hba1c,general,Tel Aviv,04-08,0.0,0.894,0.106
+ldl,haredi,Haifa,31-50,0.0,0.496,0.504
+folacid,haredi,Central,09-13,0.27399999999999997,0.726,0.0
+chol,arab,Dan - Petach Tikva,04-08,0.0,0.9670000000000001,0.033
+ldl,general,Tel Aviv,09-13,0.0,0.7390000000000001,0.261
+transf,general,Tel Aviv,09-13,0.005,0.92,0.075
+ferritin,haredi,South,14-18,0.20199999999999999,0.7879999999999999,0.01
+b12,arab,South,01-03,0.0,0.419,0.581
+iron,arab,South,09-13,0.33799999999999997,0.588,0.07400000000000001
+vitaminD,arab,North,09-13,0.773,0.214,0.013000000000000001
+trig,general,South,31-50,0.0,0.7240000000000001,0.276
+ferritin,general,Dan - Petach Tikva,31-50,0.11900000000000001,0.853,0.027999999999999997
+transf,general,Haifa,80+,0.284,0.703,0.013000000000000001
+chol,arab,Sharon - Shomron,01-03,0.0,0.961,0.039
+nonhdl,arab,Jerusalem,04-08,0.0,0.961,0.039
+hb,general,Haifa,01-03,0.147,0.852,0.001
+b12,general,Dan - Petach Tikva,01-03,0.004,0.925,0.071
+b12,haredi,Central,66-79,0.061,0.875,0.064
+vitaminD,general,Jerusalem,01-03,0.635,0.359,0.006
+ldl,general,Jerusalem,31-50,0.0,0.40299999999999997,0.597
+transf,general,Tel Aviv,01-03,0.004,0.9540000000000001,0.042
+trig,general,Sharon - Shomron,09-13,0.0,0.935,0.065
+hdl,arab,Haifa,19-21,0.201,0.799,0.0
+ldl,arab,Sharon - Shomron,01-03,0.0,0.7020000000000001,0.298
+albumin,general,Haifa,14-18,0.002,0.96,0.038
+hba1c,haredi,Central,09-13,0.001,0.8390000000000001,0.159
+transf,general,Central,01-03,0.005,0.9620000000000001,0.034
+ldl,general,Central,01-03,0.0,0.721,0.27899999999999997
+transf,general,Central,04-08,0.004,0.9640000000000001,0.031
+albumin,haredi,Dan - Petach Tikva,19-21,0.017,0.9740000000000001,0.009000000000000001
+nonhdl,haredi,North,66-79,0.0,0.7240000000000001,0.276
+b12,haredi,Haifa,31-50,0.059000000000000004,0.919,0.022000000000000002
+vitaminD,general,South,22-30,0.7909999999999999,0.201,0.008
+chol,arab,Dan - Petach Tikva,22-30,0.0,0.8640000000000001,0.136
+ferritin,arab,Jerusalem,66-79,0.067,0.836,0.098
+nonhdl,haredi,South,14-18,0.0,0.95,0.05
+nonhdl,general,Tel Aviv,14-18,0.0,0.948,0.052000000000000005
+b12,haredi,Jerusalem,19-21,0.079,0.9129999999999999,0.009000000000000001
+folacid,general,Sharon - Shomron,80+,0.267,0.733,0.0
+hb,haredi,Jerusalem,51-65,0.11199999999999999,0.878,0.011000000000000001
+iron,haredi,Jerusalem,51-65,0.152,0.8240000000000001,0.025
+hb,general,South,19-21,0.204,0.7929999999999999,0.003
+folacid,general,Sharon - Shomron,66-79,0.209,0.7909999999999999,0.0
+trig,general,Dan - Petach Tikva,31-50,0.0,0.76,0.24
+ldl,haredi,Jerusalem,80+,0.0,0.593,0.40700000000000003
+albumin,haredi,South,14-18,0.006999999999999999,0.987,0.006999999999999999
+iron,arab,Jerusalem,09-13,0.318,0.626,0.055999999999999994
+transf,arab,North,51-65,0.09,0.866,0.045
+transf,arab,North,01-03,0.009000000000000001,0.9359999999999999,0.054000000000000006
+chol,haredi,Sharon - Shomron,22-30,0.0,0.873,0.127
+chol,haredi,Dan - Petach Tikva,19-21,0.0,0.927,0.073
+chol,general,Sharon - Shomron,51-65,0.0,0.599,0.401
+albumin,arab,Haifa,19-21,0.005,0.975,0.02
+chol,general,Sharon - Shomron,01-03,0.0,0.975,0.025
+trig,arab,Haifa,04-08,0.0,0.963,0.037000000000000005
+znb,arab,Sharon - Shomron,19-21,0.1,0.8859999999999999,0.013999999999999999
+nonhdl,arab,Haifa,19-21,0.0,0.93,0.07
+transf,haredi,Jerusalem,09-13,0.001,0.9329999999999999,0.066
+transf,general,Eilat,04-08,0.003,0.94,0.057
+albumin,haredi,Central,19-21,0.04,0.948,0.012
+hba1c,haredi,Central,22-30,0.001,0.8959999999999999,0.10300000000000001
+folacid,general,Eilat,66-79,0.261,0.7390000000000001,0.0
+b12,arab,Jerusalem,19-21,0.11599999999999999,0.88,0.004
+folacid,general,North,22-30,0.23399999999999999,0.7659999999999999,0.0
+albumin,general,Haifa,22-30,0.013000000000000001,0.971,0.015
+nonhdl,general,Tel Aviv,22-30,0.0,0.8640000000000001,0.136
+trig,haredi,Jerusalem,01-03,0.0,0.958,0.042
+nonhdl,general,Dan - Petach Tikva,19-21,0.0,0.919,0.081
+ferritin,general,Haifa,04-08,0.11599999999999999,0.883,0.002
+vitaminD,general,North,14-18,0.605,0.345,0.05
+folacid,general,Eilat,80+,0.35100000000000003,0.649,0.0
+albumin,haredi,Haifa,04-08,0.0,0.992,0.008
+iron,general,Dan - Petach Tikva,51-65,0.115,0.8590000000000001,0.026000000000000002
+iron,haredi,Haifa,51-65,0.127,0.848,0.025
+nonhdl,arab,Sharon - Shomron,19-21,0.0,0.9079999999999999,0.092
+hba1c,general,Jerusalem,80+,0.0,0.41100000000000003,0.589
+folacid,general,Tel Aviv,31-50,0.265,0.735,0.0
+ferritin,haredi,Dan - Petach Tikva,01-03,0.313,0.6859999999999999,0.001
+ldl,arab,Jerusalem,66-79,0.0,0.599,0.401
+ldl,arab,Jerusalem,80+,0.0,0.626,0.374
+b12,general,Haifa,31-50,0.065,0.92,0.016
+transf,haredi,Central,01-03,0.017,0.9390000000000001,0.043
+albumin,haredi,Central,14-18,0.003,0.992,0.005
+folacid,haredi,Dan - Petach Tikva,01-03,0.11900000000000001,0.8809999999999999,0.0
+hba1c,arab,North,51-65,0.0,0.34,0.66
+ferritin,general,Haifa,51-65,0.047,0.897,0.055999999999999994
+albumin,haredi,South,09-13,0.006999999999999999,0.993,0.0
+b12,arab,Sharon - Shomron,31-50,0.08199999999999999,0.899,0.019
+trig,arab,Sharon - Shomron,31-50,0.0,0.705,0.295
+transf,haredi,Dan - Petach Tikva,22-30,0.018000000000000002,0.866,0.11599999999999999
+hb,arab,Central,66-79,0.327,0.67,0.003
+transf,haredi,Haifa,51-65,0.102,0.882,0.016
+hb,haredi,North,14-18,0.336,0.638,0.026000000000000002
+transf,general,Jerusalem,51-65,0.046,0.924,0.03
+hdl,general,Central,04-08,0.121,0.879,0.0
+albumin,general,Tel Aviv,14-18,0.002,0.9940000000000001,0.004
+vitaminD,general,North,09-13,0.599,0.34700000000000003,0.054000000000000006
+ldl,arab,South,01-03,0.0,0.7829999999999999,0.217
+transf,haredi,Central,80+,0.299,0.682,0.019
+trig,haredi,Dan - Petach Tikva,04-08,0.0,0.971,0.028999999999999998
+hba1c,haredi,Dan - Petach Tikva,09-13,0.0,0.8690000000000001,0.131
+hb,haredi,Dan - Petach Tikva,04-08,0.1,0.899,0.001
+mgb,general,Central,66-79,0.051,0.9390000000000001,0.009000000000000001
+hdl,arab,North,04-08,0.139,0.861,0.0
+ldl,arab,South,51-65,0.0,0.42700000000000005,0.573
+ldl,general,Dan - Petach Tikva,01-03,0.0,0.7390000000000001,0.261
+transf,general,Dan - Petach Tikva,01-03,0.002,0.963,0.035
+chol,general,Haifa,22-30,0.0,0.836,0.16399999999999998
+b12,general,Central,31-50,0.071,0.9129999999999999,0.015
+folacid,haredi,South,04-08,0.16699999999999998,0.833,0.0
+trig,haredi,North,14-18,0.0,0.955,0.045
+b12,haredi,South,22-30,0.009000000000000001,0.861,0.129
+b12,arab,Central,22-30,0.11199999999999999,0.878,0.011000000000000001
+chol,general,Tel Aviv,14-18,0.0,0.9440000000000001,0.055999999999999994
+nonhdl,arab,Central,14-18,0.0,0.948,0.052000000000000005
+b12,haredi,Haifa,80+,0.040999999999999995,0.8809999999999999,0.077
+mgb,haredi,Jerusalem,04-08,0.008,0.537,0.455
+b12,arab,Dan - Petach Tikva,14-18,0.059000000000000004,0.929,0.011000000000000001
+znb,general,South,22-30,0.129,0.8420000000000001,0.03
+hb,general,South,04-08,0.073,0.924,0.003
+ldl,general,Central,14-18,0.0,0.7659999999999999,0.23399999999999999
+hba1c,general,North,22-30,0.005,0.9279999999999999,0.067
+hdl,haredi,Jerusalem,22-30,0.22,0.78,0.0
+iron,general,Sharon - Shomron,09-13,0.185,0.723,0.091
+albumin,general,South,19-21,0.047,0.948,0.006
+hba1c,general,Sharon - Shomron,14-18,0.0,0.895,0.105
+folacid,arab,Sharon - Shomron,51-65,0.316,0.684,0.0
+chol,general,South,19-21,0.0,0.9229999999999999,0.077
+transf,haredi,Dan - Petach Tikva,80+,0.259,0.721,0.021
+hdl,arab,North,51-65,0.271,0.7290000000000001,0.0
+hdl,general,Central,51-65,0.22399999999999998,0.7759999999999999,0.0
+trig,general,Haifa,01-03,0.0,0.9740000000000001,0.026000000000000002
+ferritin,haredi,Central,09-13,0.256,0.743,0.0
+znb,general,Dan - Petach Tikva,01-03,0.10300000000000001,0.857,0.04
+hb,general,Eilat,51-65,0.09,0.8909999999999999,0.019
+albumin,haredi,North,31-50,0.036000000000000004,0.9640000000000001,0.0
+nonhdl,haredi,Dan - Petach Tikva,09-13,0.0,0.966,0.034
+trig,arab,Sharon - Shomron,66-79,0.0,0.677,0.32299999999999995
+chol,haredi,Central,09-13,0.0,0.966,0.034
+mgb,arab,Haifa,31-50,0.009000000000000001,0.981,0.01
+iron,arab,Dan - Petach Tikva,22-30,0.21,0.7509999999999999,0.04
+chol,arab,North,04-08,0.0,0.9590000000000001,0.040999999999999995
+chol,haredi,Sharon - Shomron,14-18,0.0,0.946,0.054000000000000006
+albumin,haredi,Central,09-13,0.006,0.991,0.003
+chol,arab,Dan - Petach Tikva,80+,0.0,0.855,0.145
+chol,general,Central,04-08,0.0,0.945,0.055
+mgb,haredi,Dan - Petach Tikva,31-50,0.031,0.9590000000000001,0.009000000000000001
+trig,arab,Jerusalem,19-21,0.0,0.902,0.098
+transf,arab,Haifa,80+,0.327,0.67,0.003
+nonhdl,general,Eilat,04-08,0.0,0.9390000000000001,0.061
+albumin,arab,Haifa,09-13,0.003,0.9890000000000001,0.008
+albumin,arab,Haifa,51-65,0.012,0.987,0.001
+hb,arab,Dan - Petach Tikva,09-13,0.345,0.649,0.006
+b12,arab,North,80+,0.01,0.767,0.223
+mgb,general,Tel Aviv,09-13,0.005,0.794,0.201
+chol,arab,Haifa,09-13,0.0,0.965,0.035
+albumin,haredi,Dan - Petach Tikva,51-65,0.013999999999999999,0.986,0.0
+trig,general,Jerusalem,66-79,0.0,0.713,0.287
+folacid,arab,Haifa,22-30,0.389,0.611,0.0
+znb,general,Sharon - Shomron,22-30,0.086,0.8909999999999999,0.023
+hb,general,Sharon - Shomron,22-30,0.158,0.8390000000000001,0.003
+chol,arab,Jerusalem,01-03,0.0,0.9620000000000001,0.038
+znb,haredi,Central,14-18,0.037000000000000005,0.945,0.018000000000000002
+hb,general,Sharon - Shomron,04-08,0.055,0.9440000000000001,0.001
+hb,arab,North,31-50,0.233,0.7609999999999999,0.006
+hba1c,arab,Jerusalem,31-50,0.001,0.7709999999999999,0.228
+iron,arab,Sharon - Shomron,66-79,0.391,0.602,0.008
+nonhdl,haredi,North,31-50,0.0,0.706,0.294
+hba1c,arab,North,19-21,0.001,0.927,0.071
+vitaminD,haredi,Central,22-30,0.884,0.107,0.009000000000000001
+hdl,arab,Sharon - Shomron,51-65,0.327,0.6729999999999999,0.0
+trig,general,Tel Aviv,01-03,0.0,0.963,0.037000000000000005
+ferritin,haredi,Dan - Petach Tikva,09-13,0.313,0.687,0.0
+trig,general,Jerusalem,31-50,0.0,0.75,0.25
+nonhdl,general,Haifa,31-50,0.0,0.708,0.292
+nonhdl,general,Haifa,80+,0.0,0.7879999999999999,0.212
+folacid,arab,South,51-65,0.32899999999999996,0.6709999999999999,0.0
+nonhdl,general,South,19-21,0.0,0.934,0.066
+trig,haredi,Haifa,31-50,0.0,0.763,0.237
+iron,general,South,51-65,0.17600000000000002,0.802,0.022000000000000002
+hdl,general,Dan - Petach Tikva,51-65,0.22,0.78,0.0
+folacid,general,Jerusalem,80+,0.278,0.722,0.0
+albumin,general,Eilat,22-30,0.043,0.945,0.012
+transf,haredi,South,19-21,0.019,0.893,0.087
+hb,arab,Sharon - Shomron,14-18,0.344,0.629,0.027999999999999997
+iron,haredi,Dan - Petach Tikva,14-18,0.193,0.752,0.055
+transf,general,Haifa,19-21,0.03,0.882,0.08800000000000001
+hba1c,general,South,66-79,0.001,0.342,0.6579999999999999
+ldl,arab,Dan - Petach Tikva,09-13,0.0,0.7959999999999999,0.204
+ldl,arab,South,80+,0.0,0.5489999999999999,0.451
+transf,general,Jerusalem,14-18,0.005,0.892,0.10300000000000001
+folacid,general,Jerusalem,31-50,0.22899999999999998,0.7709999999999999,0.0
+albumin,general,Dan - Petach Tikva,80+,0.141,0.8590000000000001,0.0
+albumin,arab,Sharon - Shomron,80+,0.33399999999999996,0.6659999999999999,0.0
+iron,general,Jerusalem,19-21,0.17,0.7609999999999999,0.069
+trig,arab,Haifa,14-18,0.0,0.927,0.073
+mgb,general,Central,01-03,0.003,0.919,0.078
+vitaminD,general,Dan - Petach Tikva,14-18,0.8029999999999999,0.18899999999999997,0.006999999999999999
+transf,general,Dan - Petach Tikva,31-50,0.033,0.902,0.065
+mgb,arab,Jerusalem,80+,0.03,0.953,0.017
+ldl,arab,Sharon - Shomron,31-50,0.0,0.384,0.616
+iron,arab,North,01-03,0.386,0.568,0.046
+b12,haredi,Dan - Petach Tikva,14-18,0.049,0.9390000000000001,0.012
+vitaminD,arab,Sharon - Shomron,80+,0.8420000000000001,0.129,0.028999999999999998
+trig,general,Eilat,09-13,0.0,0.903,0.09699999999999999
+iron,haredi,South,04-08,0.33299999999999996,0.556,0.111
+trig,arab,Sharon - Shomron,51-65,0.0,0.653,0.34700000000000003
+b12,general,Haifa,04-08,0.006,0.9520000000000001,0.043
+transf,haredi,Haifa,31-50,0.047,0.845,0.10800000000000001
+hdl,arab,Central,04-08,0.168,0.8320000000000001,0.0
+ferritin,arab,South,31-50,0.25,0.7140000000000001,0.036000000000000004
+mgb,general,Sharon - Shomron,14-18,0.02,0.853,0.128
+hba1c,general,Eilat,80+,0.0,0.374,0.626
+trig,arab,Jerusalem,04-08,0.0,0.9470000000000001,0.053
+hb,general,Haifa,19-21,0.183,0.813,0.004
+mgb,general,North,22-30,0.024,0.9640000000000001,0.012
+b12,haredi,Jerusalem,66-79,0.078,0.875,0.047
+ferritin,haredi,Jerusalem,51-65,0.07200000000000001,0.8759999999999999,0.053
+vitaminD,general,Eilat,09-13,0.861,0.139,0.0
+hba1c,arab,Central,51-65,0.0,0.256,0.7440000000000001
+mgb,haredi,Central,66-79,0.061,0.9359999999999999,0.003
+iron,general,Eilat,80+,0.337,0.632,0.032
+transf,arab,Sharon - Shomron,14-18,0.019,0.87,0.11199999999999999
+hdl,haredi,Haifa,66-79,0.18100000000000002,0.8190000000000001,0.0
+transf,arab,North,31-50,0.039,0.858,0.10300000000000001
+hdl,arab,Central,01-03,0.257,0.743,0.0
+trig,general,Tel Aviv,04-08,0.0,0.96,0.04
+vitaminD,general,Jerusalem,80+,0.7090000000000001,0.268,0.023
+iron,arab,Haifa,14-18,0.213,0.7509999999999999,0.037000000000000005
+iron,general,Jerusalem,01-03,0.315,0.624,0.062
+ldl,general,South,04-08,0.0,0.69,0.31
+hb,general,Eilat,66-79,0.21100000000000002,0.777,0.012
+transf,general,Tel Aviv,19-21,0.027000000000000003,0.8759999999999999,0.09699999999999999
+nonhdl,arab,North,22-30,0.0,0.851,0.149
+ldl,arab,Haifa,51-65,0.0,0.442,0.5579999999999999
+vitaminD,arab,South,80+,0.897,0.098,0.006
+mgb,general,Dan - Petach Tikva,01-03,0.006999999999999999,0.9229999999999999,0.07
+hba1c,general,Tel Aviv,51-65,0.0,0.423,0.5770000000000001
+iron,haredi,Jerusalem,14-18,0.217,0.7340000000000001,0.049
+vitaminD,arab,North,14-18,0.8759999999999999,0.11900000000000001,0.005
+nonhdl,arab,South,22-30,0.0,0.838,0.162
+albumin,arab,South,22-30,0.14,0.8590000000000001,0.001
+znb,general,Jerusalem,66-79,0.12300000000000001,0.8690000000000001,0.008
+hba1c,arab,Sharon - Shomron,01-03,0.0,0.929,0.071
+albumin,general,Jerusalem,22-30,0.017,0.98,0.002
+hba1c,haredi,Dan - Petach Tikva,66-79,0.0,0.28,0.72
+hdl,general,Central,80+,0.22399999999999998,0.7759999999999999,0.0
+b12,haredi,Haifa,09-13,0.025,0.9540000000000001,0.021
+vitaminD,general,Eilat,14-18,0.725,0.255,0.02
+hdl,arab,North,80+,0.242,0.758,0.0
+hb,arab,North,22-30,0.24,0.7559999999999999,0.005
+transf,general,Central,66-79,0.091,0.8809999999999999,0.027999999999999997
+hba1c,haredi,Sharon - Shomron,51-65,0.0,0.484,0.516
+hdl,arab,North,66-79,0.268,0.732,0.0
+hdl,general,Central,66-79,0.22,0.78,0.0
+trig,arab,Sharon - Shomron,01-03,0.0,0.965,0.035
+ldl,general,North,19-21,0.0,0.715,0.285
+hdl,arab,South,09-13,0.305,0.695,0.0
+albumin,general,Eilat,80+,0.125,0.875,0.0
+hba1c,arab,Central,19-21,0.0,0.8909999999999999,0.19
+hba1c,haredi,Dan - Petach Tikva,80+,0.0,0.314,0.6859999999999999
+znb,general,Dan - Petach Tikva,80+,0.134,0.85,0.016
+hba1c,general,Jerusalem,22-30,0.003,0.92,0.076
+vitaminD,general,Tel Aviv,04-08,0.715,0.27699999999999997,0.008
+vitaminD,arab,Jerusalem,51-65,0.9179999999999999,0.07400000000000001,0.008
+transf,arab,Dan - Petach Tikva,19-21,0.045,0.8640000000000001,0.091
+nonhdl,haredi,Haifa,09-13,0.0,0.9670000000000001,0.033
+folacid,haredi,Central,51-65,0.266,0.7340000000000001,0.0
+mgb,general,Central,19-21,0.016,0.9440000000000001,0.039
+hba1c,haredi,Central,31-50,0.0,0.757,0.243
+folacid,arab,Jerusalem,01-03,0.063,0.938,0.0
+nonhdl,general,Sharon - Shomron,51-65,0.0,0.622,0.37799999999999995
+vitaminD,general,Haifa,22-30,0.764,0.22399999999999998,0.013000000000000001
+hba1c,arab,Sharon - Shomron,51-65,0.0,0.221,0.779
+nonhdl,general,Dan - Petach Tikva,80+,0.0,0.7859999999999999,0.214
+chol,general,Eilat,31-50,0.0,0.647,0.353
+albumin,haredi,North,09-13,0.006,0.9940000000000001,0.0
+trig,arab,Haifa,01-03,0.0,0.9690000000000001,0.031
+znb,general,Sharon - Shomron,01-03,0.12,0.852,0.027999999999999997
+b12,arab,Haifa,09-13,0.055,0.935,0.01
+ldl,general,Haifa,51-65,0.0,0.37799999999999995,0.622
+hdl,arab,Sharon - Shomron,01-03,0.259,0.741,0.0
+transf,general,Tel Aviv,80+,0.214,0.7709999999999999,0.015
+b12,haredi,North,31-50,0.005,0.857,0.139
+hdl,general,Dan - Petach Tikva,01-03,0.209,0.7909999999999999,0.0
+ferritin,haredi,Central,66-79,0.087,0.851,0.062
+nonhdl,general,Haifa,09-13,0.0,0.965,0.035
+chol,general,Dan - Petach Tikva,66-79,0.0,0.726,0.27399999999999997
+trig,haredi,Central,01-03,0.0,0.983,0.017
+ldl,haredi,Sharon - Shomron,51-65,0.0,0.36,0.64
+nonhdl,arab,Sharon - Shomron,80+,0.0,0.846,0.154
+b12,haredi,Dan - Petach Tikva,01-03,0.006,0.93,0.064
+hba1c,haredi,Jerusalem,22-30,0.005,0.9129999999999999,0.08199999999999999
+hb,arab,Central,01-03,0.21600000000000003,0.784,0.0
+trig,arab,Dan - Petach Tikva,80+,0.0,0.6759999999999999,0.324
+vitaminD,general,North,80+,0.645,0.312,0.043
+hb,general,North,14-18,0.289,0.677,0.033
+chol,general,North,04-08,0.0,0.946,0.054000000000000006
+vitaminD,general,South,14-18,0.815,0.18100000000000002,0.004
+albumin,arab,Jerusalem,31-50,0.009000000000000001,0.991,0.0
+b12,arab,Haifa,01-03,0.004,0.927,0.069
+iron,arab,Haifa,09-13,0.257,0.682,0.061
+vitaminD,arab,North,19-21,0.866,0.13,0.005
+ldl,arab,Central,66-79,0.0,0.5710000000000001,0.429
+ferritin,general,Sharon - Shomron,14-18,0.187,0.809,0.003
+ferritin,arab,Haifa,31-50,0.142,0.816,0.042
+nonhdl,arab,Jerusalem,66-79,0.0,0.7909999999999999,0.209
+mgb,arab,Dan - Petach Tikva,66-79,0.09300000000000001,0.868,0.039
+folacid,arab,North,66-79,0.25,0.75,0.0
+iron,arab,Sharon - Shomron,31-50,0.28600000000000003,0.693,0.022000000000000002
+chol,haredi,South,19-21,0.0,0.9309999999999999,0.069
+hb,general,Haifa,04-08,0.059000000000000004,0.9390000000000001,0.001
+ldl,general,Dan - Petach Tikva,19-21,0.0,0.726,0.27399999999999997
+trig,general,South,51-65,0.0,0.6509999999999999,0.349
+chol,general,Eilat,09-13,0.0,0.94,0.06
+ldl,arab,Central,01-03,0.0,0.7040000000000001,0.29600000000000004
+mgb,arab,Central,31-50,0.011000000000000001,0.9890000000000001,0.0
+hb,haredi,Haifa,19-21,0.151,0.8490000000000001,0.0
+vitaminD,general,Eilat,66-79,0.6829999999999999,0.3,0.017
+transf,general,Tel Aviv,04-08,0.005,0.96,0.035
+vitaminD,haredi,Dan - Petach Tikva,09-13,0.946,0.054000000000000006,0.0
+nonhdl,general,Sharon - Shomron,31-50,0.0,0.708,0.292
+ldl,general,Haifa,04-08,0.0,0.777,0.223
+trig,general,South,01-03,0.0,0.9590000000000001,0.040999999999999995
+transf,general,Jerusalem,19-21,0.016,0.861,0.122
+transf,arab,Central,22-30,0.018000000000000002,0.825,0.157
+ldl,arab,South,19-21,0.0,0.701,0.299
+chol,general,Tel Aviv,19-21,0.0,0.92,0.08
+folacid,haredi,Dan - Petach Tikva,04-08,0.129,0.871,0.0
+znb,general,Dan - Petach Tikva,14-18,0.052000000000000005,0.8859999999999999,0.062
+mgb,general,Haifa,66-79,0.048,0.9279999999999999,0.024
+folacid,arab,Dan - Petach Tikva,19-21,0.45399999999999996,0.546,0.0
+chol,general,Sharon - Shomron,04-08,0.0,0.943,0.057
+hb,arab,North,19-21,0.192,0.8029999999999999,0.005
+b12,general,Dan - Petach Tikva,14-18,0.054000000000000006,0.938,0.008
+transf,general,North,66-79,0.09,0.8759999999999999,0.034
+mgb,haredi,South,31-50,0.027000000000000003,0.9670000000000001,0.006
+hdl,arab,Dan - Petach Tikva,66-79,0.34299999999999997,0.657,0.0
+hdl,arab,Dan - Petach Tikva,31-50,0.35200000000000004,0.648,0.0
+vitaminD,arab,Haifa,09-13,0.94,0.057,0.003
+b12,arab,South,14-18,0.002,0.88,0.11800000000000001
+hb,general,South,14-18,0.297,0.659,0.044000000000000004
+transf,general,Haifa,22-30,0.027000000000000003,0.8809999999999999,0.092
+folacid,general,Dan - Petach Tikva,66-79,0.231,0.769,0.0
+znb,arab,Haifa,51-65,0.016,0.9620000000000001,0.022000000000000002
+trig,general,North,80+,0.0,0.752,0.248
+iron,general,Jerusalem,31-50,0.156,0.794,0.05
+chol,arab,South,09-13,0.0,0.9620000000000001,0.038
+trig,haredi,Jerusalem,80+,0.0,0.775,0.225
+trig,haredi,Jerusalem,66-79,0.0,0.7240000000000001,0.276
+hdl,general,Jerusalem,09-13,0.203,0.797,0.0
+hdl,haredi,North,51-65,0.22399999999999998,0.7759999999999999,0.0
+ferritin,arab,Jerusalem,01-03,0.257,0.741,0.002
+folacid,arab,Dan - Petach Tikva,22-30,0.426,0.574,0.0
+albumin,haredi,North,51-65,0.016,0.9840000000000001,0.0
+ferritin,arab,Central,09-13,0.36700000000000005,0.633,0.0
+hba1c,arab,South,01-03,0.005,0.8809999999999999,0.114
+ldl,arab,Haifa,04-08,0.0,0.8240000000000001,0.17600000000000002
+mgb,haredi,Haifa,51-65,0.022000000000000002,0.978,0.0
+hdl,haredi,Haifa,09-13,0.139,0.861,0.0
+znb,general,Tel Aviv,22-30,0.069,0.912,0.02
+hba1c,arab,Sharon - Shomron,22-30,0.001,0.809,0.191
+ferritin,general,North,04-08,0.223,0.775,0.003
+nonhdl,general,Dan - Petach Tikva,09-13,0.0,0.9540000000000001,0.046
+hba1c,haredi,Jerusalem,66-79,0.0,0.386,0.614
+hdl,haredi,Haifa,14-18,0.185,0.815,0.0
+albumin,haredi,Dan - Petach Tikva,31-50,0.018000000000000002,0.98,0.002
+hba1c,arab,South,14-18,0.002,0.877,0.121
+folacid,haredi,Haifa,31-50,0.27399999999999997,0.726,0.0
+hdl,general,Haifa,51-65,0.23199999999999998,0.768,0.0
+folacid,general,North,09-13,0.2,0.8,0.0
+hdl,general,Dan - Petach Tikva,80+,0.203,0.797,0.0
+hba1c,arab,Haifa,31-50,0.0,0.5870000000000001,0.41200000000000003
+iron,haredi,Central,66-79,0.212,0.779,0.009000000000000001
+ferritin,general,South,51-65,0.068,0.855,0.077
+hdl,arab,Sharon - Shomron,66-79,0.321,0.679,0.0
+nonhdl,haredi,Haifa,22-30,0.0,0.905,0.095
+folacid,arab,Haifa,51-65,0.253,0.747,0.0
+ldl,general,Sharon - Shomron,19-21,0.0,0.713,0.287
+hdl,general,Dan - Petach Tikva,66-79,0.204,0.7959999999999999,0.0
+albumin,haredi,Haifa,09-13,0.01,0.981,0.01
+hba1c,haredi,Jerusalem,80+,0.0,0.376,0.624
+ldl,haredi,Dan - Petach Tikva,04-08,0.0,0.721,0.27899999999999997
+chol,haredi,Haifa,09-13,0.0,0.9540000000000001,0.046
+hdl,arab,South,22-30,0.292,0.708,0.0
+hdl,arab,Sharon - Shomron,80+,0.34299999999999997,0.657,0.0
+mgb,arab,North,19-21,0.01,0.971,0.02
+hba1c,arab,Dan - Petach Tikva,19-21,0.0,0.866,0.134
+hdl,general,Jerusalem,22-30,0.182,0.818,0.0
+trig,arab,South,51-65,0.0,0.598,0.402
+folacid,haredi,Dan - Petach Tikva,51-65,0.27399999999999997,0.726,0.0
+hba1c,general,Tel Aviv,09-13,0.0,0.88,0.12
+transf,haredi,Central,14-18,0.004,0.903,0.09300000000000001
+ldl,general,South,14-18,0.0,0.773,0.22699999999999998
+ferritin,arab,Dan - Petach Tikva,01-03,0.36700000000000005,0.633,0.0
+transf,arab,Jerusalem,19-21,0.013000000000000001,0.8859999999999999,0.102
+b12,arab,South,09-13,0.001,0.821,0.17800000000000002
+hb,general,Eilat,09-13,0.19,0.7909999999999999,0.019
+hdl,haredi,Sharon - Shomron,51-65,0.255,0.745,0.0
+nonhdl,haredi,Jerusalem,31-50,0.0,0.7290000000000001,0.271
+albumin,general,Central,09-13,0.006999999999999999,0.992,0.001
+hba1c,haredi,Haifa,22-30,0.0,0.89,0.11
+nonhdl,arab,Sharon - Shomron,09-13,0.0,0.95,0.05
+folacid,arab,Jerusalem,22-30,0.28,0.72,0.0
+albumin,arab,North,09-13,0.01,0.9890000000000001,0.0
+trig,arab,South,01-03,0.0,0.9229999999999999,0.077
+chol,general,Dan - Petach Tikva,09-13,0.0,0.946,0.054000000000000006
+znb,general,Haifa,22-30,0.039,0.94,0.021
+transf,arab,Sharon - Shomron,66-79,0.20199999999999999,0.7659999999999999,0.032
+ferritin,arab,Dan - Petach Tikva,09-13,0.295,0.705,0.0
+znb,general,Tel Aviv,14-18,0.07200000000000001,0.875,0.053
+hdl,haredi,Haifa,22-30,0.18899999999999997,0.819999999999999,0.0
+trig,arab,Haifa,80+,0.0,0.737,0.263
+nonhdl,general,Jerusalem,09-13,0.0,0.9540000000000001,0.046
+albumin,haredi,Jerusalem,31-50,0.013999999999999999,0.985,0.001
+ferritin,general,Sharon - Shomron,04-08,0.223,0.775,0.002
+transf,haredi,Haifa,14-18,0.011000000000000001,0.92,0.069
+chol,haredi,Jerusalem,31-50,0.0,0.7390000000000001,0.261
+hba1c,arab,South,22-30,0.002,0.802,0.196
+albumin,haredi,Haifa,22-30,0.017,0.963,0.02
+trig,arab,Haifa,66-79,0.0,0.6729999999999999,0.327
+iron,general,Eilat,09-13,0.218,0.6659999999999999,0.115
+ldl,haredi,Central,04-08,0.0,0.725,0.275
+iron,haredi,Dan - Petach Tikva,66-79,0.192,0.7959999999999999,0.012
+hdl,haredi,Jerusalem,31-50,0.248,0.752,0.0
+trig,haredi,Central,80+,0.0,0.764,0.23600000000000002
+vitaminD,arab,Central,51-65,0.929,0.071,0.0
+hb,haredi,Central,31-50,0.247,0.752,0.001
+ldl,general,South,19-21,0.0,0.743,0.257
+b12,general,Jerusalem,09-13,0.036000000000000004,0.953,0.011000000000000001
+hba1c,general,Dan - Petach Tikva,01-03,0.0,0.9009999999999999,0.099
+trig,general,Eilat,19-21,0.0,0.88,0.12
+hba1c,arab,Jerusalem,19-21,0.002,0.9690000000000001,0.028999999999999998
+iron,arab,Haifa,66-79,0.242,0.7490000000000001,0.009000000000000001
+albumin,haredi,Haifa,14-18,0.0,0.978,0.022000000000000002
+transf,arab,South,80+,0.262,0.698,0.04
+ferritin,arab,South,14-18,0.275,0.711,0.013000000000000001
+albumin,haredi,Jerusalem,22-30,0.027000000000000003,0.97,0.003
+iron,arab,Dan - Petach Tikva,51-65,0.24,0.75,0.011000000000000001
+nonhdl,general,Dan - Petach Tikva,51-65,0.0,0.608,0.392
+b12,general,Eilat,22-30,0.012,0.8440000000000001,0.14400000000000002
+hba1c,arab,Central,22-30,0.0,0.7959999999999999,0.204
+nonhdl,arab,Sharon - Shomron,51-65,0.0,0.7040000000000001,0.29600000000000004
+albumin,arab,North,51-65,0.021,0.9790000000000001,0.0
+hb,general,Central,01-03,0.14300000000000002,0.857,0.001
+iron,arab,Dan - Petach Tikva,09-13,0.32299999999999995,0.639,0.037000000000000005
+albumin,arab,South,31-50,0.071,0.929,0.0
+transf,general,Eilat,22-30,0.034,0.855,0.11
+ldl,general,Dan - Petach Tikva,66-79,0.0,0.526,0.474
+folacid,arab,Sharon - Shomron,22-30,0.45799999999999996,0.542,0.0
+trig,general,South,19-21,0.0,0.9079999999999999,0.092
+chol,arab,Dan - Petach Tikva,66-79,0.0,0.873,0.127
+nonhdl,general,South,01-03,0.0,0.963,0.037000000000000005
+vitaminD,general,North,19-21,0.792,0.201,0.006999999999999999
+ferritin,haredi,North,31-50,0.221,0.76,0.019
+mgb,general,Jerusalem,19-21,0.040999999999999995,0.9390000000000001,0.02
+trig,general,Jerusalem,80+,0.0,0.777,0.223
+folacid,general,Haifa,01-03,0.054000000000000006,0.946,0.0
+mgb,general,Tel Aviv,22-30,0.011000000000000001,0.986,0.003
+nonhdl,haredi,Haifa,31-50,0.0,0.755,0.245
+ldl,arab,Haifa,22-30,0.0,0.627,0.373
+hba1c,general,Haifa,22-30,0.002,0.892,0.106
+hdl,haredi,Central,09-13,0.2,0.8,0.0
+iron,general,Tel Aviv,09-13,0.193,0.703,0.10400000000000001
+hdl,general,Sharon - Shomron,01-03,0.228,0.772,0.0
+albumin,arab,Central,19-21,0.031,0.9690000000000001,0.0
+hba1c,haredi,South,22-30,0.01,0.9590000000000001,0.031
+transf,general,Jerusalem,80+,0.191,0.787,0.022000000000000002
+nonhdl,general,Sharon - Shomron,80+,0.0,0.779,0.221
+hdl,arab,Haifa,09-13,0.174,0.826,0.0
+albumin,haredi,Central,04-08,0.016,0.9840000000000001,0.0
+transf,general,Jerusalem,66-79,0.078,0.885,0.037000000000000005
+chol,haredi,South,66-79,0.0,0.6709999999999999,0.32899999999999996
+ldl,haredi,Central,22-30,0.0,0.629,0.371
+albumin,general,Jerusalem,31-50,0.013000000000000001,0.986,0.0
+nonhdl,arab,Haifa,22-30,0.0,0.8590000000000001,0.141
+ldl,haredi,Haifa,66-79,0.0,0.564,0.436
+ldl,general,Dan - Petach Tikva,51-65,0.0,0.34,0.66
+chol,arab,Central,01-03,0.0,0.9790000000000001,0.021
+hdl,general,Central,31-50,0.22899999999999998,0.7709999999999999,0.0
+znb,general,North,14-18,0.057,0.919,0.024
+ldl,general,Eilat,80+,0.0,0.586,0.414
+chol,arab,Central,51-65,0.0,0.7040000000000001,0.29600000000000004
+hdl,haredi,Dan - Petach Tikva,04-08,0.135,0.865,0.0
+nonhdl,haredi,Haifa,51-65,0.0,0.6679999999999999,0.332
+b12,general,Central,19-21,0.075,0.909,0.015
+b12,haredi,North,66-79,0.006999999999999999,0.8059999999999999,0.188
+hba1c,general,Eilat,66-79,0.001,0.39,0.609
+albumin,general,Central,31-50,0.02,0.98,0.0
+ldl,haredi,Haifa,14-18,0.0,0.826,0.174
+ldl,general,Eilat,66-79,0.0,0.496,0.504
+chol,general,Jerusalem,04-08,0.0,0.934,0.066
+transf,arab,North,22-30,0.03,0.865,0.105
+hb,haredi,Central,22-30,0.275,0.722,0.003
+trig,arab,North,09-13,0.0,0.925,0.075
+ferritin,arab,Sharon - Shomron,14-18,0.26,0.735,0.004
+ferritin,general,Sharon - Shomron,80+,0.057999999999999996,0.8540000000000001,0.08800000000000001
+trig,general,Eilat,04-08,0.0,0.948,0.052000000000000005
+chol,arab,South,04-08,0.0,0.955,0.045
+albumin,arab,Haifa,80+,0.126,0.8740000000000001,0.0
+vitaminD,general,Tel Aviv,09-13,0.797,0.196,0.006999999999999999
+hb,arab,Central,19-21,0.297,0.701,0.002
+ldl,general,Central,80+,0.0,0.546,0.45399999999999996
+vitaminD,arab,Jerusalem,01-03,0.93,0.068,0.002
+trig,arab,Haifa,19-21,0.0,0.919999999999999,0.08900000000000001
+ferritin,haredi,South,19-21,0.187,0.813,0.0
+transf,haredi,Jerusalem,04-08,0.004,0.9620000000000001,0.034
+ferritin,general,Tel Aviv,19-21,0.16,0.8290000000000001,0.011000000000000001
+transf,general,Central,22-30,0.018000000000000002,0.8640000000000001,0.11699999999999999
+hb,arab,South,14-18,0.39799999999999996,0.5710000000000001,0.031
+hb,general,Central,51-65,0.124,0.871,0.005
+mgb,haredi,Dan - Petach Tikva,66-79,0.073,0.9159999999999999,0.01
+trig,general,Jerusalem,22-30,0.0,0.853,0.147
+hb,haredi,Dan - Petach Tikva,22-30,0.253,0.746,0.001
+ldl,arab,Central,19-21,0.0,0.685,0.315
+b12,arab,Sharon - Shomron,04-08,0.015,0.956,0.028999999999999998
+hdl,general,Eilat,19-21,0.188,0.812,0.0
+hdl,haredi,Dan - Petach Tikva,80+,0.195,0.805,0.0
+nonhdl,general,Jerusalem,31-50,0.0,0.708,0.292
+folacid,general,Jerusalem,19-21,0.255,0.745,0.0
+nonhdl,general,Jerusalem,66-79,0.0,0.759,0.24100000000000002
+trig,haredi,Central,66-79,0.0,0.743,0.257
+ferritin,haredi,Central,51-65,0.085,0.871,0.044000000000000004
+albumin,general,Dan - Petach Tikva,09-13,0.005,0.993,0.002
+znb,general,Tel Aviv,09-13,0.035,0.9309999999999999,0.035
+hb,general,Central,22-30,0.171,0.825,0.004
+znb,general,North,51-65,0.059000000000000004,0.934,0.006999999999999999
+hba1c,arab,Haifa,80+,0.0,0.23,0.77
+hba1c,arab,Haifa,66-79,0.001,0.185,0.815
+chol,arab,Sharon - Shomron,09-13,0.0,0.9520000000000001,0.048
+albumin,arab,Sharon - Shomron,09-13,0.013000000000000001,0.987,0.0
+hba1c,general,Haifa,01-03,0.0,0.907,0.09300000000000001
+nonhdl,haredi,Central,14-18,0.0,0.9740000000000001,0.026000000000000002
+iron,arab,South,51-65,0.23399999999999999,0.752,0.013999999999999999
+ferritin,haredi,Sharon - Shomron,04-08,0.324,0.6759999999999999,0.0
+nonhdl,general,South,51-65,0.0,0.614,0.386
+b12,haredi,Sharon - Shomron,31-50,0.19,0.888,0.003
+hdl,arab,North,01-03,0.23399999999999999,0.7659999999999999,0.0
+trig,haredi,Central,31-50,0.0,0.736,0.264
+ferritin,arab,Dan - Petach Tikva,51-65,0.087,0.825,0.08800000000000001
+ldl,general,Tel Aviv,51-65,0.0,0.355,0.645
+iron,general,Central,51-65,0.126,0.85,0.024
+mgb,arab,North,09-13,0.011000000000000001,0.742,0.247
+trig,general,North,22-30,0.0,0.87,0.13
+folacid,arab,Haifa,01-03,0.08199999999999999,0.9179999999999999,0.0
+ldl,arab,Central,51-65,0.0,0.429,0.5710000000000001
+ldl,haredi,South,51-65,0.0,0.376,0.624
+hba1c,general,Central,51-65,0.0,0.377,0.623
+ferritin,haredi,South,51-65,0.079,0.8420000000000001,0.079
+mgb,general,South,19-21,0.015,0.965,0.02
+nonhdl,general,Tel Aviv,09-13,0.0,0.955,0.045
+mgb,general,Central,22-30,0.018000000000000002,0.966,0.016
+chol,arab,Sharon - Shomron,66-79,0.0,0.828,0.172
+albumin,general,Haifa,09-13,0.002,0.988,0.01
+transf,general,North,31-50,0.027999999999999997,0.8959999999999999,0.076
+nonhdl,arab,Haifa,14-18,0.0,0.96,0.04
+chol,arab,Central,04-08,0.0,0.948,0.052000000000000005
+iron,general,Sharon - Shomron,66-79,0.196,0.79,0.015
+vitaminD,arab,South,09-13,0.961,0.036000000000000004,0.003
+hdl,arab,Central,51-65,0.33299999999999996,0.667,0.0
+folacid,general,Haifa,22-30,0.28300000000000003,0.7170000000000001,0.0
+iron,arab,North,09-13,0.301,0.638,0.061
+transf,general,Eilat,66-79,0.149,0.792,0.059000000000000004
+ldl,haredi,North,14-18,0.0,0.83,0.17
+hba1c,arab,North,14-18,0.002,0.93,0.068
+folacid,general,Tel Aviv,14-18,0.461,0.539,0.0
+mgb,haredi,Dan - Petach Tikva,09-13,0.011000000000000001,0.797,0.192
+ferritin,haredi,South,22-30,0.157,0.826,0.017
+hba1c,general,Eilat,22-30,0.002,0.9009999999999999,0.098
+ldl,general,Tel Aviv,22-30,0.0,0.584,0.41600000000000004
+trig,arab,North,19-21,0.0,0.92,0.08
+ferritin,general,North,51-65,0.07400000000000001,0.872,0.054000000000000006
+mgb,haredi,Sharon - Shomron,31-50,0.018000000000000002,0.973,0.009000000000000001
+iron,general,Dan - Petach Tikva,22-30,0.107,0.81,0.08199999999999999
+hb,haredi,Haifa,09-13,0.284,0.7140000000000001,0.003
+folacid,general,South,51-65,0.263,0.737,0.0
+albumin,arab,Dan - Petach Tikva,51-65,0.019,0.981,0.0
+trig,arab,North,01-03,0.0,0.9740000000000001,0.026000000000000002
+b12,arab,North,09-13,0.001,0.753,0.24600000000000002
+chol,haredi,South,04-08,0.0,0.9420000000000001,0.057999999999999996
+nonhdl,arab,Dan - Petach Tikva,51-65,0.0,0.7,0.3
+trig,general,Sharon - Shomron,66-79,0.0,0.7140000000000001,0.28600000000000003
+hb,arab,Sharon - Shomron,09-13,0.302,0.691,0.006
+vitaminD,haredi,North,51-65,0.604,0.358,0.038
+ferritin,general,Tel Aviv,22-30,0.091,0.8959999999999999,0.013000000000000001
+nonhdl,arab,Haifa,31-50,0.0,0.69,0.31
+chol,general,Eilat,22-30,0.0,0.777,0.223
+folacid,arab,Central,22-30,0.475,0.525,0.0
+trig,general,Sharon - Shomron,80+,0.0,0.775,0.225
+albumin,general,South,31-50,0.027000000000000003,0.973,0.001
+nonhdl,arab,Haifa,66-79,0.0,0.8220000000000001,0.17800000000000002
+trig,haredi,Haifa,19-21,0.0,0.922,0.078
+nonhdl,haredi,Central,31-50,0.0,0.75,0.25
+folacid,arab,Dan - Petach Tikva,14-18,0.48100000000000004,0.519,0.0
+hb,general,Dan - Petach Tikva,22-30,0.152,0.846,0.003
+mgb,arab,Sharon - Shomron,51-65,0.043,0.9390000000000001,0.018000000000000002
+nonhdl,arab,Haifa,80+,0.0,0.835,0.165
+b12,general,South,66-79,0.005,0.757,0.23800000000000002
+chol,haredi,Central,31-50,0.0,0.763,0.237
+hb,general,Jerusalem,09-13,0.16,0.82,0.02
+hb,arab,South,80+,0.455,0.544,0.002
+albumin,general,South,22-30,0.06,0.938,0.002
+znb,arab,Jerusalem,31-50,0.138,0.85,0.012
+iron,haredi,South,51-65,0.213,0.752,0.035
+ferritin,haredi,Haifa,51-65,0.057,0.888,0.055
+trig,haredi,Haifa,04-08,0.0,0.9620000000000001,0.038
+b12,general,South,31-50,0.005,0.861,0.135
+hba1c,arab,Jerusalem,22-30,0.001,0.9490000000000001,0.05
+trig,general,Haifa,66-79,0.0,0.705,0.295
+nonhdl,general,Eilat,66-79,0.0,0.716,0.284
+ferritin,arab,Sharon - Shomron,01-03,0.342,0.657,0.001
+transf,haredi,North,31-50,0.03,0.8079999999999999,0.162
+chol,general,Dan - Petach Tikva,22-30,0.0,0.8240000000000001,0.17600000000000002
+transf,general,Tel Aviv,31-50,0.028999999999999998,0.919,0.051
+vitaminD,arab,Sharon - Shomron,22-30,0.963,0.033,0.004
+chol,arab,Jerusalem,66-79,0.0,0.7909999999999999,0.209
+hdl,haredi,Dan - Petach Tikva,51-65,0.23800000000000002,0.762,0.0
+mgb,general,North,04-08,0.006,0.532,0.462
+trig,arab,Central,31-50,0.0,0.6779999999999999,0.322
+ferritin,arab,North,09-13,0.22399999999999998,0.773,0.002
+nonhdl,arab,South,14-18,0.0,0.953,0.047
+folacid,arab,South,22-30,0.42700000000000005,0.573,0.0
+vitaminD,general,Haifa,14-18,0.769,0.22,0.011000000000000001
+chol,arab,Sharon - Shomron,22-30,0.0,0.851,0.149
+nonhdl,haredi,Central,80+,0.0,0.8420000000000001,0.158
+transf,haredi,Haifa,80+,0.263,0.725,0.013000000000000001
+nonhdl,general,South,80+,0.0,0.772,0.228
+albumin,general,North,04-08,0.017,0.982,0.0
+nonhdl,general,Tel Aviv,19-21,0.0,0.932,0.068
+vitaminD,general,Jerusalem,22-30,0.8270000000000001,0.166,0.006999999999999999
+chol,general,Sharon - Shomron,31-50,0.0,0.7090000000000001,0.29100000000000004
+iron,haredi,Haifa,04-08,0.19699999999999998,0.716,0.087
+hdl,general,Sharon - Shomron,80+,0.20199999999999999,0.7979999999999999,0.0
+ferritin,general,Jerusalem,51-65,0.061,0.879,0.06
+ferritin,arab,Sharon - Shomron,66-79,0.12300000000000001,0.794,0.084
+ferritin,general,Jerusalem,01-03,0.18600000000000003,0.813,0.001
+b12,arab,North,22-30,0.003,0.799,0.198
+trig,general,Haifa,31-50,0.0,0.75,0.25
+trig,arab,Jerusalem,14-18,0.0,0.9179999999999999,0.08199999999999999
+folacid,haredi,Dan - Petach Tikva,31-50,0.317,0.6829999999999999,0.0
+iron,general,Haifa,66-79,0.191,0.794,0.015
+mgb,haredi,Dan - Petach Tikva,51-65,0.036000000000000004,0.956,0.008
+nonhdl,general,North,04-08,0.0,0.9640000000000001,0.036000000000000004
+b12,arab,Jerusalem,09-13,0.083,0.919999999999999,0.006
+ferritin,general,Dan - Petach Tikva,09-13,0.239,0.759,0.002
+vitaminD,haredi,Central,66-79,0.795,0.193,0.012
+folacid,arab,Sharon - Shomron,80+,0.402,0.598,0.0
+ferritin,haredi,Central,14-18,0.209,0.7879999999999999,0.003
+hba1c,haredi,Jerusalem,51-65,0.001,0.495,0.505
+transf,general,Dan - Petach Tikva,04-08,0.006,0.961,0.033
+trig,arab,Dan - Petach Tikva,14-18,0.0,0.9079999999999999,0.092
+hb,haredi,South,66-79,0.223,0.777,0.0
+transf,haredi,Haifa,04-08,0.01,0.981,0.01
+hb,general,South,01-03,0.154,0.841,0.005
+transf,arab,Central,31-50,0.037000000000000005,0.861,0.10099999999999999
+transf,general,North,80+,0.225,0.758,0.017
+b12,general,Tel Aviv,14-18,0.054000000000000006,0.935,0.011000000000000001
+znb,general,Jerusalem,51-65,0.113,0.871,0.016
+folacid,general,South,80+,0.345,0.655,0.0
+trig,general,Haifa,22-30,0.0,0.852,0.14800000000000002
+vitaminD,arab,Central,14-18,0.958,0.042,0.0
+chol,arab,Jerusalem,22-30,0.0,0.8390000000000001,0.161
+iron,haredi,Jerusalem,04-08,0.23800000000000002,0.657,0.105
+trig,general,Haifa,09-13,0.0,0.9279999999999999,0.07200000000000001
+ldl,general,Central,09-13,0.0,0.7440000000000001,0.256
+trig,general,Tel Aviv,14-18,0.0,0.93,0.07
+transf,arab,North,19-21,0.037000000000000005,0.8690000000000001,0.095
+ldl,arab,Sharon - Shomron,09-13,0.0,0.731,0.26899999999999996
+folacid,arab,South,09-13,0.327,0.6729999999999999,0.0
+znb,arab,Dan - Petach Tikva,31-50,0.081,0.895,0.024
+hba1c,arab,Jerusalem,51-65,0.0,0.40299999999999997,0.597
+chol,general,Central,01-03,0.0,0.963,0.037000000000000005
+ferritin,general,Jerusalem,80+,0.045,0.867,0.08900000000000001
+iron,haredi,North,04-08,0.205,0.685,0.11
+mgb,general,Sharon - Shomron,66-79,0.049,0.938,0.013000000000000001
+mgb,haredi,Central,14-18,0.005,0.879,0.115
+ldl,general,South,01-03,0.0,0.727,0.273
+hba1c,general,North,66-79,0.001,0.377,0.623
+nonhdl,arab,South,19-21,0.0,0.9209999999999999,0.079
+ldl,arab,Dan - Petach Tikva,66-79,0.0,0.7190000000000001,0.281
+nonhdl,haredi,Sharon - Shomron,22-30,0.0,0.863,0.13699999999999998
+ferritin,general,Tel Aviv,51-65,0.065,0.887,0.048
+folacid,haredi,Central,01-03,0.08900000000000001,0.919999999999999,0.0
+transf,general,South,01-03,0.006999999999999999,0.96,0.033
+iron,haredi,Jerusalem,09-13,0.25,0.6579999999999999,0.092
+iron,arab,Jerusalem,19-21,0.25,0.71,0.04
+ldl,general,Sharon - Shomron,14-18,0.0,0.765,0.235
+ldl,arab,Dan - Petach Tikva,80+,0.0,0.659,0.341
+hba1c,general,Dan - Petach Tikva,80+,0.0,0.28600000000000003,0.7140000000000001
+albumin,haredi,Haifa,19-21,0.018000000000000002,0.973,0.009000000000000001
+nonhdl,haredi,Dan - Petach Tikva,14-18,0.0,0.96,0.04
+hdl,general,Tel Aviv,14-18,0.212,0.7879999999999999,0.0
+iron,haredi,Jerusalem,22-30,0.159,0.784,0.057
+hba1c,general,Tel Aviv,01-03,0.0,0.9229999999999999,0.077
+hdl,general,Tel Aviv,09-13,0.163,0.8370000000000001,0.0
+b12,haredi,South,31-50,0.005,0.877,0.11900000000000001
+nonhdl,general,Central,80+,0.0,0.773,0.22699999999999998
+nonhdl,arab,Central,09-13,0.0,0.963,0.037000000000000005
+albumin,haredi,Sharon - Shomron,22-30,0.025,0.9690000000000001,0.006
+ferritin,haredi,Jerusalem,66-79,0.078,0.8590000000000001,0.063
+ferritin,arab,Haifa,66-79,0.067,0.877,0.057
+ldl,general,Eilat,19-21,0.0,0.667,0.33299999999999996
+iron,arab,North,51-65,0.22699999999999998,0.757,0.016
+hb,general,North,66-79,0.233,0.763,0.004
+ferritin,arab,Central,51-65,0.10400000000000001,0.843,0.053
+hb,general,Eilat,19-21,0.12300000000000001,0.845,0.032
+mgb,general,Dan - Petach Tikva,22-30,0.032,0.946,0.022000000000000002
+hba1c,arab,Sharon - Shomron,80+,0.0,0.24,0.76
+hba1c,general,Dan - Petach Tikva,51-65,0.0,0.38299999999999995,0.616
+hb,arab,Jerusalem,01-03,0.124,0.875,0.0
+ldl,arab,Dan - Petach Tikva,51-65,0.0,0.512,0.488
+albumin,general,South,14-18,0.01,0.985,0.005
+hba1c,haredi,Haifa,80+,0.002,0.273,0.7240000000000001
+hdl,haredi,Sharon - Shomron,09-13,0.248,0.752,0.0
+hb,general,North,80+,0.428,0.569,0.003
+hba1c,arab,Dan - Petach Tikva,09-13,0.0,0.8079999999999999,0.192
+albumin,arab,Sharon - Shomron,19-21,0.038,0.9590000000000001,0.003
+folacid,arab,Dan - Petach Tikva,31-50,0.327,0.6729999999999999,0.0
+albumin,general,Tel Aviv,09-13,0.004,0.995,0.001
+albumin,general,Dan - Petach Tikva,19-21,0.012,0.978,0.01
+vitaminD,general,South,80+,0.762,0.223,0.015
+transf,general,Sharon - Shomron,31-50,0.039,0.8959999999999999,0.065
+transf,general,Dan - Petach Tikva,51-65,0.063,0.912,0.026000000000000002
+b12,general,North,51-65,0.002,0.828,0.17
+ferritin,general,Tel Aviv,31-50,0.098,0.877,0.025
+folacid,arab,South,80+,0.46,0.54,0.0
+znb,arab,Jerusalem,51-65,0.19,0.81,0.0
+iron,arab,Central,04-08,0.322,0.612,0.066
+albumin,arab,South,80+,0.29600000000000004,0.7040000000000001,0.0
+vitaminD,haredi,Jerusalem,66-79,0.7509999999999999,0.226,0.023
+ferritin,general,Tel Aviv,01-03,0.302,0.6970000000000001,0.001
+ldl,arab,Central,09-13,0.0,0.774,0.226
+transf,general,Dan - Petach Tikva,14-18,0.009000000000000001,0.9059999999999999,0.086
+folacid,general,Dan - Petach Tikva,31-50,0.285,0.715,0.0
+b12,haredi,South,04-08,0.0,0.617,0.38299999999999995
+hb,arab,North,66-79,0.35,0.647,0.003
+hb,general,Tel Aviv,19-21,0.188,0.81,0.002
+albumin,general,Jerusalem,80+,0.132,0.868,0.0
+hba1c,general,Central,01-03,0.0,0.9179999999999999,0.08199999999999999
+b12,arab,South,19-21,0.006,0.857,0.13699999999999998
+folacid,general,North,19-21,0.272,0.728,0.0
+hb,haredi,Central,80+,0.48,0.52,0.0
+ldl,arab,North,31-50,0.0,0.365,0.635
+transf,general,Jerusalem,31-50,0.025,0.8859999999999999,0.08800000000000001
+hba1c,haredi,South,51-65,0.0,0.505,0.495
+nonhdl,general,North,66-79,0.0,0.732,0.268
+iron,haredi,Central,31-50,0.151,0.821,0.027999999999999997
+chol,general,Eilat,01-03,0.0,0.98,0.02
+b12,general,Tel Aviv,04-08,0.004,0.9540000000000001,0.040999999999999995
+ferritin,general,South,19-21,0.179,0.8140000000000001,0.006
+trig,haredi,Central,22-30,0.0,0.867,0.133
+iron,general,Haifa,04-08,0.193,0.716,0.091
+vitaminD,general,Jerusalem,14-18,0.862,0.135,0.003
+ldl,haredi,Dan - Petach Tikva,51-65,0.0,0.36200000000000004,0.638
+hdl,arab,Dan - Petach Tikva,04-08,0.184,0.816,0.0
+mgb,general,South,14-18,0.023,0.809,0.16699999999999998
+znb,arab,Haifa,31-50,0.055,0.927,0.018000000000000002
+transf,arab,Dan - Petach Tikva,09-13,0.015,0.8540000000000001,0.131
+trig,haredi,Dan - Petach Tikva,14-18,0.0,0.937,0.063
+ferritin,haredi,Dan - Petach Tikva,51-65,0.08,0.883,0.037000000000000005
+znb,general,Central,80+,0.124,0.861,0.015
+trig,arab,Dan - Petach Tikva,04-08,0.0,0.9540000000000001,0.046
+folacid,general,North,01-03,0.057999999999999996,0.9420000000000001,0.0
+mgb,general,Sharon - Shomron,22-30,0.03,0.951,0.019
+iron,general,Dan - Petach Tikva,01-03,0.27699999999999997,0.652,0.071
+hba1c,arab,Dan - Petach Tikva,51-65,0.001,0.214,0.785
+hdl,general,Tel Aviv,01-03,0.25,0.75,0.0
+transf,arab,North,14-18,0.017,0.888,0.094
+folacid,arab,North,31-50,0.252,0.748,0.0
+ldl,general,Dan - Petach Tikva,80+,0.0,0.56,0.44
+hb,haredi,North,19-21,0.254,0.7390000000000001,0.006999999999999999
+hb,general,Central,14-18,0.304,0.664,0.032
+transf,general,Sharon - Shomron,04-08,0.006,0.966,0.027999999999999997
+ldl,general,Sharon - Shomron,04-08,0.0,0.698,0.302
+trig,general,Central,51-65,0.0,0.674,0.326
+nonhdl,general,Central,22-30,0.0,0.853,0.147
+transf,arab,Sharon - Shomron,31-50,0.043,0.851,0.106
+znb,haredi,Dan - Petach Tikva,31-50,0.067,0.9159999999999999,0.017
+ferritin,general,Haifa,01-03,0.19899999999999998,0.799,0.001
+nonhdl,general,Dan - Petach Tikva,22-30,0.0,0.8490000000000001,0.151
+vitaminD,arab,Sharon - Shomron,14-18,0.9740000000000001,0.023,0.003
+transf,arab,South,31-50,0.034,0.816,0.151
+iron,arab,South,01-03,0.45399999999999996,0.484,0.062
+b12,arab,Haifa,22-30,0.07400000000000001,0.912,0.013000000000000001
+folacid,general,Central,31-50,0.26,0.74,0.0
+transf,general,Central,14-18,0.006,0.9009999999999999,0.09300000000000001
+b12,general,Eilat,51-65,0.002,0.816,0.182
+hdl,general,Eilat,09-13,0.122,0.878,0.0
+hdl,arab,Jerusalem,19-21,0.261,0.7390000000000001,0.0
+ferritin,general,Jerusalem,31-50,0.11699999999999999,0.855,0.027999999999999997
+trig,arab,Central,04-08,0.0,0.9620000000000001,0.038
+hba1c,arab,South,09-13,0.0,0.847,0.152
+ldl,haredi,Haifa,80+,0.0,0.568,0.43200000000000005
+b12,general,Jerusalem,19-21,0.099,0.887,0.013000000000000001
+hb,haredi,Dan - Petach Tikva,80+,0.479,0.517,0.004
+transf,arab,Jerusalem,09-13,0.003,0.888,0.19
+znb,arab,Jerusalem,09-13,0.08800000000000001,0.893,0.019
+iron,haredi,Dan - Petach Tikva,31-50,0.142,0.821,0.037000000000000005
+hdl,arab,South,66-79,0.272,0.728,0.0
+ldl,general,Dan - Petach Tikva,31-50,0.0,0.39,0.61
+albumin,general,North,66-79,0.037000000000000005,0.963,0.0
+b12,haredi,Jerusalem,14-18,0.053,0.935,0.012
+chol,general,North,66-79,0.0,0.695,0.305
+chol,haredi,Haifa,51-65,0.0,0.627,0.373
+hdl,general,Jerusalem,66-79,0.215,0.785,0.0
+nonhdl,general,Sharon - Shomron,66-79,0.0,0.762,0.23800000000000002
+folacid,general,Sharon - Shomron,09-13,0.287,0.713,0.0
+hdl,arab,Jerusalem,04-08,0.158,0.8420000000000001,0.0
+folacid,general,Sharon - Shomron,01-03,0.059000000000000004,0.941,0.0
+mgb,arab,North,01-03,0.006,0.8440000000000001,0.15
+iron,general,Tel Aviv,04-08,0.201,0.7,0.099
+ldl,haredi,Jerusalem,51-65,0.0,0.36200000000000004,0.638
+ferritin,general,Sharon - Shomron,19-21,0.198,0.7979999999999999,0.004
+trig,haredi,Dan - Petach Tikva,22-30,0.0,0.858,0.142
+b12,haredi,Dan - Petach Tikva,22-30,0.08,0.904,0.016
+hb,arab,Haifa,80+,0.536,0.46299999999999997,0.001
+trig,arab,Haifa,22-30,0.0,0.8390000000000001,0.161
+vitaminD,general,Haifa,19-21,0.846,0.15,0.004
