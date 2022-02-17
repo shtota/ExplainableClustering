@@ -23,11 +23,9 @@ def smart_inverse(x):
     return ''.join(new)
 
 
-def decompose(X, tsne=False, show=0, hue=None, annotations=None,perplexity=30, learning_rate=200, ee=12, metric='cosine', init='pca', title='', **kwargs):
+def decompose(X, show=0, hue=None, annotations=None,perplexity=30, learning_rate=200, ee=12, metric='cosine', init='pca', title='', **kwargs):
     #X = normalize(np.vstack([gensim_skipgram.wv[products[x].barcode + '_child'] for x in sorted_indices]), axis=1)
-    pca = PCA(n_components=2)
-    if tsne:
-        pca = TSNE(n_components=2, init=init, metric=metric, perplexity=perplexity,learning_rate=learning_rate, early_exaggeration=ee, random_state=0)
+    pca = TSNE(n_components=2, init=init, metric=metric, perplexity=perplexity,learning_rate=learning_rate, early_exaggeration=ee, random_state=0)
     transformed = pca.fit_transform(X)
     plt.figure(figsize=(20,10))
     if show:
@@ -39,7 +37,7 @@ def decompose(X, tsne=False, show=0, hue=None, annotations=None,perplexity=30, l
     if annotations is not None:
         for i,name in enumerate(annotations):
             p.annotate(name, (transformed[i,0], transformed[i,1]), fontsize=13)
-    p.set_title(f"{'TSNE decomposition' if tsne else 'PCA decomposition'} {title}")
+    p.set_title(f"TSNE decomposition {title}")
     return p
 
 
