@@ -269,8 +269,8 @@ class CityStats(metaclass=Singleton):
         self.stats_df = self.stats_df.loc[self.used_cities]
 
         ages = [0, 4,9,14, 19, 22, 31, 51, 66, -1]
-        v = population_df.values[:, 2:78].astype(float)
-        totals = population_df.total.values
+        v = self.population_df.values[:, 2:78].astype(float)
+        totals = self.population_df.total.values
         self.stats_df['population'] = totals
         for i in range(1, len(ages)):
             start, finish = ages[i - 1], ages[i]
