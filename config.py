@@ -6,8 +6,12 @@ TEST_MODE = False
 SERVER_NAME = 'Bianalyzelab'
 PORT = '1521'
 SERVICE_NAME='ALP'
-with open('login.txt', 'r') as f:
-    USER, PASSWORD  = f.read().split('\n')
+try:
+    with open('login.txt', 'r') as f:
+        USER, PASSWORD  = f.read().split('\n')
+except:
+    print('Please, create file login.txt and put there your username in the first line and password in the second line to access the oracle DB')
+    exit(0)
 
 DEPTH = 5
 

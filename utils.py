@@ -25,7 +25,7 @@ def smart_inverse(x):
 
 def decompose(X, show=0, hue=None, annotations=None,perplexity=30, learning_rate=200, ee=12, metric='cosine', init='pca', title='', **kwargs):
     #X = normalize(np.vstack([gensim_skipgram.wv[products[x].barcode + '_child'] for x in sorted_indices]), axis=1)
-    pca = TSNE(n_components=2, init=init, metric=metric, perplexity=perplexity,learning_rate=learning_rate, early_exaggeration=ee, random_state=0)
+    pca = TSNE(n_components=2, init=init, metric=metric, perplexity=perplexity,learning_rate=learning_rate, early_exaggeration=ee, random_state=0, square_distances=True)
     transformed = pca.fit_transform(X)
     plt.figure(figsize=(20,10))
     if show:
