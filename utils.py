@@ -23,21 +23,24 @@ def smart_inverse(x):
     return ''.join(new)
 
 
-def decompose(X, show=0, hue=None, annotations=None,perplexity=30, learning_rate=200, ee=12, metric='cosine', init='pca', title='', **kwargs):
+def decompose(X, show=0, hue=None, annotations=None,perplexity=30, learning_rate=200, ee=12, metric='cosine', init='pca', title='', figsize=(20,10), transformed_X=None, return_coordinates=False, **kwargs):
     #X = normalize(np.vstack([gensim_skipgram.wv[products[x].barcode + '_child'] for x in sorted_indices]), axis=1)
-    pca = TSNE(n_components=2, init=init, metric=metric, perplexity=perplexity,learning_rate=learning_rate, early_exaggeration=ee, random_state=0, square_distances=True)
-    transformed = pca.fit_transform(X)
-    plt.figure(figsize=(20,10))
+    if transformed_X is None:
+        pca = TSNE(n_components=2, init=init, metric=metric, perplexity=perplexity,learning_rate=learning_rate, early_exaggeration=ee, random_state=0, square_distances=True)
+        transformed_X = pca.fit_transform(X)
+    plt.figure(figsize=figsize)
     if show:
-        transformed = transformed[:show, :]
+        transformed_X = transformed_X[:show, :]
     if hue is not None:
-        p = sns.scatterplot(x=transformed[:,0], y=transformed[:,1], hue=hue, s=250, **kwargs)
+        p = sns.scatterplot(x=transformed_X[:,0], y=transformed_X[:,1], hue=hue, s=250, **kwargs)
     else:
-        p = sns.scatterplot(x=transformed[:,0], y=transformed[:,1], s=250,**kwargs)
+        p = sns.scatterplot(x=transformed_X[:,0], y=transformed_X[:,1], s=250,**kwargs)
     if annotations is not None:
         for i,name in enumerate(annotations):
-            p.annotate(name, (transformed[i,0], transformed[i,1]), fontsize=13)
+            p.annotate(name, (transformed_X[i,0], transformed_X[i,1]), fontsize=13)
     p.set_title(f"TSNE decomposition {title}")
+    if return_coordinates:
+        return p, transformed_X
     return p
 
 

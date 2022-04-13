@@ -8,7 +8,7 @@ PORT = '1521'
 SERVICE_NAME='ALP'
 try:
     with open('login.txt', 'r') as f:
-        USER, PASSWORD  = f.read().split('\n')
+        USER, PASSWORD = f.read().split('\n')[:2]
 except:
     print('Please, create file login.txt and put there your username in the first line and password in the second line to access the oracle DB')
     exit(0)
