@@ -24,11 +24,11 @@ class Product:
     def __init__(self, row, index):
         self.usages = 0
 
-        self.hierarchy_indices = [] # 5 indices in vector of product/category. for the full product hierarchy (FMCG, CLASS, CAT, SUBCAT, BARCODE)
-        self.index = index # Number representing the product
-        self._representation = 4 # Representation level(from 0 to 4, 4 meaning BARCODE). Used when the product has low frequency and we use it's hierarchy predcessors instead
+        self.hierarchy_indices = []  # 5 indices in long vector representing the full product hierarchy (FMCG, CLASS, CAT, SUBCAT, BARCODE)
+        self.index = index  # Number representing the product
+        self.representation_level = 4  # Representation level(from 0 to 4, 4 meaning BARCODE). Used when the product has low frequency and we use it's hierarchy predcessors instead
         self.barcode = str(row[0])
-        self.hierarchy_names = [str(i // 2) + '_' + row[1][i] for i in [1, 3, 5, 7]] # 5 names of products hierarchy: from FMCG to BARCODE. 
+        self.hierarchy_names = [str(i // 2) + '_' + row[1][i] for i in [1, 3, 5, 7]]  # 5 names of products hierarchy: from FMCG to BARCODE.
         self.hierarchy_names.append(row[1][0])
         self.price = row[1][-6]
         if self.price is None or self.price == 0:
@@ -40,14 +40,14 @@ class Product:
         self.sodium = row[1][-1]
         self.fats = row[1][-2]
 
-    def set_representation_level(self, r):
-        self._representation = r
+    def decrease_representation_level(self):
+        self.representation_level -= 1
 
     @property
     def representation(self):
-        if self._representation == 4:
+        if self.representation_level == 4:
             return self.barcode
-        return self.hierarchy_names[self._representation] + '_child'
+        return self.hierarchy_names[self.representation_level] + '_child'
 
     @property
     def name(self):
@@ -58,96 +58,126 @@ class Transaction:
     def __init__(self, t_id, u_id, total=0, location=None, date=None):
         self.id = t_id
         self.user_id = u_id
-        self.barcodes = []
+        self.barcodes = [] # disabled by default due to the memory limitations
+        self.length = 0 # number of barcodes
         self.location = location
         if self.location[0] is None:
             self.location = None
         self.total = total
         self.date = date
 
-    @staticmethod
-    def to_sentence(transaction):
-        uid = transaction.user_id
-        sentence = [Dataset().barcode_to_product[x].representation for x in transaction.barcodes]
+    def to_sentence(self, barcodes):
+        uid = self.user_id
+        sentence = [Dataset().barcode_to_product[x].representation for x in barcodes]
         if uid in Users().active_users_set:
             sentence.append(uid)
         if uid in Users().active_users_cities.keys():
             sentence.append(Users().active_users_cities[uid])
         return sentence
 
-    @staticmethod
-    def to_document(transaction):
-        tags = [transaction.id]
-        if transaction.user_id in Users().active_users:
-            tags.append(transaction.user_id)
-        if transaction.user_id in Users().active_users_cities.keys():
-            tags.append(Users().active_users_cities[transaction.user_id])
-        return TaggedDocument([Dataset().barcode_to_product[x].representation for x in transaction.barcodes], tags)
+    def to_document(self, barcodes):
+        tags = [self.id]
+        if self.user_id in Users().active_users:
+            tags.append(self.user_id)
+        if self.user_id in Users().active_users_cities.keys():
+            tags.append(Users().active_users_cities[self.user_id])
+        return TaggedDocument([Dataset().barcode_to_product[x].representation for x in barcodes], tags)
 
 
 class Dataset(metaclass=Singleton):
     PRODUCT_USAGE_THRESHOLD = 3000
 
     def __init__(self):
-        self.transactions = []
-        self.products = []
-        self.hierarchy_sizes = []
-        self.index_of = {}
-        self.barcode_to_product = {}
+        self.transactions = [] # list of Transaction objects
+        self.products = [] # list of Product objects
+        self.barcode_to_product = {} # dict barcode -> Product
+        self.id_to_transaction = {} # dict t_id -> Transaction
         self._load_data()
+        
+        self.hierarchy_sizes = [] # list of 5 integers, each one represents size of relevant hierarchy level
+        self.index_of = {} # dict mapping hierarchy names and barcodes to indices in long vector
         self._create_indexing()
+    
+    def load_barcodes_to_memory(self):
+        with open(BARCODE_PATH, 'r') as f:
+            line = f.readline()
+            while line:
+                data = line[:-1].split(' ')
+                self.id_to_transaction[data[0]].barcodes = data[1:]
+                line = f.readline()
 
+    def unload_barcodes_from_memory(self):
+        for t in self.transactions:
+            t.barcodes = None
+
+    def barcode_iterator(self):
+        with open(BARCODE_PATH, 'r') as f:
+            line = f.readline()
+            while line:
+                data = line[:-1].split(' ')
+                yield data[0], data[1:]
+                line = f.readline()
+    
     def _load_data(self):
+        """
+        Main loading function. Loads transactions and products. Overall flow goes as follows:
+        0) Check if pickled data exists, load and exit if yes
+        1) Check if CSV file with transactions exists. If not - load it from database.
+        2) Go over csv, create Transaction objects, filter out transactions with less that 5 items.
+        3) Create product objects for purchased products, count usages, update product representations
+        4) DUMP ASIDE information about barcodes
+        """
         if os.path.exists(DATA_PATH):
             print('Loading pickled data')
-            data_path = DATA_PATH if not TEST_MODE else TEST_DATA_PATH
-            with open(data_path, 'rb') as f:
+            with open(DATA_PATH, 'rb') as f:
                 self.transactions, self.products = pickle.load(f)
             for p in self.products:
                 self.barcode_to_product[p.barcode] = p
+            for t in self.transactions:
+                self.id_to_transaction[t.id] = t
             print(len(self.transactions), 'transactions loaded')
         else:
             if not os.path.exists(TRANSACTIONS_CSV_PATH):
                 print('fetching data from sql')
                 self._load_sql_transactions()
-
+            
+            # Go over CSV, create transaction objects
             all_barcodes = self._create_transactions()
+            for t in self.transactions:
+                self.id_to_transaction[t.id] = t
             print('created transactions')
-
+            
+            # Create products
             self._create_products(all_barcodes)
-            print('created products')
-
             for p in self.products:
                 self.barcode_to_product[p.barcode] = p
-
+            
+            # COunt usages
             for t in self.transactions:
                 for b in t.barcodes:
                     self.barcode_to_product[b].usages += 1
-
+            
+            # Update representations
             for i in range(2):
-                counts = self._get_representation_counts()
+                counts = defaultdict(int)
+                for p in self.products:
+                    counts[p.representation] += p.usages
                 for p in self.products:
                     if counts[p.representation] < self.PRODUCT_USAGE_THRESHOLD:
-                        p._representation -= 1
+                        p.decrease_representation_level()
+            print('created products')
 
+            with open(BARCODE_PATH, 'w') as f:
+                for t in self.transactions:
+                    line = [str(t.id)] + [str(x) for x in t.barcodes]
+                    f.write(' '.join(line)+'\n')
+                    t.barcodes = None
+            
             with open(DATA_PATH, 'wb') as f:
                 pickle.dump([self.transactions, self.products], f)
-            with open(TEST_DATA_PATH, 'wb') as f:
-                pickle.dump([self.transactions[:100000], self.products], f)
-
-    def _create_products(self, all_used_barcodes):
-        dsn_tns = cx_Oracle.makedsn(SERVER_NAME, PORT, service_name=SERVICE_NAME)
-        conn = cx_Oracle.connect(user=USER, password=PASSWORD, dsn=dsn_tns)
-        c = conn.cursor()
-        r = c.execute(PRODUCTS_QUERY)
-        products_df = pd.DataFrame(r, columns=[str(x) for x in range(50, 81)]).set_index('50')
-        self.products = []
-        for i, row in enumerate(products_df.loc[all_used_barcodes].iterrows()):
-            self.products.append(Product(row, i))
-        conn.close()
 
     def _create_transactions(self):
-        self.transactions = []
+        print('Parsing csv file')
         id_to_index = {}
         all_barcodes = set()
         with open(TRANSACTIONS_CSV_PATH, 'r') as f:
@@ -159,18 +189,30 @@ class Dataset(metaclass=Singleton):
                     self.transactions.append(Transaction(t_id, u_id, float(total), (long, lat), date))
                     id_to_index[t_id] = len(self.transactions) - 1
                     if len(id_to_index) % 1000000 == 0:
-                        print(len(id_to_index))
+                        print('Finished', len(id_to_index), 'transactions')
                 self.transactions[id_to_index[t_id]].barcodes.append(barcode)
-                #self.transactions[id_to_index[t_id]].quantities.append(quantity)
                 line = f.readline()
                 all_barcodes.add(barcode)
-        print('finished reading csv')
+        print('finished parsing csv')
+        
         for t in self.transactions:
             t.barcodes = sorted(set(t.barcodes))
-
-        self.transactions = [t for t in self.transactions if len(t.barcodes) > 4]
+            t.length = len(t.barcodes)
+        self.transactions = [t for t in self.transactions if t.length > 4]
+            
         return all_barcodes
-
+                
+    def _create_products(self, all_used_barcodes):
+        dsn_tns = cx_Oracle.makedsn(SERVER_NAME, PORT, service_name=SERVICE_NAME)
+        conn = cx_Oracle.connect(user=USER, password=PASSWORD, dsn=dsn_tns)
+        c = conn.cursor()
+        r = c.execute(PRODUCTS_QUERY)
+        products_df = pd.DataFrame(r, columns=[str(x) for x in range(50, 81)]).set_index('50')
+        self.products = []
+        for i, row in enumerate(products_df.loc[all_used_barcodes].iterrows()):
+            self.products.append(Product(row, i))
+        conn.close()
+      
     @staticmethod
     def _load_sql_transactions():
         dsn_tns = cx_Oracle.makedsn(SERVER_NAME, PORT, service_name=SERVICE_NAME)
@@ -188,12 +230,6 @@ class Dataset(metaclass=Singleton):
                     print(i)
         conn.close()
 
-    def _get_representation_counts(self):
-        d = defaultdict(int)
-        for p in self.products:
-            d[p.representation] += p.usages
-        return d
-    
     def _create_indexing(self):
         # For each level of hierarchy count unique names, sort and give indices
         self.hierarchy_sizes = [0 for i in range(DEPTH)]
@@ -297,19 +333,10 @@ class CityStats(metaclass=Singleton):
         self.stats_df['haredim'] = 0.0
         self.stats_df.loc[rel_df.name, 'haredim'] = np.array(rel_df.rel_proportion.map(lambda x: float(x[:-1])))
 
-        diabetes_df = pd.read_csv(os.path.join(CITY_PATH, 'diabetes.csv'), delimiter=';', header=None)
-        diabetes_df.columns = ['a', 'name', 'cases', 'proportion', 'fixed_proportion', 'error']
-        diabetes_df = diabetes_df.set_index('name')
-        diabetes_df = diabetes_df.rename(index=lambda x: x.replace('נצרת עילית', "נוף הגליל"))
-        diabetes_df = diabetes_df.rename(index=lambda x: x.replace('תל אביב -יפו', "תל אביב-יפו"))
-
-        self.stats_df['diabetes_ratio'] = self.stats_df.index.map(
-            lambda x: diabetes_df.loc[x].fixed_proportion if x != 'חריש' else diabetes_df.fixed_proportion.mean())
-
         big_df = pd.read_csv(os.path.join(CITY_PATH, 'big_table.csv'), encoding='windows-1255')
         big_df = big_df[['Name', 'Total Population', 'Average Salary', 'Socioeconomic Value', 'Periphery Value',
-                         'Jews Rate']].set_index('Name')
-        big_df.columns = ['population', 'salary', 'socio', 'periphery', 'jews_ratio']
+                         'Jews Rate', 'Eligible to Receive a Bagrut Among 12th Grage Rate', 'College Graduation Rate Among 35-55 Rate', 'Students Rate']].set_index('Name')
+        big_df.columns = ['population', 'salary', 'socio', 'periphery', 'jews_ratio', 'bagrut', 'college grads rate', 'students rate']
         big_df = big_df.rename(index=lambda x: x.replace('נצרת עילית', "נוף הגליל"))
         big_df = big_df.loc[self.used_cities]
 
@@ -318,18 +345,18 @@ class CityStats(metaclass=Singleton):
         self.stats_df['periphery'] = big_df['periphery']
         self.stats_df['non_jews_ratio'] = 100 - big_df['jews_ratio'].fillna(0)
         self.stats_df['user_percentage'] = self.stats_df.n_users / self.stats_df.population * 100
-
-        self.stats_df.to_excel('stats.xls')
-
-
-class TransactionsToDocuments:
-    def __iter__(self):
-        return map(Transaction.to_document, Dataset().transactions)
+        
+        #self.stats_df.to_excel('stats.xls')
 
 
-class TransactionsToSentences:
-    def __iter__(self):
-        return map(Transaction.to_sentence, Dataset().transactions)
+# class TransactionsToDocuments:
+#     def __iter__(self):
+#         return map(Transaction.to_document, Dataset().transactions)
+
+
+# class TransactionsToSentences:
+#     def __iter__(self):
+#         return map(Transaction.to_sentence, Dataset().transactions)
 
 
 if __name__ == '__main__':

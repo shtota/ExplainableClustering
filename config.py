@@ -20,11 +20,11 @@ DEPTH = 5
 STORAGE_PATH = 'Q://'
 TRANSACTIONS_CSV_PATH = os.path.join(STORAGE_PATH, 'transactions.csv')
 DATA_PATH = os.path.join(STORAGE_PATH, 'data.pkl')
-TEST_DATA_PATH = os.path.join(STORAGE_PATH, 'test_data.pkl')
+BARCODE_PATH = os.path.join(STORAGE_PATH, 'barcodes.pkl')
 EMBEDDING_PATH = os.path.join(STORAGE_PATH, 'gensim.w2v')
 CLUSTERING_PATH = os.path.join(STORAGE_PATH, 'clustering.pkl')
 CITY_PATH = './stats/'
-
+CITY_PRODUCT_COUNTS_PATH = os.path.join(STORAGE_PATH,'city_counts.pkl')
 
 # QUERIES
 PRODUCTS_QUERY = "select * from STRAUSS_PLUS.STORENEXT_CATALOG c"
